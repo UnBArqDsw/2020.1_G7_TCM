@@ -11,6 +11,11 @@ assignees: ''
 Descreva de maneira objetiva do que se trata a issue
 
 ### Coisas a se fazer
+- [ ] Introdução
 - [ ] Tópico 1
 - [ ] Tópico 2
-- [ ] Tópico 3
+- [ ] Versionamento
+- [ ] Referências Bibliográficas
+
+### Referências
+Fornecer referências sobre o assunto (se necessário)
