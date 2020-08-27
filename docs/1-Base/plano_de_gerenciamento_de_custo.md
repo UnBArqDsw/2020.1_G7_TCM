@@ -55,4 +55,4 @@ Foi somado todos os custos para obter o custo total, além disso foi estimado um
 
 |Versão | Descrição | Autor(es)|
 | -- | -- | -- |
-| 0.1 | Criação do documento | Lucas Alexandre e Matheus de Cristo |
+| 1.0 | Criação do documento | Lucas Alexandre e Matheus de Cristo |
