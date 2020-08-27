@@ -60,9 +60,9 @@ A aplicação não será responsável pelo local ou pelos acontecimentos durante
 
 ## Referências Bibliográficas
 
-https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_4.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html
+> IBM Knowledge Center. Documento de visão. Disponível em https://www.ibm.com/support/knowledgecenter/pt-br/SSWMEQ_4.0.6/com.ibm.rational.rrm.help.doc/topics/r_vision_doc.html Acesso em 24/08/20
 
-https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/doc-visao#docsNav
+> +Monitoria. Documento de visão. Disponível em https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/doc-visao#docsNav Acesso em 24/08/20
 
 ## Versionamento
 | Data | Versão | Descrição | Autor(es) |
