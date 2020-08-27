@@ -1,9 +1,9 @@
-# Plano de gerencimaneto de custo
+# Plano de gerencimaneto de custos
 
 ## Introdução
 
 <p  align="justify">
-O plano de gerenciamento dos custos estabelece as atividades desempenhadas pelos desenvolvedores do projeto, realiza o controle de custos dos peojetos e planeja a quantidade de horas trabalhadas durante a duração do projeto.
+O plano de gerenciamento dos custos estabelece as atividades desempenhadas pelos desenvolvedores do projeto, realiza o controle de custos dos projetos e planeja a quantidade de horas trabalhadas ao decorrer do projeto.
 </p>
 
 ## Custo de equipamento
@@ -13,16 +13,16 @@ Para que a equipe de desenvolvimento consiga desempenhar seus papéis é necess�
 
 </p>
 
-|| Valor | Integrantes| Quantidade | Custo para o projeto|
+| Item | Valor | Integrantes| Quantidade | Custo para o projeto|
 | -- | -- | -- | --| -- |
-| Notebook | R$3399,00 | 5 | 5 | R$16.995,00 |
-| Internet | R$59,99 | 5 | 5x(4 meses)| R$1199,80 |
+| Notebook | R$3.399,00 | 5 | 5 | R$16.995,00 |
+| Internet | R$59,99 | 5 | 5x(4 meses)| R$1.199,80 |
 | Total | | | | **R$18.194,80** |
 
 ## Custo de pessoal
 
 <p  align="justify">
-Para chegar nos valores salariais definidos a equipe fez uma pesquisa de quanto se paga em média por uma hora de trabalho de desenvolvedores júnior para se estimar o salário de cada um da equipe. Cada desenvolvedor irá trabalhar 10 horas semanais durante os 4 meses do projeto.
+Para chegar nos valores salariais definidos, a equipe fez uma pesquisa de quanto se paga em média por uma hora de trabalho de desenvolvedores júnior para se estimar o salário de cada membro da equipe. Cada desenvolvedor irá trabalhar 10 horas semanais durante os 4 meses do projeto.
 </p>
 
 | Cargo | Quantidade | Salário/Hora | Meses de Trabalho | Custo Mensal | Custo Total|
@@ -33,14 +33,14 @@ Para chegar nos valores salariais definidos a equipe fez uma pesquisa de quanto 
 
 ## Custo total
 <p align="justify">
-Foi somado todos os custos para obter o custo total, além disso foi estimado um acrescimo 10% no custo como uma margem para cobrir possiveis riscos que possam ocorrer durante o projeto
+Foi somado todos os custos para obter o custo total, além disso foi estimado um acréscimo 10% no custo como uma margem para cobrir possiveis riscos que possam ocorrer durante o projeto.
 
 |Custo| Valor total|
 |--|--|
 |Custo de equipamento| R$18.194,80 |
 |Custo de pessoal| R$15.000,00 |
-|Custo Total| R$33194,80 |
-|Margem de risco| R$3319,48 |
+|Custo Total| R$33.194,80 |
+|Margem de risco| R$3.319,48 |
 |**Total**| **R$36.514,28**|
 </p>
 
@@ -53,6 +53,6 @@ Foi somado todos os custos para obter o custo total, além disso foi estimado um
 
 ## Versionamento
 
-|Versão | Descrição | Autor(es)|
-| -- | -- | -- |
-| 1.0 | Criação do documento | Lucas Alexandre e Matheus de Cristo |
+| Data | Versão | Descrição | Autor(es) |
+| -- | -- | -- | -- |
+| 26/08/20 | 1.0 | Criação do documento | Lucas Alexandre e Matheus de Cristo |
