@@ -1,0 +1,192 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Plano de gerencimaneto de riscos · Grupo 7</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Introdução"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Plano de gerencimaneto de riscos · Grupo 7"/><meta property="og:type" content="website"/><meta property="og:url" content="https://unbarqdsw.github.io/2020.1_G7_Projeto//2020.1_G7_Projeto/"/><meta property="og:description" content="## Introdução"/><meta property="og:image" content="https://unbarqdsw.github.io/2020.1_G7_Projeto//2020.1_G7_Projeto/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://unbarqdsw.github.io/2020.1_G7_Projeto//2020.1_G7_Projeto/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/2020.1_G7_Projeto/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/2020.1_G7_Projeto/js/scrollSpy.js"></script><link rel="stylesheet" href="/2020.1_G7_Projeto/css/main.css"/><script src="/2020.1_G7_Projeto/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/2020.1_G7_Projeto/"><img class="logo" src="/2020.1_G7_Projeto/img/favicon.ico" alt="Grupo 7"/><h2 class="headerTitleWithLogo">Grupo 7</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/2020.1_G7_Projeto/docs/documento_de_visao" target="_self">Documentação</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Base</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Base</h3><ul class=""><li class="navListItem"><a class="navItem" href="/2020.1_G7_Projeto/docs/documento_de_visao">Documento de Visão</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/2020.1_G7_Projeto/docs/gerencia_riscos">Plano de gerencimaneto de riscos</a></li><li class="navListItem"><a class="navItem" href="/2020.1_G7_Projeto/docs/gerencia_de_custos">Plano de gerencimaneto de custos</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Modelagem</h3><ul class=""><li class="navListItem"><a class="navItem" href="/2020.1_G7_Projeto/docs/documento_de_visao2">Documento de Visão</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Plano de gerencimaneto de riscos</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="introdução"></a><a href="#introdução" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Introdução</h2>
+<p align = "justify">
+O plano de gerenciamento de riscos é um documento que consiste em identificar, analisar e monitorar os riscos envolvidos em um determinado projeto. Seu principal objetivo é aumentar a probabilidade e o impacto de riscos positivos e diminuir a probabilidade e o impacto de riscos negativos, visando otimizar as chances de sucesso do projeto.
+</p>
+<h2><a class="anchor" aria-hidden="true" id="estrutura-analítica-de-riscos---ear"></a><a href="#estrutura-analítica-de-riscos---ear" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Estrutura Analítica de Riscos - EAR</h2>
+<p align = "justify">
+A Estrutura Analitica de Riscos fornece um meio para estruturar e categorizar os riscos do projeto de forma hierárquica, identificando possiveis fontes. A EAR auxilia a equipe a considerar as fontes de riscos para o projeto e consequentemente nas ações para evitá-los e corrigi-los.
+</p>
+<h3><a class="anchor" aria-hidden="true" id="categoria-dos-riscos"></a><a href="#categoria-dos-riscos" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Categoria dos Riscos</h3>
+<p>Os riscos podem ser divididos em categorias, sendo elas:</p>
+<ul>
+<li>Técnico</li>
+</ul>
+<p>Os riscos técnicos abordam os requisitos, tecnologia, complexidade, interfaces, desempenho e confiabilidade e qualidade.</p>
+<ul>
+<li>Externo</li>
+</ul>
+<p>Os riscos externos abordam o ambiente acadêmico, os fatores pessoais e cliente (Product Owner).</p>
+<ul>
+<li>Organizacional</li>
+</ul>
+<p>Os riscos organizacionais abordam as dependências do projeto, recursos, financiamento e priorização.</p>
+<ul>
+<li>Gerenciamento de projetos</li>
+</ul>
+<p>Os riscos de gerenciamento do projeto abordam a estimativa, planejamento, controle e a comunicação.</p>
+<h2><a class="anchor" aria-hidden="true" id="análise-quantitativa-dos-riscos"></a><a href="#análise-quantitativa-dos-riscos" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Análise Quantitativa dos Riscos</h2>
+<h3><a class="anchor" aria-hidden="true" id="impacto"></a><a href="#impacto" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Impacto</h3>
+<p align = "justify">Para se quantificar o impacto do risco no projeto, deve-se levar em conta o custo, o tempo, o escopo e a qualidade.
+<p>A tabela abaixo deve ser usada como referência:</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Impacto</th><th style="text-align:center">Intervalo</th><th style="text-align:center">Descrição</th><th style="text-align:center">Representação</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center"><strong>Muito Baixo</strong></td><td style="text-align:center">menor que 20%</td><td style="text-align:center">Impacto pouco expressivo no desenvolvimento do projeto</td><td style="text-align:center">1</td></tr>
+<tr><td style="text-align:center"><strong>Baixo</strong></td><td style="text-align:center">de 21% a 40%</td><td style="text-align:center">Pouco impacto no desenvolvimento do projeto</td><td style="text-align:center">2</td></tr>
+<tr><td style="text-align:center"><strong>Médio</strong></td><td style="text-align:center">de 41% a 60%</td><td style="text-align:center">Possui certo impacto porém é facilmente recuperado</td><td style="text-align:center">3</td></tr>
+<tr><td style="text-align:center"><strong>Alto</strong></td><td style="text-align:center">de 61% a 80%</td><td style="text-align:center">Há grande impacto no desenvolvimento do projeto</td><td style="text-align:center">4</td></tr>
+<tr><td style="text-align:center"><strong>Muito Alto</strong></td><td style="text-align:center">Acima de 80%</td><td style="text-align:center">O impacto inviabiliza o projeto</td><td style="text-align:center">5</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="probabilidade"></a><a href="#probabilidade" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Probabilidade</h3>
+<p align = "justify">Para quantificar um risco em relação a sua probabilidade de ocorrência, a tabela a seguir deve ser utilizada:
+<table>
+<thead>
+<tr><th style="text-align:center">Probabilidade</th><th style="text-align:center">Intervalo</th><th style="text-align:center">Representação</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center"><strong>Muito Baixa</strong></td><td style="text-align:center">menor que 10%</td><td style="text-align:center">1</td></tr>
+<tr><td style="text-align:center"><strong>Baixa</strong></td><td style="text-align:center">de 11% a 30%</td><td style="text-align:center">2</td></tr>
+<tr><td style="text-align:center"><strong>Média</strong></td><td style="text-align:center">de 31% a 50%</td><td style="text-align:center">3</td></tr>
+<tr><td style="text-align:center"><strong>Alta</strong></td><td style="text-align:center">de 51% a 60%</td><td style="text-align:center">4</td></tr>
+<tr><td style="text-align:center"><strong>Muito Alta</strong></td><td style="text-align:center">maior que 61%</td><td style="text-align:center">5</td></tr>
+</tbody>
+</table>
+<h3><a class="anchor" aria-hidden="true" id="prioridade"></a><a href="#prioridade" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Prioridade</h3>
+<p align = "justify">Para definir a prioridade do risco, deve-se relacionar a Probabilidade com o Impacto por meio da matriz <b>Probabilidade</b> x <b>Impacto</b> a seguir:
+<table>
+<thead>
+<tr><th style="text-align:center">Probabilidade / Impacto</th><th style="text-align:center">Muito Baixa</th><th style="text-align:center">Baixo</th><th style="text-align:center">Média</th><th style="text-align:center">Alta</th><th style="text-align:center">Muito Alta</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center"><strong>Muito Baixo</strong></td><td style="text-align:center">1</td><td style="text-align:center">2</td><td style="text-align:center">3</td><td style="text-align:center">4</td><td style="text-align:center">5</td></tr>
+<tr><td style="text-align:center"><strong>Baixo</strong></td><td style="text-align:center">2</td><td style="text-align:center">4</td><td style="text-align:center">6</td><td style="text-align:center">8</td><td style="text-align:center">10</td></tr>
+<tr><td style="text-align:center"><strong>Médio</strong></td><td style="text-align:center">3</td><td style="text-align:center">6</td><td style="text-align:center">9</td><td style="text-align:center">12</td><td style="text-align:center">15</td></tr>
+<tr><td style="text-align:center"><strong>Alto</strong></td><td style="text-align:center">4</td><td style="text-align:center">8</td><td style="text-align:center">12</td><td style="text-align:center">16</td><td style="text-align:center">20</td></tr>
+<tr><td style="text-align:center"><strong>Muito Alto</strong></td><td style="text-align:center">5</td><td style="text-align:center">10</td><td style="text-align:center">15</td><td style="text-align:center">20</td><td style="text-align:center">25</td></tr>
+</tbody>
+</table>
+<p align = "justify">O valor da prioridade definido na matriz <b>Probabilidade</b>x<b>Impacto</b> deve ser traduzido, utilizando a seguinte tabela:
+<table>
+<thead>
+<tr><th style="text-align:center">Prioridade</th><th style="text-align:center">Intervalo</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center"><strong>Muito Baixa</strong></td><td style="text-align:center">1 ~ 4</td></tr>
+<tr><td style="text-align:center"><strong>Baixa</strong></td><td style="text-align:center">5 ~ 9</td></tr>
+<tr><td style="text-align:center"><strong>Média</strong></td><td style="text-align:center">10 ~ 14</td></tr>
+<tr><td style="text-align:center"><strong>Alta</strong></td><td style="text-align:center">15 ~ 19</td></tr>
+<tr><td style="text-align:center"><strong>Muito Alta</strong></td><td style="text-align:center">20 ~ 25</td></tr>
+</tbody>
+</table>
+<h2><a class="anchor" aria-hidden="true" id="riscos-levantados"></a><a href="#riscos-levantados" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Riscos levantados</h2>
+<table>
+<thead>
+<tr><th><strong>Risco</strong></th><th><strong>Descrição</strong></th><th><strong>Categoria EAR</strong></th><th><strong>Probabilidade</strong></th><th><strong>Impacto</strong></th><th><strong>Ação (preventiva/corretiva)</strong></th><th><strong>Prioridade</strong></th></tr>
+</thead>
+<tbody>
+<tr><td>R01</td><td>Dificuldade com as tecnologias</td><td>Técnico - Tecnologia</td><td>Média</td><td>Muito Alto</td><td>Estudo</td><td>15</td></tr>
+<tr><td>R02</td><td>Redução dos membros da equipe</td><td>Externo - Fatores pessoais</td><td>Baixa</td><td>Muito Alto</td><td>Comunicação efetiva, motivação, e redistribuição das tarefas</td><td>10</td></tr>
+<tr><td>R03</td><td>Mudança de escopo</td><td>Gerenciamento do projeto - Planejamento</td><td>Média</td><td>Muito Alto</td><td>Redefinir o escopo e redistribuir as novas tarefas</td><td>15</td></tr>
+<tr><td>R04</td><td>Falta de comunicação</td><td>Organizacionais - Estratégias</td><td>Muito baixa</td><td>Alto</td><td>Usar meios de comunicações comuns entre os membros</td><td>4</td></tr>
+<tr><td>R05</td><td>Perda de equipamentos da equipe</td><td>Externo - Fatores pessoais</td><td>Média</td><td>Muito Alto</td><td>Redistribuição de tarefas</td><td>15</td></tr>
+<tr><td>R06</td><td>Alteração nas datas da disciplina</td><td>Externo - Ambiente acadêmico</td><td>Muito baixo</td><td>Alto</td><td>Redefinir datas das entregas, analisar refatorações no projeto, analisar o escopo</td><td>4</td></tr>
+<tr><td>R07</td><td>Entregas (pontos de controle) atrasadas(os)</td><td>Gerenciamento do projeto - Planejamento</td><td>Baixo</td><td>Muito Alto</td><td>Planejamento, comunicação efetivo e redistribuição dos artefatos atrados</td><td>8</td></tr>
+<tr><td>R08</td><td>Dependência das atividades</td><td>Gerenciamento do projeto - Planejamento</td><td>Média</td><td>Alto</td><td>Organização das tarefas, buscar tarefas independentes</td><td>12</td></tr>
+<tr><td>R09</td><td>Qualidade do projeto não atender às expectativas do Product Owner</td><td>Externo - Cliente</td><td>Baixa</td><td>Alto</td><td>Acompanhamento do desenvolvimento junto ao Product Owner</td><td>8</td></tr>
+<tr><td>R10</td><td>Fácil adaptação a tecnologia</td><td>Técnico - Tecnologia</td><td>Média</td><td>Alto</td><td>Possibilidade de adição de novas features</td><td>12</td></tr>
+<tr><td>R11</td><td>Pareamentos não efetivos</td><td>Externo - Fatores pessoais</td><td>Média</td><td>Alto</td><td>Tentar aumentar a comunicação entre os membros, mudança no pareamento.</td><td>12</td></tr>
+<tr><td>R12</td><td>Conflito entre entregas da sprint e de tarefas de outras disciplinas.</td><td>Externo - Fatores pessoais</td><td>Muito Alta</td><td>Alto</td><td>Diminuir o escopo da sprint e redistribuir tarefas.</td><td>20</td></tr>
+<tr><td>R13</td><td>Indisponibilidade de membros da equipe</td><td>Externo - Fatores pessoais</td><td>Alta</td><td>Muito Alto</td><td>Redistribuição das tarefas.</td><td>20</td></tr>
+<tr><td>R14</td><td>Má priorização de requisitos</td><td>Organizacional - Priorização</td><td>Média</td><td>Alto</td><td>Analise em conjutno dos requisitos afetados e refazer priorizações</td><td>12</td></tr>
+<tr><td>R15</td><td>Dificuldade em reunir todos os membros</td><td>Gerenciamento - Comunicação</td><td>Baixa</td><td>Baixo</td><td>Remarcar as reuniões, datas e horários</td><td>4</td></tr>
+<tr><td>R16</td><td>Produto não atinge a qualidade esperada</td><td>Técnico - Qualidade</td><td>Média</td><td>Alto</td><td>Verificação constante da qualidade e refatoração com base nos padrões de projeto</td><td>12</td></tr>
+</tbody>
+</table>
+<h2><a class="anchor" aria-hidden="true" id="conclusão"></a><a href="#conclusão" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Conclusão</h2>
+<p align = "justify">
+Através da análise e priorização da tabela de riscos levantados, é possível monitorar os riscos que mais causarão impacto durante o projeto. Dessa forma, medidas de prevenção e correção poderão ser tomadas, caso ocorram.
+</p>
+<h2><a class="anchor" aria-hidden="true" id="referências"></a><a href="#referências" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Referências</h2>
+<blockquote>
+<p>+Monitoria. Plano de Riscos. Disponível em <a href="https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/plano-riscos">https://fga-eps-mds.github.io/2019.1-MaisMonitoria/docs/plano-riscos</a></p>
+</blockquote>
+<blockquote>
+<p>NAKASHIMA, D. T. V. Identificação de riscos em projetos de TI. Disponível em <a href="http://www.abepro.org.br/biblioteca/ENEGEP2004_Enegep0802_1822.pdf">http://www.abepro.org.br/biblioteca/ENEGEP2004_Enegep0802_1822.pdf</a></p>
+</blockquote>
+<blockquote>
+<p>RODRIGUES, Eli. EAR para projetos de software. Disponivel em <a href="https://www.elirodrigues.com/2013/09/21/gerenciamento-de-riscos-ear-para-projetos-de-software/">https://www.elirodrigues.com/2013/09/21/gerenciamento-de-riscos-ear-para-projetos-de-software/</a></p>
+</blockquote>
+<blockquote>
+<p>PMI®
+. PMBOK®
+: Um Guia do Conhecimento em Gerenciamento de Projetos (Guia PMBOK)/Project Management Institute.Sexta. Pensilvânia 19073-3299 EUA</p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="versionamento"></a><a href="#versionamento" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Versionamento</h2>
+<table>
+<thead>
+<tr><th>Data</th><th>Versão</th><th>Descrição</th><th>Autor(es)</th></tr>
+</thead>
+<tbody>
+<tr><td>26/08/20</td><td>1.0</td><td>Criação do documento</td><td>Lucas Alexandre, Matheus de Cristo, Moacir Mascarenha e Renan Cristyan</td></tr>
+</tbody>
+</table>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/2020.1_G7_Projeto/docs/documento_de_visao"><span class="arrow-prev">← </span><span>Documento de Visão</span></a><a class="docs-next button" href="/2020.1_G7_Projeto/docs/gerencia_de_custos"><span>Plano de gerencimaneto de custos</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#introdução">Introdução</a></li><li><a href="#estrutura-analítica-de-riscos---ear">Estrutura Analítica de Riscos - EAR</a><ul class="toc-headings"><li><a href="#categoria-dos-riscos">Categoria dos Riscos</a></li></ul></li><li><a href="#análise-quantitativa-dos-riscos">Análise Quantitativa dos Riscos</a><ul class="toc-headings"><li><a href="#impacto">Impacto</a></li><li><a href="#probabilidade">Probabilidade</a></li><li><a href="#prioridade">Prioridade</a></li></ul></li><li><a href="#riscos-levantados">Riscos levantados</a></li><li><a href="#conclusão">Conclusão</a></li><li><a href="#referências">Referências</a></li><li><a href="#versionamento">Versionamento</a></li></ul></nav></div><footer class="nav-footer" id="footer"><p>Tennis Cup Limited</p></footer></div></body></html>
