@@ -1,4 +1,7 @@
-# Plano de gerencimaneto de custos
+---
+id: gerencia_de_custos
+title: Plano de gerencimaneto de custos
+---
 
 ## Introdução
 

@@ -1,0 +1,100 @@
+/**
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/* your custom css */
+
+.container {
+  margin-bottom: 40px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title p {
+  max-width: 960px;
+  text-align: justify;
+}
+
+
+
+.container-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+  max-width: 960px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.subtitle {
+  align-items: center;
+  text-align: center;}
+
+.card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;  box-shadow: 2px 2px 12px 2px rgba(0,0,0,0.75);box-shadow: 2px 2px 12px 2px rgba(0,0,0,0.75);
+  border-radius: 10px;
+  background-color: #424242;
+  width: 250px;
+  height: 300px;
+}
+
+.card img {
+  width: 160px;
+  border-radius: 100%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.card p {
+  
+  color: white;
+  font-weight: 700;
+}
+.install {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+  .container{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .container-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    width: 90%;
+
+  }
+  .card {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}

@@ -1,4 +1,8 @@
-# Plano de gerencimaneto de riscos
+---
+id: gerencia_riscos
+title: Plano de gerencimaneto de riscos
+---
+
 
 ## Introdução
 
