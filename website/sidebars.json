@@ -1,7 +1,7 @@
 {
   "docs": {
-    "Base": ["documento_de_visao", "gerencia_riscos", "gerencia_de_custos"],
-    "Modelagem": ["documento_de_visao2"],
+    "Base": ["documento_de_visao", "gerencia_riscos", "gerencia_de_custos", "rich_picture"],
+    "Modelagem": [],
     "Padrões de Projeto": [],
     "Aquitetura de software e reutilização": []
   }
