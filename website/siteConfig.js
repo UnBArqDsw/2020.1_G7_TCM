@@ -56,11 +56,10 @@ const siteConfig = {
     secondaryColor: '#667a34',
   },
 
-  /* Custom fonts for website */
-  /*
+  /* Custom fonts for website
   fonts: {
     myFont: [
-      "Times New Roman",
+      "Nunito",
       "Serif"
     ],
     myOtherFont: [
@@ -68,7 +67,11 @@ const siteConfig = {
       "system-ui"
     ]
   },
-  */
+*/
+
+stylesheets: [
+  "https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
+],
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
   copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
