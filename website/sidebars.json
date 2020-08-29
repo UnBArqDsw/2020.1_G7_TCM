@@ -1,6 +1,17 @@
 {
   "docs": {
-    "Base": ["documento_de_visao", "gerencia_riscos", "gerencia_de_custos", "rich_picture"],
+    "1 Desenho de Software (Base)": [
+      {
+        "type": "subcategory",
+        "label": "1.1 Módulo Projeto Não Orientado a Abordagens Específicas",
+        "ids": [
+          "documento_de_visao", 
+          "gerencia_riscos", 
+          "gerencia_de_custos", 
+          "rich_picture"
+        ]
+      }
+    ],
     "Modelagem": [],
     "Padrões de Projeto": [],
     "Aquitetura de software e reutilização": []

@@ -30,6 +30,7 @@ const siteConfig = {
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
+  docsSideNavCollapsible: true,
   projectName: '2020.1_G7_Projeto',
   organizationName: 'UnBArqDsw',
   // For top-level user or org sites, the organization is still the same.
