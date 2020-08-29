@@ -36,7 +36,74 @@ const Index = () => {
       </div>
       <div className="techs">
         <h2>Tecnologias</h2>
-        <p>Javascript, PostgreSQL, Docker, ReactJS, Node</p>
+        <div className="techs-container">
+          <div className="techs-card">
+            <img src="https://walde.co/wp-content/uploads/2016/09/nodejs_logo.png" />
+            <div className="tech-content">
+              <p>Nome: NodeJS</p>
+              <p>Descrição: Ambiente de execução Javascript server-side</p>
+              <a href="">Site Oficial</a>
+            </div>
+          </div>
+          <div className="techs-card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/768px-JavaScript-logo.png"
+              alt="Javascript"
+            />
+            <div className="tech-content">
+              <p>Nome: Javascript</p>
+              <p>
+                Descrição: JavaScript é uma linguagem de programação
+                interpretada estruturada
+              </p>
+              <a href="">Site Oficial</a>
+            </div>
+          </div>
+          <div className="techs-card">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+              alt="ReactJS"
+            />
+            <div className="tech-content">
+              <p>Nome: ReactJS</p>
+              <p>
+                Descrição: O React é uma biblioteca JavaScript de código aberto
+                com foco em criar interfaces de usuário em páginas web
+              </p>
+              <a href="">Site Oficial</a>
+            </div>
+          </div>
+        </div>
+        <div className="techs-container">
+          <div className="techs-card">
+            <img
+              src="https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png"
+              alt="Docker"
+            />
+            <div className="tech-content">
+              <p>Nome: Docker</p>
+              <p>
+                Descrição: O Docker é uma plataforma open source que facilita a
+                criação e administração de ambientes isolados.
+              </p>
+              <a href="">Site Oficial</a>
+            </div>
+          </div>
+          <div className="techs-card">
+            <img
+              src="https://fhsys.com.br/core-wordpress/wp-content/uploads/2017/06/postgresql-logo.png"
+              alt="PostgreSQL"
+            />
+            <div className="tech-content">
+              <p>Nome: PostgreSQL</p>
+              <p>
+                Descrição: PostgreSQL é um sistema gerenciador de banco de dados
+                objeto relacional.
+              </p>
+              <a href="">Site Oficial</a>
+            </div>
+          </div>
+        </div>
       </div>
       <div className="team">
         <h2>Desenvolvedores</h2>
@@ -59,20 +126,18 @@ const Index = () => {
             <p>Matricula: 15/0141220</p>
           </div>
           <div className="card grid_3">
-              <img src="https://fga-eps-mds.github.io/2019.1-MaisMonitoria/img/faculty/Moacir.jpg" />
-              <p>Nome: Moacir Mascarenha</p>
-              <p>Matricula: 17/0080366</p>
-            </div>
+            <img src="https://fga-eps-mds.github.io/2019.1-MaisMonitoria/img/faculty/Moacir.jpg" />
+            <p>Nome: Moacir Mascarenha</p>
+            <p>Matricula: 17/0080366</p>
+          </div>
         </div>
         <div className="card-container">
-            
-
-            <div className=" card grid_3 push_5">
-              <img src="https://avatars2.githubusercontent.com/u/39436190?s=460&u=7359939be5e8683192bf0b718b2d9c96ed70a020&v=4" />
-              <p>Nome: Renan Cristyan</p>
-              <p>Matricula: 17/0044386</p>
-            </div>
+          <div className=" card grid_3 push_5">
+            <img src="https://avatars2.githubusercontent.com/u/39436190?s=460&u=7359939be5e8683192bf0b718b2d9c96ed70a020&v=4" />
+            <p>Nome: Renan Cristyan</p>
+            <p>Matricula: 17/0044386</p>
           </div>
+        </div>
       </div>
     </div>
   );
