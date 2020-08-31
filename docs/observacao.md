@@ -58,11 +58,9 @@ Tarefas analisadas:
 
     - Análise:
         - Facilidade de uso:</br>
-        A tarefa não é totalmente clara (intuítiva) com os termos e palavreados, além da funcionalidade não estar devidamente destacada. 
-        <br>
+        A tarefa não é totalmente clara (intuítiva) com os termos e palavreados, além da funcionalidade não estar devidamente destacada. <br>
         - Eficiência:</br>
-        A forma de informar placar (passo 4) é muito trabalhosa, pois para cada ponto deve-se clicar em nos botões '+' ou '-', e não há a opção de informar o placar final. Em uma partida com muitos pontos (exemplo: basquete), seria demorado finalizar a tarefa.
-        </br>
+        A forma de informar placar (passo 4) é muito trabalhosa, pois para cada ponto deve-se clicar em nos botões '+' ou '-', e não há a opção de informar o placar final. Em uma partida com muitos pontos (exemplo: basquete), seria demorado finalizar a tarefa.</br>
         - Corretude:</br>A tarefa fez exatamente o que deveria e o que foi esperado pelo usuário, então sua corretude é satisfatória.</br> 
         
 - Ver informações do torneio:
@@ -72,11 +70,9 @@ Tarefas analisadas:
 
     - Análise:
         - Facilidade de uso:</br>
-        A tarefa é bastante simples e intuitiva, sua usabilidade é muito boa.
-        <br>
+        A tarefa é bastante simples e intuitiva, sua usabilidade é muito boa.<br>
         - Eficiência:</br>
-        A tarefa é extremamente eficiênte, sendo necessários apenas dois cliques para ter uma visão geral do torneio.
-        </br>
+        A tarefa é extremamente eficiênte, sendo necessários apenas dois cliques para ter uma visão geral do torneio.</br>
         - Corretude:</br>A tarefa fez exatamente o que deveria e o que foi esperado pelo usuário, então sua corretude é satisfatória.</br> 
 
 
@@ -102,11 +98,11 @@ A técnica de observação é uma poderosa ferramenta para elicitar requisitos e
 </p>
 
 ## Referências
-> TIPOS DE OBSERVAÇÃO SEGUNDO CRITÉRIOS ESPECÍFICOS,  disponivel em: https://monografias.brasilescola.uol.com.br/regras-abnt/tipos-observacao-segundo-criterios-especificos.htm
-
 > BARBOSA, S. D. J; DA SILVA, B. S. Interação humano-computador. Elsevier, 2010.
 
 > NAIK, K; TRIPATHY, P. SOFTWARE TESTING AND QUALITY ASSURANCE: THEORY AND PRACTICE. John Wiley & Sons, 2010
+
+> TIPOS DE OBSERVAÇÃO SEGUNDO CRITÉRIOS ESPECÍFICOS,  disponivel em: https://monografias.brasilescola.uol.com.br/regras-abnt/tipos-observacao-segundo-criterios-especificos.htm
 
 ## Autor(es)
 | Data | Versão | Descrição | Autor(es) |
