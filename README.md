@@ -1,4 +1,4 @@
-# Projeto Grupo 7
+# Tennis Cup Management (TCM)
 
 **Número do Grupo**: 07<br>
 **Código da Disciplina**: FGA0208-T01<br>
