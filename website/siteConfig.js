@@ -23,15 +23,15 @@ const users = [
 const siteConfig = {
   title: 'Grupo 7', // Title for your website.
   tagline: 'Seu organizador de torneios de Tênis',
-  url: 'https://unbarqdsw.github.io/2020.1_G7_Projeto/', // Your website URL
-  baseUrl: '/2020.1_G7_Projeto/', // Base URL for your project */
+  url: 'https://unbarqdsw.github.io/2020.1_G7_TCM/', // Your website URL
+  baseUrl: '/2020.1_G7_TCM/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
   docsSideNavCollapsible: true,
-  projectName: '2020.1_G7_Projeto',
+  projectName: '2020.1_G7_TCM',
   organizationName: 'UnBArqDsw',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
