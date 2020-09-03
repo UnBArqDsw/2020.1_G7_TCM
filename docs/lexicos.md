@@ -1,4 +1,7 @@
-# Léxico Ampliado da Linguagem
+---
+id: lexicos
+title: Léxico
+---
 
 ## Introdução
 <p align = "justify">
