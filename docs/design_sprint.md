@@ -27,14 +27,40 @@ Com o escopo do projeto definido, a design sprint foi iniciada na segunda sprint
 ## Desenvolvimento
 
 ### Versão 1.0
-<p align = "justify">
 
+### Dia 1 (Unpack):
+<p align = "justify">
+    A equipe se reuniu e utilizou a tecnica do brainstorm, onde os membros da equipe sugeriram ideias iniciais para o projeto. 
+    
 </p>
 
-<p align = "justify">
+[Brainstorm](./Brainstorm.md)
 
+### Dia 2 (Sketch):
+<p align = "justify">
+    Ainda no brainstorm questões foram levantadas por todos os membros da equipe e cada membro propos soluções, alem disso outros documentos proporam outras saídas para os problemas.
 </p>
 
+[Rich Picture](./rich_picture.md)
+
+[Observação](./observacao.md)
+
+
+### Dia 3(Decide):
+<p align = "justify">
+    
+</p>
+
+### Dia 4 (Prototype):
+<p align = "justify">
+ 
+</p>
+
+###  Dia 5 (Test):
+<p align = "justify">
+ 
+</p>
+ 
 ## Conclusão
 <p align = "justify">
 
@@ -42,9 +68,9 @@ Com o escopo do projeto definido, a design sprint foi iniciada na segunda sprint
  
 ## Referências
 
-> 
+> The Design Sprint, disponivel em: https://www.gv.com/sprint/
  
->
+> Google Design Sprint: como funciona e como aplicar no seu projeto, disponível em: https://brasil.uxdesign.cc/google-design-sprint-como-funciona-e-como-aplicar-no-seu-projeto-279107363659
 
 ## Autor(es)
 
