@@ -1,4 +1,7 @@
-# Observação
+---
+id: obs
+title: Observação
+---
 
 ## Introdução
 <p align = "justify">

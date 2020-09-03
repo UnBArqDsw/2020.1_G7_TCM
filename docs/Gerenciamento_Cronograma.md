@@ -1,4 +1,7 @@
-# Gerenciamento do Cronograma do Projeto
+---
+id: gerenciamento_cronograma
+title: Gerenciamento do cronograma do projeto
+---
 
 ## Introdução
 <p align = "justify">

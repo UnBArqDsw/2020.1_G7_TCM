@@ -5,10 +5,10 @@
         "type": "subcategory",
         "label": "1.1 Módulo Projeto Não Orientado a Abordagens Específicas",
         "ids": [
-          "documento_de_visao", 
-          "gerencia_riscos", 
-          "gerencia_de_custos", 
-          "rich_picture"
+          "base/documento_de_visao", 
+          "base/gerencia_riscos", 
+          "base/gerencia_de_custos", 
+          "base/rich_picture"
         ]
       }
     ],
