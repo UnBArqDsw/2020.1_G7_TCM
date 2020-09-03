@@ -1,0 +1,120 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>Plano de gerencimaneto de custos · Grupo 7</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Introdução"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="Plano de gerencimaneto de custos · Grupo 7"/><meta property="og:type" content="website"/><meta property="og:url" content="https://unbarqdsw.github.io/2020.1_G7_TCM//2020.1_G7_TCM/"/><meta property="og:description" content="## Introdução"/><meta property="og:image" content="https://unbarqdsw.github.io/2020.1_G7_TCM//2020.1_G7_TCM/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://unbarqdsw.github.io/2020.1_G7_TCM//2020.1_G7_TCM/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/2020.1_G7_TCM/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&amp;display=swap"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/2020.1_G7_TCM/js/scrollSpy.js"></script><link rel="stylesheet" href="/2020.1_G7_TCM/css/main.css"/><script src="/2020.1_G7_TCM/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/2020.1_G7_TCM/"><img class="logo" src="/2020.1_G7_TCM/img/favicon.ico" alt="Grupo 7"/><h2 class="headerTitleWithLogo">Grupo 7</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/2020.1_G7_TCM/docs/base/documento_de_visao" target="_self">Documentação</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>1.1 Módulo Projeto Não Orientado a Abordagens Específicas</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle collapsible">1 Desenho de Software (Base)<span class="arrow"><svg width="24" height="24" viewBox="0 0 24 24"><path fill="#565656" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path><path d="M0 0h24v24H0z" fill="none"></path></svg></span></h3><ul class="hide"><div class="navGroup subNavGroup"><h4 class="navGroupSubcategoryTitle">1.1 Módulo Projeto Não Orientado a Abordagens Específicas</h4><ul><li class="navListItem"><a class="navItem" href="/2020.1_G7_TCM/docs/base/documento_de_visao">Documento de Visão</a></li><li class="navListItem"><a class="navItem" href="/2020.1_G7_TCM/docs/base/brainstorm">Brainstorm</a></li><li class="navListItem"><a class="navItem" href="/2020.1_G7_TCM/docs/base/gerencia_riscos">Plano de gerencimaneto de riscos</a></li><li class="navListItem navListItemActive"><a class="navItem" href="/2020.1_G7_TCM/docs/base/gerencia_de_custos">Plano de gerencimaneto de custos</a></li><li class="navListItem"><a class="navItem" href="/2020.1_G7_TCM/docs/base/rich_picture">Rich Picture</a></li><li class="navListItem"><a class="navItem" href="/2020.1_G7_TCM/docs/base/5w2h">5W2H</a></li><li class="navListItem"><a class="navItem" href="/2020.1_G7_TCM/docs/base/design_sprint">Design Sprint</a></li><li class="navListItem"><a class="navItem" href="/2020.1_G7_TCM/docs/base/entrevista">Entrevista</a></li><li class="navListItem"><a class="navItem" href="/2020.1_G7_TCM/docs/base/obs">Observação</a></li><li class="navListItem"><a class="navItem" href="/2020.1_G7_TCM/docs/base/mapa_mental">Mapas Mentais</a></li><li class="navListItem"><a class="navItem" href="/2020.1_G7_TCM/docs/base/lexicos">Léxico</a></li><li class="navListItem"><a class="navItem" href="/2020.1_G7_TCM/docs/base/gerenciamento_cronograma">Gerenciamento do cronograma do projeto</a></li></ul></div></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">Plano de gerencimaneto de custos</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="introdução"></a><a href="#introdução" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Introdução</h2>
+<p  align="justify">
+O plano de gerenciamento dos custos estabelece as atividades desempenhadas pelos desenvolvedores do projeto, realiza o controle de custos dos projetos e planeja a quantidade de horas trabalhadas ao decorrer do projeto.
+</p>
+<h2><a class="anchor" aria-hidden="true" id="custo-de-equipamento"></a><a href="#custo-de-equipamento" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Custo de equipamento</h2>
+<p  align="justify">
+Para que a equipe de desenvolvimento consiga desempenhar seus papéis é necessário que todos tenham computador pessoal e acesso a internet com alta qualidade. O computador que atende as demanadas do projeto é um <a href="https://www.extra.com.br/Informatica/Notebook/notebook-lenovo-core-i5-1035g1-8gb-1tb-tela-15-6-windows-10-ideapad-s145-55007372.html">Lenovo Ideapd S145</a> no valor de R$3.399,00. A internet necessária para o desenvolvimento com maior custo benefício foi a de 35MB provida pela <a href="https://ofertas.netcombotv.net.br/net-internet/">Claro</a>.
+</p>
+<table>
+<thead>
+<tr><th>Item</th><th>Valor</th><th>Integrantes</th><th>Quantidade</th><th>Custo para o projeto</th></tr>
+</thead>
+<tbody>
+<tr><td>Notebook</td><td>R$3.399,00</td><td>5</td><td>5</td><td>R$16.995,00</td></tr>
+<tr><td>Internet</td><td>R$59,99</td><td>5</td><td>5x(4 meses)</td><td>R$1.199,80</td></tr>
+<tr><td>Total</td><td></td><td></td><td></td><td><strong>R$18.194,80</strong></td></tr>
+</tbody>
+</table>
+<h2><a class="anchor" aria-hidden="true" id="custo-de-pessoal"></a><a href="#custo-de-pessoal" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Custo de pessoal</h2>
+<p  align="justify">
+Para chegar nos valores salariais definidos, a equipe fez uma pesquisa de quanto se paga em média por uma hora de trabalho de desenvolvedores júnior para se estimar o salário de cada membro da equipe. Cada desenvolvedor irá trabalhar 10 horas semanais durante os 4 meses do projeto.
+</p>
+<table>
+<thead>
+<tr><th style="text-align:center">Cargo</th><th style="text-align:center">Quantidade</th><th style="text-align:center">Salário/Hora</th><th style="text-align:center">Meses de Trabalho</th><th style="text-align:center">Custo Mensal</th><th style="text-align:center">Custo Total</th></tr>
+</thead>
+<tbody>
+<tr><td style="text-align:center">Desenvolvedor júnior</td><td style="text-align:center">5</td><td style="text-align:center">R$ 18,75*</td><td style="text-align:center">4</td><td style="text-align:center">R$ 3.750,00</td><td style="text-align:center">R$15.000,00</td></tr>
+</tbody>
+</table>
+<p><br></p>
+<h2><a class="anchor" aria-hidden="true" id="custo-total"></a><a href="#custo-total" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Custo total</h2>
+<p align="justify">
+Foi somado todos os custos para obter o custo total, além disso foi estimado um acréscimo 10% no custo como uma margem para cobrir possiveis riscos que possam ocorrer durante o projeto.
+<table>
+<thead>
+<tr><th>Custo</th><th>Valor total</th></tr>
+</thead>
+<tbody>
+<tr><td>Custo de equipamento</td><td>R$18.194,80</td></tr>
+<tr><td>Custo de pessoal</td><td>R$15.000,00</td></tr>
+<tr><td>Custo Total</td><td>R$33.194,80</td></tr>
+<tr><td>Margem de risco</td><td>R$3.319,48</td></tr>
+<tr><td><strong>Total</strong></td><td><strong>R$36.514,28</strong></td></tr>
+</tbody>
+</table>
+</p>
+<h2><a class="anchor" aria-hidden="true" id="referências"></a><a href="#referências" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Referências</h2>
+<blockquote>
+<p>Glassdoor. Salário desenvolvedor júnior. Disponível em: <a href="https://www.glassdoor.com.br/">https://www.glassdoor.com.br/</a></p>
+</blockquote>
+<blockquote>
+<p>Dibro. Desenho de Software. Disponível em: <a href="https://driblo-desenho-de-software-2019-2.github.io/docs/docs/gerenciamentoCustos">https://driblo-desenho-de-software-2019-2.github.io/docs/docs/gerenciamentoCustos</a></p>
+</blockquote>
+<h2><a class="anchor" aria-hidden="true" id="versionamento"></a><a href="#versionamento" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Versionamento</h2>
+<table>
+<thead>
+<tr><th>Data</th><th>Versão</th><th>Descrição</th><th>Autor(es)</th></tr>
+</thead>
+<tbody>
+<tr><td>26/08/20</td><td>1.0</td><td>Criação do documento</td><td>Lucas Alexandre e Matheus de Cristo</td></tr>
+</tbody>
+</table>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/2020.1_G7_TCM/docs/base/gerencia_riscos"><span class="arrow-prev">← </span><span>Plano de gerencimaneto de riscos</span></a><a class="docs-next button" href="/2020.1_G7_TCM/docs/base/rich_picture"><span>Rich Picture</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#introdução">Introdução</a></li><li><a href="#custo-de-equipamento">Custo de equipamento</a></li><li><a href="#custo-de-pessoal">Custo de pessoal</a></li><li><a href="#custo-total">Custo total</a></li><li><a href="#referências">Referências</a></li><li><a href="#versionamento">Versionamento</a></li></ul></nav></div><footer class="nav-footer" id="footer"><p>Tennis Cup Limited</p></footer></div></body></html>
