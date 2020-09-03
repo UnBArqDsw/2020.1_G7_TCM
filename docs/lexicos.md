@@ -23,19 +23,6 @@ Neste documento foram compilados alguns termos e palavras corriqueiros ao projet
 ## Léxicos 
 ### Versão 1.0
 
-<!-- 
-lexicos
-- criar conta BS01
-- fazer login BS02
-- usuário BS01
-- moderador BS03
-- partida amistosa BS03
-- torneio BS05
-- torneio publico / privado BS07
-- solicitar inscrição no torneio BS08
-- pré visualizar regras do torneio BS10
--->
-
 <br>
 
 ### L01 - Criar conta
