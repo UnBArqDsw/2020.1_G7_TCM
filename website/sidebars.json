@@ -16,7 +16,8 @@
           "base/obs",
           "base/mapa_mental",
           "base/lexicos",
-          "base/gerenciamento_cronograma"
+          "base/gerenciamento_cronograma",
+          "base/personas"
         ]
       }
     ],
