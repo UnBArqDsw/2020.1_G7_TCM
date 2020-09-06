@@ -35,41 +35,69 @@ tarefas e responsabilidades dentro de uma organização de desenvolvimento.
 
 
 ## Metodologias de desenvolvimento:
-</p><!-- Mude o título do tópico de desenvolvimento para outros individuais de cada artefato. Adicione quantos subtópicos precisar. -->
 
 ### Versão 1.0
 
-<p align = "justify">
-<!-- Desenvolva o documento propriamente neste tópico. Para cada mudança relevante ou impactante, crie um novo subtópico com a versão correspondente (Exemplo: Versão 1.0, Versão 1.1, Versão 1.2) -->
-</p>
+### Scrum
+
+- Product Backlog: O Product Backlog é uma lista contendo todas as funcionalidades desejadas para um produto [1]. O Product Backlog da equipe é baseado nas tarefas exigidas pela disciplina e também nas funcionalidades para a criação da aplicação TCM.
+ 
+- Sprint Plannig Meeting: Sprint Plannig Meeting é uma reunião no início da sprint para o planejamento das atividades [1]. A equipe se reúne via hangouts no início do Sprint, para definir as atividades que serão executadas durante o Srint priorizando as atividades de acordo com o escopo da disciplina.
+ 
+- Sprint Backlog: O Sprint Backlog é uma lista de tarefas que o Scrum Team se compromete a fazer em um Sprint. Os itens do Sprint Backlog são extraídos do Product Backlog [1]. Durante o Sprint Plannig Meeting a equipe analisa as tarefas a serem feitas do backlog, pendências e assim é definido o Sprint Backlog.
+ 
+- Sprint: O Sprint representa um Time Box dentro do qual atividades devem ser executadas [1]. O Sprint da equipe é um ciclo de uma semana.
+ 
+ 
+- Daily Scrum: Daily Scrum é uma breve reunião diária da equipe, durante a sprint [1]. A equipe utiliza um bot no slack para realizar sua daily, onde as 09:00 horas o bot envia as seguintes perguntas para a equipe: No que você fez ontem?, No que você vai trabalhar hoje? e Você teve algum impedimento?
+ 
+- Sprint Review Meeting: Sprint Review Meeting é quando a equipe apresenta as funcionalidades implementadas em uma Sprint [1]. No final de toda Sprint a equipe apresenta em uma reunião via hangouts o que foi entregue do planejado, dívidas, pontos negativos e positivos da sprint.
+
+- Sprint Review Meeting: Sprint Review Meeting é quando a equipe apresenta as funcionalidades implementadas em uma Sprint [1]. No final de toda Sprint a equipe apresenta em uma reunião via hangouts o que foi entregue do planejado, dividas, pontos negativos e positivos da sprint.
+
+### XP
 
 <p align = "justify">
-<!-- Escreva aqui a primeira versão do documento. -->
+
 </p>
+
+### RUP
+
+<p align = "justify">
+
+</p>
+
+### Kanban
+
+<p align = "justify">
+
+</p>
+
 
 ## Conclusão
 
 <p align = "justify">
-<!-- Descreva neste tópico como a aplicação da técnica e a criação do documento foi útil para o projeto. -->
+
 </p>
 
 ## Referências
 
-> SCRUM, Disponivel em: https://www.desenvolvimentoagil.com.br/scrum/
+> [1] SCRUM, Disponivel em: https://www.desenvolvimentoagil.com.br/scrum/
 
-> Sistema Kanban: Como utilizar para beneficiar sua empresa?, Disponivel em: https://artia.com/blog/como-utilizar-sistema-kanban-para-beneficiar-sua-empresa/
+> [2] Sistema Kanban: Como utilizar para beneficiar sua empresa?, Disponivel em: https://artia.com/blog/como-utilizar-sistema-kanban-para-beneficiar-sua-empresa/
 
-> Extreme Programming:A gentle introduction, Disponivel em: http://www.extremeprogramming.org/
+> [3] Extreme Programming:A gentle introduction, Disponivel em: http://www.extremeprogramming.org/
 
-> Metodologia de pesquisa: guia rápido de possibilidades, Disponivel em: https://blog.mettzer.com/metodologia-de-pesquisa/
+> [4] Metodologia de pesquisa: guia rápido de possibilidades, Disponivel em: https://blog.mettzer.com/metodologia-de-pesquisa/
 
-> Rational Unified Process, Disponivel em: https://www.ibm.com/developerworks/rational/library/content/03July/1000/1251/1251_bestpractices_TP026B.pdf?mhsrc=ibmsearch_a&mhq=RUP
+> [5] Rational Unified Process, Disponivel em: https://www.ibm.com/developerworks/rational/library/content/03July/1000/1251/1251_bestpractices_TP026B.pdf?mhsrc=ibmsearch_a&mhq=RUP
 
-> EXTREME PROGRAMMING, Disponivel em: https://www.desenvolvimentoagil.com.br/xp/
+> [6] EXTREME PROGRAMMING, Disponivel em: https://www.desenvolvimentoagil.com.br/xp/
 
 
 ## Autor(es)
-<!-- Para cada alteração no documento, lembre-se de descrever as mudanças, a versão, a data e creditar os autores. -->
+
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 05/09/20 | 1.0 | Criação do documento, introdução e metodologia | Autores | 
+| 05/09/20 | 1.0 | Criação do documento, introdução e metodologia | João Pedro e Moacir Mascarenha |
+| 06/09/20 | 1.1 | Adicionado Metodologia desenvolvimento: Scrum | João Pedro e Moacir Mascarenha |
