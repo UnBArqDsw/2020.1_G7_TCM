@@ -70,8 +70,15 @@ tarefas e responsabilidades dentro de uma organização de desenvolvimento.
 ### Kanban
 
 <p align = "justify">
+O Kanban é técnica que propõe a utilização de cartões em um quadro para acompanhar visualmente o desenvolvimento de um projeto, informando as suas etapas, andamentos e entregas [2]. A equipe utiliza as issues do github como os cartões de tarefas e o plugin ZenHub como quadro vizual para gerenciar as issues(tarefas). O quadro quadro utilizado pela equipe é dividido em quatro partes:
 
 </p>
+
+- **Backlog**: Contém todas as tarefas do projeto. 
+- **Sprint Backlog**: Contém as tarefas a serem executadas durante a Sprint.
+- **Em andamento**: Contém as tarefas que estão em andamento.
+- **Revisão**: Contém as tarefas que precisam ser revisadas para conclusão.
+- **Concluido**: Contém as tarefas que já foram revisadas e concluidas.
 
 
 ## Conclusão
@@ -101,3 +108,4 @@ tarefas e responsabilidades dentro de uma organização de desenvolvimento.
 | -- | -- | -- | -- |
 | 05/09/20 | 1.0 | Criação do documento, introdução e metodologia | João Pedro e Moacir Mascarenha |
 | 06/09/20 | 1.1 | Adicionado Metodologia desenvolvimento: Scrum | João Pedro e Moacir Mascarenha |
+| 06/09/20 | 1.2 | Adicionado Metodologia desenvolvimento: Kanban | João Pedro e Moacir Mascarenha |
