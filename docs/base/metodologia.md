@@ -74,9 +74,17 @@ tarefas e responsabilidades dentro de uma organização de desenvolvimento.
 
 ### RUP
 
-<p align = "justify">
+#### Práticas:
 
-</p>
+- **Desenvolvimento iterativo**: A
+abordagem iterativa é necessária para permitir uma compreensão crescente do problema por meio de sucessivas
+refinamentos e para aumentar gradativamente uma solução eficaz em várias iterações. Durante o processo de desenvolvimento do projeto a equipe efetua refinamentos constantes dos artefatos durante cada sprint, com o objetivo de sempre melhorar a qualidade [5]. 
+
+- **Verificação da qualidade de software**: A qualidade deve ser revista com
+respeito aos requisitos com base na confiabilidade, funcionalidade, desempenho do aplicativo e desempenho do sistema [5]. A aplicação será constantemente vericada para atender os padrões de qualidade definidos pela equipe e usuários, sendo essas verificações por meio de testes manuais e automatizados. 
+
+- **Controlar mudanças no software**: O processo descreve
+como controlar, rastrear e monitorar mudanças para permitir o desenvolvimento iterativo bem-sucedido [5]. O projeto está sujeito a mudanças, sejam elas sutis ou não, e a equipe deve ser capaz de avaliar como mudanças impactarão o projeto e como elas podem ser inseridas no escopo do projeto.
 
 ### Kanban
 
@@ -120,3 +128,4 @@ O Kanban é técnica que propõe a utilização de cartões em um quadro para ac
 | 06/09/20 | 1.1 | Adicionado Metodologia desenvolvimento: Scrum | João Pedro e Moacir Mascarenha |
 | 06/09/20 | 1.2 | Adicionado Metodologia desenvolvimento: Kanban | João Pedro e Moacir Mascarenha |
 | 06/09/20 | 1.3 | Adicionado Metodologia desenvolvimento: XP | João Pedro e Moacir Mascarenha |
+| 06/09/20 | 1.4 | Adicionado Metodologia desenvolvimento: RUP | João Pedro e Moacir Mascarenha |
