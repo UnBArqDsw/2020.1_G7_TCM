@@ -40,26 +40,37 @@ tarefas e responsabilidades dentro de uma organização de desenvolvimento.
 
 ### Scrum
 
-- Product Backlog: O Product Backlog é uma lista contendo todas as funcionalidades desejadas para um produto [1]. O Product Backlog da equipe é baseado nas tarefas exigidas pela disciplina e também nas funcionalidades para a criação da aplicação TCM.
+- **Product Backlog**: O Product Backlog é uma lista contendo todas as funcionalidades desejadas para um produto [1]. O Product Backlog da equipe é baseado nas tarefas exigidas pela disciplina e também nas funcionalidades para a criação da aplicação TCM.
  
-- Sprint Plannig Meeting: Sprint Plannig Meeting é uma reunião no início da sprint para o planejamento das atividades [1]. A equipe se reúne via hangouts no início do Sprint, para definir as atividades que serão executadas durante o Srint priorizando as atividades de acordo com o escopo da disciplina.
+- **Sprint Plannig Meeting**: Sprint Plannig Meeting é uma reunião no início da sprint para o planejamento das atividades [1]. A equipe se reúne via hangouts no início do Sprint, para definir as atividades que serão executadas durante o Srint priorizando as atividades de acordo com o escopo da disciplina.
  
-- Sprint Backlog: O Sprint Backlog é uma lista de tarefas que o Scrum Team se compromete a fazer em um Sprint. Os itens do Sprint Backlog são extraídos do Product Backlog [1]. Durante o Sprint Plannig Meeting a equipe analisa as tarefas a serem feitas do backlog, pendências e assim é definido o Sprint Backlog.
+- **Sprint Backlog**: O Sprint Backlog é uma lista de tarefas que o Scrum Team se compromete a fazer em um Sprint. Os itens do Sprint Backlog são extraídos do Product Backlog [1]. Durante o Sprint Plannig Meeting a equipe analisa as tarefas a serem feitas do backlog, pendências e assim é definido o Sprint Backlog.
  
-- Sprint: O Sprint representa um Time Box dentro do qual atividades devem ser executadas [1]. O Sprint da equipe é um ciclo de uma semana.
+- **Sprint**: O Sprint representa um Time Box dentro do qual atividades devem ser executadas [1]. O Sprint da equipe é um ciclo de uma semana.
  
  
-- Daily Scrum: Daily Scrum é uma breve reunião diária da equipe, durante a sprint [1]. A equipe utiliza um bot no slack para realizar sua daily, onde as 09:00 horas o bot envia as seguintes perguntas para a equipe: No que você fez ontem?, No que você vai trabalhar hoje? e Você teve algum impedimento?
+- **Daily Scrum**: Daily Scrum é uma breve reunião diária da equipe, durante a sprint [1]. A equipe utiliza um bot no slack para realizar sua daily, onde as 09:00 horas o bot envia as seguintes perguntas para a equipe: No que você fez ontem?, No que você vai trabalhar hoje? e Você teve algum impedimento?
  
-- Sprint Review Meeting: Sprint Review Meeting é quando a equipe apresenta as funcionalidades implementadas em uma Sprint [1]. No final de toda Sprint a equipe apresenta em uma reunião via hangouts o que foi entregue do planejado, dívidas, pontos negativos e positivos da sprint.
+- **Sprint Review Meeting**: Sprint Review Meeting é quando a equipe apresenta as funcionalidades implementadas em uma Sprint [1]. No final de toda Sprint a equipe apresenta em uma reunião via hangouts o que foi entregue do planejado, dívidas, pontos negativos e positivos da sprint.
 
-- Sprint Review Meeting: Sprint Review Meeting é quando a equipe apresenta as funcionalidades implementadas em uma Sprint [1]. No final de toda Sprint a equipe apresenta em uma reunião via hangouts o que foi entregue do planejado, dividas, pontos negativos e positivos da sprint.
+- **Sprint Review Meeting**: Sprint Review Meeting é quando a equipe apresenta as funcionalidades implementadas em uma Sprint [1]. No final de toda Sprint a equipe apresenta em uma reunião via hangouts o que foi entregue do planejado, dividas, pontos negativos e positivos da sprint.
 
-### XP
+### XP (Extreme Programming)
 
-<p align = "justify">
+#### Valores:
 
-</p>
+- **Comunicação**: O objetivo é garantir que todas as partes envolvidas em um projeto tenham a chance de se compreender da melhor maneira possível []. A equipe se comunica diariamente pelos os canais de comunicação(Whatsapp, slack, telegram) sobre todos os aspectos  relacionados ao projeto.
+ 
+- **Feedback**: Normalmente, quanto mais cedo descobrimos um problema, menos prejuízos ele pode causar e maiores são as chances de resolvê-lo de forma barata [6]. A equipe busca sempre o feedback dos usuários, avaliadores e os próprios membros da equipe.
+
+#### Práticas: 
+
+- **Programação em pares**: A Extreme Programming sugere que todo e qualquer código produzido no projeto seja sempre implementado por duas pessoas juntas, diante do mesmo computador, revezando-se no teclado[6]. A equipe utiliza a programação em pares como uma forma de verificação, debate e auxílio durante a execução da tarefa.
+
+- **Integração Contínua**: Integração contínua consiste em integrar o trabalho, assegurando que a base de código permaneça consistente ao final de cada integração[6]. A equipe utiliza o gitHub e a cada nova funcionalidade para ser integrada deve passar por critérios de aceitação.
+
+- **Refatoração**: Refatore impiedosamente para manter o design simples à medida que avança e para evitar confusão e complexidade desnecessárias [3]. A refatoração dos artefatos gerados para o projeto deve ser algo constante com o intuito de sempre melhorá-los.
+
 
 ### RUP
 
@@ -71,7 +82,6 @@ tarefas e responsabilidades dentro de uma organização de desenvolvimento.
 
 <p align = "justify">
 O Kanban é técnica que propõe a utilização de cartões em um quadro para acompanhar visualmente o desenvolvimento de um projeto, informando as suas etapas, andamentos e entregas [2]. A equipe utiliza as issues do github como os cartões de tarefas e o plugin ZenHub como quadro vizual para gerenciar as issues(tarefas). O quadro quadro utilizado pela equipe é dividido em quatro partes:
-
 </p>
 
 - **Backlog**: Contém todas as tarefas do projeto. 
@@ -109,3 +119,4 @@ O Kanban é técnica que propõe a utilização de cartões em um quadro para ac
 | 05/09/20 | 1.0 | Criação do documento, introdução e metodologia | João Pedro e Moacir Mascarenha |
 | 06/09/20 | 1.1 | Adicionado Metodologia desenvolvimento: Scrum | João Pedro e Moacir Mascarenha |
 | 06/09/20 | 1.2 | Adicionado Metodologia desenvolvimento: Kanban | João Pedro e Moacir Mascarenha |
+| 06/09/20 | 1.3 | Adicionado Metodologia desenvolvimento: XP | João Pedro e Moacir Mascarenha |
