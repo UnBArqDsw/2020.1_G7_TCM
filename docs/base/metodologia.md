@@ -24,7 +24,7 @@ Scrum é uma metodologia ágil para gestão e planejamento de projetos de softwa
 Extreme Programming (XP) é uma metodologia de desenvolvimento de software, seus objetivos são alcançados através de conjuntos de valores, princípios e práticas, que diferem da forma tradicional de se desenvolver software.
 </p>
 
-- [RUP](https://www.ibm.com/developerworks/rational/library/content/03July/1000/1251/1251_bestpractices_TP026B.pdf?mhsrc=ibmsearch_a&mhq=RUP):<p align = "justify">
+- [RUP (Rational Unified Process)](https://www.ibm.com/developerworks/rational/library/content/03July/1000/1251/1251_bestpractices_TP026B.pdf?mhsrc=ibmsearch_a&mhq=RUP):<p align = "justify">
 O Rational Unified Process é um Processo de Engenharia de Software. Ele fornece uma abordagem disciplinada para atribuir
 tarefas e responsabilidades dentro de uma organização de desenvolvimento.
 <p>
@@ -59,20 +59,20 @@ tarefas e responsabilidades dentro de uma organização de desenvolvimento.
 
 #### Valores:
 
-- **Comunicação**: O objetivo é garantir que todas as partes envolvidas em um projeto tenham a chance de se compreender da melhor maneira possível []. A equipe se comunica diariamente pelos os canais de comunicação(Whatsapp, slack, telegram) sobre todos os aspectos  relacionados ao projeto.
+- **Comunicação**: O objetivo é garantir que todas as partes envolvidas em um projeto tenham a chance de se compreender da melhor maneira possível [6]. A equipe se comunica diariamente pelos os canais de comunicação(Whatsapp, slack, telegram) sobre todos os aspectos  relacionados ao projeto.
  
 - **Feedback**: Normalmente, quanto mais cedo descobrimos um problema, menos prejuízos ele pode causar e maiores são as chances de resolvê-lo de forma barata [6]. A equipe busca sempre o feedback dos usuários, avaliadores e os próprios membros da equipe.
 
 #### Práticas: 
 
-- **Programação em pares**: A Extreme Programming sugere que todo e qualquer código produzido no projeto seja sempre implementado por duas pessoas juntas, diante do mesmo computador, revezando-se no teclado[6]. A equipe utiliza a programação em pares como uma forma de verificação, debate e auxílio durante a execução da tarefa.
+- **Programação em pares**: A Extreme Programming sugere que todo e qualquer código produzido no projeto seja sempre implementado por duas pessoas juntas, diante do mesmo computador, revezando-se no teclado [6]. A equipe utiliza a programação em pares como uma forma de verificação, debate e auxílio durante a execução da tarefa.
 
-- **Integração Contínua**: Integração contínua consiste em integrar o trabalho, assegurando que a base de código permaneça consistente ao final de cada integração[6]. A equipe utiliza o gitHub e a cada nova funcionalidade para ser integrada deve passar por critérios de aceitação.
+- **Integração Contínua**: Integração contínua consiste em integrar o trabalho, assegurando que a base de código permaneça consistente ao final de cada integração [6]. A equipe utiliza o gitHub e a cada nova funcionalidade para ser integrada deve passar por critérios de aceitação.
 
 - **Refatoração**: Refatore impiedosamente para manter o design simples à medida que avança e para evitar confusão e complexidade desnecessárias [3]. A refatoração dos artefatos gerados para o projeto deve ser algo constante com o intuito de sempre melhorá-los.
 
 
-### RUP
+### RUP (Rational Unified Process)
 
 #### Práticas:
 
@@ -84,7 +84,6 @@ refinamentos e para aumentar gradativamente uma solução eficaz em várias iter
 respeito aos requisitos com base na confiabilidade, funcionalidade, desempenho do aplicativo e desempenho do sistema [5]. A aplicação será constantemente vericada para atender os padrões de qualidade definidos pela equipe e usuários, sendo essas verificações por meio de testes manuais e automatizados. 
 
 - **Controlar mudanças no software**: O processo descreve
-como controlar, rastrear e monitorar mudanças para permitir o desenvolvimento iterativo bem-sucedido [5]. O projeto está sujeito a mudanças, sejam elas sutis ou não, e a equipe deve ser capaz de avaliar como mudanças impactarão o projeto e como elas podem ser inseridas no escopo do projeto.
 
 ### Kanban
 
@@ -102,6 +101,8 @@ O Kanban é técnica que propõe a utilização de cartões em um quadro para ac
 ## Conclusão
 
 <p align = "justify">
+
+Com o estudo das metodologias, processos e práticas ágeis foi possível identificar quais aspectos a equipe utiliza no desenvolvimento do projeto, estruturando uma metodologia para o projeto. Satisfazendo os critérios da aplicação e da disciplina.
 
 </p>
 
@@ -128,4 +129,4 @@ O Kanban é técnica que propõe a utilização de cartões em um quadro para ac
 | 06/09/20 | 1.1 | Adicionado Metodologia desenvolvimento: Scrum | João Pedro e Moacir Mascarenha |
 | 06/09/20 | 1.2 | Adicionado Metodologia desenvolvimento: Kanban | João Pedro e Moacir Mascarenha |
 | 06/09/20 | 1.3 | Adicionado Metodologia desenvolvimento: XP | João Pedro e Moacir Mascarenha |
-| 06/09/20 | 1.4 | Adicionado Metodologia desenvolvimento: RUP | João Pedro e Moacir Mascarenha |
+| 06/09/20 | 1.4 | Adicionado Metodologia desenvolvimento: RUP e conclusão | João Pedro e Moacir Mascarenha |
