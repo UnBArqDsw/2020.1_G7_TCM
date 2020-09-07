@@ -25,7 +25,7 @@ Para o desenvolvimento dos Rich Pictures foi definido um pareamento onde os auto
 
 ### 1. Geral
 
-[![Rich Picture Geral](assets/RichPicture/RP_Geral.jpg)](assets/RichPicture/RP_Geral.jpg)
+[![Rich Picture Geral](../assets/RichPicture/RP_Geral.jpg)](../assets/RichPicture/RP_Geral.jpg)
 
 Aqui foi abordado o problema atual dos jogadores de tênis e possíveis soluções que podem ser abordadas no software, como usabilidade satisfatória, estabilidade de servidores e estatísticas.
 

@@ -18,16 +18,9 @@ O Product Backlog é uma lista de tudo que é necessário no produto. O Product 
 
 ## Backlog 
 
-
 ### Versão 1.0
 
-[![Backlog](assets/backlog/product_backlog.jpg)](assets/backlog/product_backlog.jpg)
-
-
-<p align = "justify">
-
-</p>
-
+[![Backlog](../assets/backlog/product_backlog.png)](../assets/backlog/product_backlog.png)
 
 ## Conclusão
 

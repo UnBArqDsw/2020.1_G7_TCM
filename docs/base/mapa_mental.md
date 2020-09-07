@@ -21,12 +21,12 @@ Mapa mental consiste em criar resumos cheios de símbolos, cores, setas e frases
 
 ### Mapa mental 1
 
-[![Mapa mental Geral](assets/Mapas_mentais/Mapa_mental.png)](assets/Mapas_mentais/Mapa_mental.png)
+[![Mapa mental Geral](../assets/Mapas_mentais/Mapa_mental.png)](../assets/Mapas_mentais/Mapa_mental.png)
 
 
 ### Mapa mental 2
 
-[![Mapa mental Brainstorm](assets/Mapas_mentais/mapa_mental_brainstorm.png)](assets/Mapas_mentais/mapa_mental_brainstorm.png)
+[![Mapa mental Brainstorm](../assets/Mapas_mentais/mapa_mental_brainstorm.png)](assets/Mapas_mentais/mapa_mental_brainstorm.png)
 
 ## Conclusão
 
