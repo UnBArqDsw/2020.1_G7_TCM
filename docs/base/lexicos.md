@@ -183,6 +183,54 @@ Neste documento foram compilados alguns termos e palavras corriqueiros ao projet
 
 <br>
 
+### L14 - sistema de ranking
+
+|L14|sistema de ranking|
+|--|--|
+|Classificação|Objeto|
+|Noção|é um sistema de posicionamento de atletas de acordo com a pontuação do atleta na competição|
+|Impacto|O atleta apos vencer a partida terá um acrescimo a sua pontuação e assim aumentara sua posição no ranking|
+[Entrevista](./entrevista.md)|
+|Data|07/09/2020|
+
+<br>
+
+### L15 - Network de atletas
+
+|L15| Network de atletas|
+|--|--|
+|Classificação|Verbo|
+|Noção|Forma do atleta conehecer outros atletas|
+|Impacto|O atleta atraves de torneios pode conhecer outros atletas e assim aumentar sua rede de contatos no esporte|
+[Entrevista](./entrevista.md)|
+|Data|07/09/2020|
+
+<br>
+
+### L16 - Categorizar torneio
+
+|L16| Categorizar torneio|
+|--|--|
+|Classificação|Verbo|
+|Noção|O processo pelo qual o moderador deve reconhecer, diferenciar e classificar os atletas partir do perfil destes |
+|Impacto|O moderador nas regras pode defenir criterios de aprovação de atletas como: idade, experiencia entre outros|
+[Entrevista](./entrevista.md)|
+|Data|07/09/2020|
+
+<br>
+
+### L16 - Categorizar torneio
+
+|L16| Categorizar torneio|
+|--|--|
+|Classificação|Verbo|
+|Noção|O processo pelo qual o moderador deve reconhecer, diferenciar e classificar os atletas partir do perfil destes |
+|Impacto|O moderador nas regras pode defenir criterios de aprovação de atletas como: idade, experiencia entre outros|
+[Entrevista](./entrevista.md)|
+|Data|07/09/2020|
+
+<br>
+
 ## Conclusão
 <p align = "justify">
 Utilizando a técnica do Léxico Ampliado da Linguagem foi possível trazer uma maior clareza para a equipe, pois alguns termos eram usados de forma errada ou confusa. Também é interessante para pessoas de fora do projeto, que poderão ter uma noção dos aspectos importantes e poderão também utilizar os rastros para ver outros documentos.
@@ -200,4 +248,4 @@ Utilizando a técnica do Léxico Ampliado da Linguagem foi possível trazer uma 
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 02/09/20 | 1.0 | Criação do documento | Renan Cristyan | 
-| 07/09/20 | 2.0 | Adicionado lexicos: L10,L11,L12 e L13 | João Pedro| 
+| 07/09/20 | 2.0 | Adicionado lexicos: L10 à L16 | João Pedro | 
