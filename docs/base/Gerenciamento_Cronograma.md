@@ -63,7 +63,8 @@ Com atividades definidas para cada módulo do escopo é possível elaborar um cr
 </p>
 
 #### Cronograma estipulado:
-![Cronograma](./assets/Cronograma/cronograma.png)
+
+![Cronograma](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/assets/Cronograma/cronograma.png)
 
 </p>
 
