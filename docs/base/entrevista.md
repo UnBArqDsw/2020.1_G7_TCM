@@ -10,7 +10,7 @@ A técnica da entrevista Trata-se de uma conversa guiada por um roteiro de pergu
 
 ## Metodologia
 <p align = "justify">
-A Para esta entrevista optamos por seguir um modelo de entrevista fechada onde terá uma série de perguntas pré-definidas para os stakeholders expor informações importantes para o sistema. As questões são formuladas e filtradas, de acordo com o interesse da equipe com o propósito de orientar o entrevistador durante a entrevista .
+Para esta entrevista optamos por seguir um modelo de entrevista aberta, onde terá uma série de perguntas de apoio pré-definidas com finalidade do stakeholders expor informações importantes para o sistema. As questões são formuladas e filtradas, de acordo com o interesse da equipe com o propósito de orientar o entrevistador durante a entrevista. O entrevistador e entrevistado tem liberdade para abordar qualquer assunto relacionado ao sistema durante a entrevista.
 </p>
 
 ### Roteiro
@@ -102,7 +102,7 @@ A Para esta entrevista optamos por seguir um modelo de entrevista fechada onde t
 |ENT13|O moderador pode apagar um torneio antes de seu começo|
 |ENT14|O atleta pode ver último jogos de seu adversário|
 |ENT15|O atleta deve ter acesso a data e local dos próximos jogos|
-|ENT016|O torneio deve ser categorizado de acordo com habilidade e idade do atleta|
+|ENT16|O torneio deve ser categorizado de acordo com habilidade e idade do atleta|
 
 
 ## Conclusão
