@@ -136,6 +136,53 @@ Neste documento foram compilados alguns termos e palavras corriqueiros ao projet
 
 <br>
 
+### L10 - Organização e gerência de torneios
+
+|L10|Organização e gerência de torneios|
+|--|--|
+|Classificação|Verbo|
+|Noção|A função que o moderador deve exercer sobre os torneios de tenis|
+|Impacto|O moderador deve definir regras para o torneio e assim poder ter um melhor gerenciamento durante o torneio|
+|Rastro|[5w2h](./5w2h.md)|
+|Data|07/09/2020|
+
+<br>
+
+### L11 - Torneio Liga (Pontos corridos)
+
+|L11|Torneio Liga (Pontos corridos)|
+|--|--|
+|Classificação|Objeto|
+|Noção|sistema todos os integrantes de um grupo ou tabela se enfrentam obrigatoriamente em até dois turnos|
+|Impacto|Todos os atletas irão se enfrentar e o maior vencedor sera o campeão do torneio|
+|Rastro|[Entrevista](./entrevista.md)|
+|Data|07/09/2020|
+
+<br>
+
+### L12 - Torneio Eliminatorio (Mata-Mata)
+
+|L12|Torneio Eliminatorio (Mata-Mata)|
+|--|--|
+|Classificação|Objeto|
+|Noção|Um sorteio acontece entre os participantes de forma que 2 deles se enfrentem, o vencedor da partida continua no torneio e o perdedor está automaticamente desclassificado|
+|Impacto|Os atletas irão enfrentando os vencedores ate que o atleta que mais vencer as partidas sera o campeão do torneio|
+|Rastro|[Entrevista](./entrevista.md)|
+|Data|07/09/2020|
+
+<br>
+
+### L13 - Torneio Barragem
+
+|L13|Torneio Barragem|
+|--|--|
+|Classificação|Objeto|
+|Noção|A  barragem é composta por jogadores , temporadas , divisões e confrontos. Os jogadores são adicionados pelo administrador, a temporada é o período de tempo em que os confrontos são realizados, a divisão representa o nível de cada grupo de jogadores dentro da barragem, Os confrontos são gerados automaticamente|
+|Impacto|Os atletas deverão ser inseridos pelos moderadores do campeonato e assim sempre poder jogar com atletas de niveis parecido|[Entrevista](./entrevista.md)|
+|Data|07/09/2020|
+
+<br>
+
 ## Conclusão
 <p align = "justify">
 Utilizando a técnica do Léxico Ampliado da Linguagem foi possível trazer uma maior clareza para a equipe, pois alguns termos eram usados de forma errada ou confusa. Também é interessante para pessoas de fora do projeto, que poderão ter uma noção dos aspectos importantes e poderão também utilizar os rastros para ver outros documentos.
@@ -147,7 +194,10 @@ Utilizando a técnica do Léxico Ampliado da Linguagem foi possível trazer uma 
 
 > Léxico Ampliado da Linguagem (Resumo). Disponível em: http://www-di.inf.puc-rio.br/~julio/lal.pdf Acesso em: 02/09/20
 
+> Funcionamento da Barragem de tênis. Disponível em:: http://www.barragemdetenis.com.br/
+
 ## Autor(es)
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 02/09/20 | 1.0 | Criação do documento | Renan Cristyan | 
+| 07/09/20 | 2.0 | Adicionado lexicos: L10,L11,L12 e L13 | João Pedro| 
