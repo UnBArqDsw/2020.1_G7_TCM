@@ -28,8 +28,6 @@ Neste documento foram compilados alguns termos e palavras corriqueiros ao projet
 ## Léxicos
 ### Versão 1.0
  
-<br>
- 
 ### L01 - Criar conta
  
 |L01|Criar conta|
@@ -58,7 +56,7 @@ Neste documento foram compilados alguns termos e palavras corriqueiros ao projet
  
 |L03|Usuário|
 |--|--|
-|Classificação|Sujeito|
+|Classificação|Objeto|
 |Noção|Atletas, esportistas e jogadores de tênis <br> Podem ser profissionais ou casuais|
 |Impacto|Os usuários que irão, de fato, jogar tênis <br> Poderão procurar torneios ou partidas amadoras para participar|
 |Rastro|[BS01](./Brainstorm.md)|
@@ -70,7 +68,7 @@ Neste documento foram compilados alguns termos e palavras corriqueiros ao projet
  
 |L04|Moderador|
 |--|--|
-|Classificação|Sujeito|
+|Classificação|Objeto|
 |Noção|Este é o termo para o usuário que cria e administra torneios <br> Pode também criar partidas casuais <br>|
 |Impacto|O moderador pode criar partidas, torneios, campeonatos e escolher / personalizar as regras <br> É de sua responsabilidade manter os placares e pontuações dos torneios atualizados|
 |Rastro|[BS03](./Brainstorm.md)|
@@ -78,9 +76,9 @@ Neste documento foram compilados alguns termos e palavras corriqueiros ao projet
  
 <br>
  
-### L05 - Partida Amistosa
+### L05 - Partida amistosa
  
-|L05|Partida Amistosa|
+|L05|Partida amistosa|
 |--|--|
 |Classificação|Objeto|
 |Noção|Uma partida divertida de tênis sem compromisso|
@@ -137,9 +135,9 @@ Neste documento foram compilados alguns termos e palavras corriqueiros ao projet
  
 <br>
  
-### L10 - Organização e gerência de torneios
+### L10 - Organizar e gerenciar torneios
  
-|L10|Organização e gerência de torneios|
+|L10|Organizar e gerenciar torneios|
 |--|--|
 |Classificação|Verbo|
 |Noção|A função que o moderador deve exercer sobre os torneios de tênis|
@@ -154,44 +152,45 @@ Neste documento foram compilados alguns termos e palavras corriqueiros ao projet
 |L11|Torneio Liga (Pontos corridos)|
 |--|--|
 |Classificação|Objeto|
-|Noção|sistema todos os integrantes de um grupo ou tabela se enfrentam obrigatoriamente em até dois turnos|
+|Noção|Sistema todos os integrantes de um grupo ou tabela se enfrentam obrigatoriamente em até dois turnos|
 |Impacto|Todos os atletas irão se enfrentar e o maior vencedor será o campeão do torneio|
-|Rastro|[Entrevista](./entrevista.md)|
+|Rastro|[ENT01](./entrevista.md)|
 |Data|07/09/2020|
  
 <br>
  
-### L12 - Torneio Eliminatório (Mata-Mata)
+### L12 - Torneio eliminatório (Mata-Mata)
  
-|L12|Torneio Eliminatório (Mata-Mata)|
+|L12|Torneio eliminatório (Mata-Mata)|
 |--|--|
 |Classificação|Objeto|
 |Noção|Um sorteio acontece entre os participantes de forma que 2 deles se enfrentam, o vencedor da partida continua no torneio e o perdedor está automaticamente desclassificado|
 |Impacto|Os atletas irão enfrentando os vencedores até que o atleta que mais vencer as partidas será o campeão do torneio|
-|Rastro|[Entrevista](./entrevista.md)|
+|Rastro|[ENT02](./entrevista.md)|
 |Data|07/09/2020|
  
 <br>
  
-### L13 - Torneio Barragem
+### L13 - Torneio barragem
  
-|L13|Torneio Barragem|
+|L13|Torneio barragem|
 |--|--|
 |Classificação|Objeto|
-|Noção|A  barragem é composta por jogadores , temporadas , divisões e confrontos. Os jogadores são adicionados pelo administrador, a temporada é o período de tempo em que os confrontos são realizados, a divisão representa o nível de cada grupo de jogadores dentro da barragem, Os confrontos são gerados automaticamente|
-|Impacto|Os atletas deverão ser inseridos pelos moderadores do campeonato e assim sempre poder jogar com atletas de níveis parecido|[Entrevista](./entrevista.md)|
+|Noção|A  barragem é composta por jogadores, temporadas , divisões e confrontos. Os jogadores são adicionados pelo administrador, a temporada é o período de tempo em que os confrontos são realizados, a divisão representa o nível de cada grupo de jogadores dentro da barragem, Os confrontos são gerados automaticamente|
+|Impacto|Os atletas deverão ser inseridos pelos moderadores do campeonato e assim sempre poder jogar com atletas de níveis parecido|
+Rastro|[ENT03](./entrevista.md)|
 |Data|07/09/2020|
  
 <br>
  
-### L14 - sistema de ranking
+### L14 - Sistema de ranking
  
-|L14|sistema de ranking|
+|L14|Sistema de ranking|
 |--|--|
 |Classificação|Objeto|
-|Noção|é um sistema de posicionamento de atletas de acordo com a pontuação do atleta na competição|
+|Noção|É um sistema de posicionamento de atletas de acordo com a pontuação do atleta na competição|
 |Impacto|O atleta após vencer a partida terá um acréscimo a sua pontuação e assim aumentará sua posição no ranking|
-[Entrevista](./entrevista.md)|
+|Rastro|[ENT12](./entrevista.md)|
 |Data|07/09/2020|
  
 <br>
@@ -202,7 +201,7 @@ Neste documento foram compilados alguns termos e palavras corriqueiros ao projet
 |Classificação|Verbo|
 |Noção|Forma do atleta conhecer outros atletas|
 |Impacto|O atleta através de torneios pode conhecer outros atletas e assim aumentar sua rede de contatos no esporte|
-[Entrevista](./entrevista.md)|
+|Rastro|[ENT14](./entrevista.md)|
 |Data|07/09/2020|
 <br>
  
@@ -212,7 +211,7 @@ Neste documento foram compilados alguns termos e palavras corriqueiros ao projet
 |Classificação|Verbo|
 |Noção|O processo pelo qual o moderador deve reconhecer, diferenciar e classificar os atletas partir do perfil destes |
 |Impacto|O moderador nas regras pode definir critérios de aprovação de atletas como: idade, experiência entre outros|
-[Entrevista](./entrevista.md)|
+|Rastro|[ENT16](./entrevista.md)|
 |Data|07/09/2020|
 <br>
  
@@ -221,6 +220,7 @@ Neste documento foram compilados alguns termos e palavras corriqueiros ao projet
 <p align = "justify">
 Utilizando a técnica do Léxico Ampliado da Linguagem foi possível trazer uma maior clareza para a equipe, pois alguns termos eram usados de forma errada ou confusa. Também é interessante para pessoas de fora do projeto, que poderão ter uma noção dos aspectos importantes e poderão também utilizar os rastros para ver outros documentos.
 </p>
+
 ## Referências
  
 > BREITMAN, K. K.; LEITE, J. C. S. P.; FINKELSTEIN, A. The world’s a stage: a survey on requirements engineering using a real life case study”. Journal of the Brazilian Computer Society, vol.6 n.1, Campinas, July, 1999.
@@ -234,4 +234,5 @@ Utilizando a técnica do Léxico Ampliado da Linguagem foi possível trazer uma 
 | -- | -- | -- | -- |
 | 02/09/20 | 1.0 | Criação do documento | Renan Cristyan |
 | 07/09/20 | 2.0 | Adicionado lexicos: L10 à L16 | João Pedro |
-| 08/09/20 | 2.1 | ajustes no documento | João Pedro |
+| 08/09/20 | 2.1 | Ajustes no documento | João Pedro |
+| 08/09/20 | 2.2 | Ajustes no documento | Renan Cristyan |
