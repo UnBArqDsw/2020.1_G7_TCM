@@ -1,21 +1,23 @@
 ---
+
 id: prototipo
 title: Protótipo
+
 ---
 
 ## Introdução
 
 <p align = "justify">
-A construção do protótipo de alta fidelidade auxilia a equipe de desenvolvimento a encontrar um nível de detalhes abrangentes, extrair funcionalidades, testar usabilidade, e também fornece uma base para o gerenciamento do projeto pois com o protótipo é possivel realizar estimativas de quanto tempo será necessário desempenhar em cada funcionalidade.
+A construção do protótipo de alta fidelidade auxilia a equipe de desenvolvimento a encontrar um nível de detalhes abrangentes, extrair funcionalidades, testar usabilidade, e também fornece uma base para o gerenciamento do projeto pois com o protótipo é possível realizar estimativas de quanto tempo será necessário desempenhar em cada funcionalidade.
 </p>
 
 ## Metodologia
 
 <p align = "justify">
-Iniciamos o projeto através dos levantamentos iniciais da equipe, após discussões a ferramenta Figma foi selecionada para produzir o protótipo de alta fidelidade com auxilio do Material Design Color Tool. 
+Iniciamos o projeto através dos levantamentos iniciais da equipe, após discussões a ferramenta Figma foi selecionada para produzir o protótipo de alta fidelidade com auxílio do Material Design Color Tool. 
 </p>
 
-## Prototipo alta fidelidade
+## Protótipo de alta fidelidade
 
 ### Versão 1.0
 
@@ -87,5 +89,5 @@ A partir da elaboração do protótipo foi possível ter uma noção inicial da 
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 07/09/20 | 1.0 | Criação do documento | Lucas Alexandre, Matheus Estanislau  | 
-| 07/09/20 | 2.0 | Adicionado as imagens do prótotipo | Lucas Alexandre, Matheus Estanislau  | 
+| 07/09/20 | 2.0 | Adicionado as imagens do protótipo | Lucas Alexandre, Matheus Estanislau  | 
 | 07/09/20 | 3.0 | Adicionado conclusão e referências  | Lucas Alexandre, Matheus Estanislau  | 
