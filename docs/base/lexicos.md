@@ -56,7 +56,7 @@ Neste documento foram compilados alguns termos e palavras corriqueiros ao projet
  
 |L03|Usuário|
 |--|--|
-|Classificação|Objeto|
+|Classificação|Sujeito|
 |Noção|Atletas, esportistas e jogadores de tênis <br> Podem ser profissionais ou casuais|
 |Impacto|Os usuários que irão, de fato, jogar tênis <br> Poderão procurar torneios ou partidas amadoras para participar|
 |Rastro|[BS01](./Brainstorm.md)|
@@ -68,7 +68,7 @@ Neste documento foram compilados alguns termos e palavras corriqueiros ao projet
  
 |L04|Moderador|
 |--|--|
-|Classificação|Objeto|
+|Classificação|Sujeito|
 |Noção|Este é o termo para o usuário que cria e administra torneios <br> Pode também criar partidas casuais <br>|
 |Impacto|O moderador pode criar partidas, torneios, campeonatos e escolher / personalizar as regras <br> É de sua responsabilidade manter os placares e pontuações dos torneios atualizados|
 |Rastro|[BS03](./Brainstorm.md)|
