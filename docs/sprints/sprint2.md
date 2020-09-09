@@ -33,7 +33,7 @@
 - Diagrama causa e efeito
 
 
-### Riscos Enontrados
+### Riscos Encontrados
 
 - Entrega de outras matérias no período a sprint [R07](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/plano_de_gerencia_de_risco.md).
 

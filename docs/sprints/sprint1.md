@@ -15,15 +15,15 @@
 | Estudar e escolher as metodologias.| Todos|
 | [Documento de visão](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/documento_de_visao.md) |João e Renan|
 | Elaborar [5w2H](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/5w2h.md).| Moacir|
-| [Rich Pictures](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/rich_picture.md)| Renan e Cristo|
-| [Mapas Mentais](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/mapa_mental.md) |Alexandre|
+| [Rich Pictures](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/rich_picture.md)| Renan e Matheus|
+| [Mapas Mentais](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/mapa_mental.md) |Lucas|
 | [Causa Efeito](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/causa_e_efeito.md) |Moacir e Renan|
 | Plano de Gerenciamento de [Riscos](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/plano_de_gerencia_de_risco.md).|Todos|
-| [Plano de Custos](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/plano_de_gerenciamento_de_custo.md) |Alexandre e Cristo|
+| [Plano de Custos](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/plano_de_gerenciamento_de_custo.md) |Lucas e Matheus|
 | [Plano de Tempo](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/Gerenciamento_Cronograma.md) |Moacir e João|
 |[Brainstorming](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/Brainstorm.md) |Todos|
 |[Entrevistas](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/entrevista.md) |João|
-|[Prototipação.](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/prototipo_alta_fidelidade.md) |Cristo e Alexandre|
+|[Prototipação.](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/prototipo_alta_fidelidade.md) |Matheus e Lucas|
 |[Observação](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/base/observacao.md) |Renan e Moacir|
 
 ## Sprint Retrospective/Review Meeting
@@ -36,7 +36,7 @@
 - Entrevista
 - Estudar metodologia
 
-### Riscos Enontrados
+### Riscos Encontrados
 
 - Nenhum: Plano de gerenciamento de riscos não implementado.
 
