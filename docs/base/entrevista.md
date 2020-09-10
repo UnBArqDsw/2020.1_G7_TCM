@@ -100,7 +100,7 @@ Para esta entrevista optamos por seguir um modelo de entrevista aberta, onde ter
 |ENT11|O atleta deve receber notificações sobre o torneio em que participa|
 |ENT12|O atleta deve ter acesso a informações de seus torneios ativos e inativos|
 |ENT13|O moderador pode apagar um torneio antes de seu começo|
-|ENT14|O atleta pode ver último jogos de seu adversário|
+|ENT14|O atleta pode visualizar as informações dos últimos jogos de seu adversário|
 |ENT15|O atleta deve ter acesso a data e local dos próximos jogos|
 |ENT16|O torneio deve ser categorizado de acordo com habilidade e idade do atleta|
 

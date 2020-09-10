@@ -21,7 +21,7 @@ Aspectos considerados:
 
 Tarefas analisadas:
 - Criar torneio
-- ntanaEditar torneio
+- Editar torneio
 - Ver informações do torneio
 
 </p>
@@ -83,13 +83,13 @@ Tarefas analisadas:
 
 |ID|Descrição|
 |--|--|
-|OBS01|O gerenciador deve poder os tipos de torneio|
-|OBS02|O gerenciador deve poder personalizar suas próprias regras de torneio|
+|OBS01|O gerenciador deve escolher os tipos de torneio|
+|OBS02|O gerenciador deve personalizar suas próprias regras de torneio|
 |OBS03|Os jogadores devem solicitar para entrar em torneios|
 |OBS04|O gerenciador do torneio deve ter uma lista de todas as solicitações de jogadores para entrar no torneio|
 |OBS05|O gerenciador do torneio deve poder aceitar ou recusar solicitação de jogadores para entrar|
 |OBS06|O gerenciador do torneio deve poder aceitar todos as solicitações com apenas 1 clique|
-|OBS07|O gerenciador deve poder adicionar dados (placar, status da partida, etc) de uma partida de maneira simples e rápida|
+|OBS07|O gerenciador deve adicionar dados (placar, status da partida, etc) de uma partida de maneira simples e rápida|
 |OBS08|O gerenciador deve ter a opção de digitar o placar final|
 |OBS09|A interface deve conter ícones, botões e descrições claros, intuitivos e objetivos|
 |OBS10|Os dados (não sensiveis) do campeonato devem poder ser vistos por todos os usuários (gerenciadores, jogadores e não-participantes)|

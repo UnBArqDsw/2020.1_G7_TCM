@@ -132,7 +132,7 @@ A equipe se reuniu para debater ideias gerais sobre o projeto via hangouts, come
 |BS18| O usuário pode editar informações pessoais do perfil |
 |BS19| O usuário pode visualizar informações de torneios que já participou |
 |BS20| O usuário deverá receber notificações de suas proximas partidas |
-|BS20| O usuário pode visualizar informações de seus possiveis adversarios|
+|BS21| O usuário pode visualizar informações de seus possiveis adversarios|
 
 ## Conclusão
 <p align = "justify">
