@@ -22,6 +22,9 @@ Para a criação do backlog, fizemos um pequeno brainstorming entre os autores e
 
 [![Backlog](../assets/backlog/product_backlog.png)](../assets/backlog/product_backlog.png)
 
+### Versão 2.0
+
+[![Backlog versão 2](../assets/backlog/product_backlog2.png)](../assets/backlog/product_backlog2.png)
 
 
 ## Histórias de Usuário
@@ -95,3 +98,4 @@ O product backlog é uma ferramenta fundamental para reunir as atividades a sere
 | 07/09/20 | 1.1 | Adição de metodologia, conclusão e referências | Lucas Alexandre, Matheus Estanislau e Renan Cristyan | 
 |09/09/20 | 1.2| Criação da tabela de histórias de usuário e rastros| João Pedro, Lucas Alexandre e Moacir Mascarenha|
 |10/09/20 | 1.3 | Criação de novas histórias de usuário | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan |
+|10/09/20 | 2.0 | Adição do backlog versão 2 | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan |
