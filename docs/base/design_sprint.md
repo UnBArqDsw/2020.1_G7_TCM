@@ -11,7 +11,7 @@ A design sprint é um processo de design focado em cinco dias, onde o grupo se r
 
 ## Metodologia
 <p align = "justify">
-Com o escopo do projeto definido, a design sprint foi iniciada na segunda sprint do projeto. O processo demandou cinco dias onde cada dia um tópico foi abordado: 
+Com o escopo do projeto definido, a design sprint foi iniciada na segunda sprint do projeto. O processo demandou cinco dias onde cada dia um tópico foi abordado: A design sprint da equipe foi adaptada, por escolha da equipe.
 </p>
 
 - Dia 1 (Unpack): Externalizar todo o conhecimento sobre a ideia inicial do projeto.
