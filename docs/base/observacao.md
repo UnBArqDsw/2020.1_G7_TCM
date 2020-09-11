@@ -29,7 +29,10 @@ Tarefas analisadas:
 ## Avaliação de aplicações
 ### Versão 1.0
 ### Aplicativos observados:
-- Gerenciador de Torneio (by braubrau)
+- [Gerenciador de Torneio (by braubrau)](https://play.google.com/store/apps/details?id=rockets.thetournamentmanager&hl=pt_BR)
+
+![Telas 1](../assets/Observacao/img1-app1.png)
+![Telas 2](../assets/Observacao/img2-app1.png)
 
 #### Avaliação 1 (Gerenciador de Torneio):
 
@@ -47,7 +50,7 @@ Tarefas analisadas:
     - Análise:
         - Facilidade de uso:</br>
         A tarefa foi facilmente realizada, porém alguns aspectos poderiam ser melhores. Por exemplo, a forma de inserir jogadores (passo 3) é muito ineficiente, sendo necessário clicar uma vez por jogador, sendo um problema caso necessário adicionar muitos jogadores.<br>
-        - Eficiência:</br> A tarefa é realizada rapidamente para poucos jogadores, mas ao aumentar o número de jogadores, o tempo para se inserir o nome de todos os jogadores (passo 5) se torna muito grande, então a eficiência da tarefa foi satisfatória para campeonatos pequenos, mas mediana para campeonatos pequenos.</br>
+        - Eficiência:</br> A tarefa é realizada rapidamente para poucos jogadores, mas ao aumentar o número de jogadores, o tempo para se inserir o nome de todos os jogadores (passo 5) se torna muito grande, então a eficiência da tarefa foi satisfatória para campeonatos pequenos, mas mediana para campeonatos grandes.</br>
         - Corretude:</br> A tarefa fez exatamente o que deveria e o que foi esperado pelo usuário, então sua corretude é satisfatória.</br>
 
 - Adicionar dados de partida:
@@ -107,7 +110,10 @@ A técnica de observação é uma poderosa ferramenta para elicitar requisitos e
 
 > TIPOS DE OBSERVAÇÃO SEGUNDO CRITÉRIOS ESPECÍFICOS,  disponivel em: https://monografias.brasilescola.uol.com.br/regras-abnt/tipos-observacao-segundo-criterios-especificos.htm
 
+> Gerenciador de Torneio, disponivel em: https://play.google.com/store/apps/details?id=rockets.thetournamentmanager&hl=pt_BR
+
 ## Autor(es)
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 30/08/20 | 1.0 | Criação do documento | Moacir Mascarenha e Renan Cristyan | 
+| 30/08/20 | 1.0 | Criação do documento | Moacir Mascarenha e Renan Cristyan |
+| 11/09/20 | 1.1 | Correções e adição das imagens e referências do aplicativo gerenciador de torneio | Moacir Mascarenha | 
