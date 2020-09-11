@@ -38,7 +38,12 @@ Figura 1. [Exemplo de Diagrama de Ishikawa](https://blogdaqualidade.com.br/diagr
 
 ### Pouca utilização do aplicativo
 
-[![Atraso na entrega](../assets/Causa_efeito/diagrama3.jpeg)](../assets/Causa_efeito/diagrama3.jpeg)
+[![Pouca utilização do aplicativo](../assets/Causa_efeito/diagrama3.jpeg)](../assets/Causa_efeito/diagrama3.jpeg)
+
+### Gerenciamento ruim da rede
+
+[![Gerenciamento ruim da rede](../assets/Causa_efeito/diagrama4.png)](../assets/Causa_efeito/diagrama3.png)
+
 
 ## Conclusão
 
@@ -58,3 +63,4 @@ O uso do diagrama possibilita identificar problemas e suas principais causas, au
 | 25/08/20 | 1.0 | Criação do documento | Moacir Mascarenha e Renan Cristyan |
 | 26/08/20 | 1.1 | Adição da metodologia | Moacir Mascarenha e Renan Cristyan | 
 | 11/09/20 | 1.2 | Adição do diagrama de pouca utilização do aplicativo | Matheus Estanislau e Renan Cristyan |
+| 11/09/20 | 1.3 | Adição do diagrama de gerenciamento ruim da rede | Matheus Estanislau e Renan Cristyan |
