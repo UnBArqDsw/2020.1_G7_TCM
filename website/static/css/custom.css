@@ -169,40 +169,11 @@
 }
 
 @media only screen and (max-width: 1023px) {
-  .techs-container{
-    flex-direction: row;
-  }
-  .card{
-    margin: 20px 20px;
-  }
-  .card-u {
-    border-radius: 15px;
-    margin: 20px 20px;
-  }  
+  
 }
 
 @media only screen and (min-width: 1400px) {
-  .techs-container{
-    flex-direction: row;
-  }
-  .card{
-    margin: 20px 20px;
-  }
-  .card-u {
-    border-radius: 15px;
-    margin: 20px 20px;
-  }  
 }
 
 @media only screen and (min-width: 1500px) {
-  .techs-container{
-    flex-direction: row;
-  }
-  .card{
-    margin: 20px 20px;
-  }
-  .card-u {
-    border-radius: 15px;
-    margin: 20px 20px;
-  }  
 }
