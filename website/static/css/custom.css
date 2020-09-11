@@ -6,95 +6,147 @@
  */
 
 /* your custom css */
+
+.land {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background: linear-gradient(180deg, rgba(86, 198, 11, 0.9) 1.04%, rgba(81, 204, 164, 0.9) 63.02%);
+}
+
+.land p {
+  font-size: 1.2rem;
+}
+
 .container {
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .title {
-  font-family: 'Nunito';
+  font-family: 'Roboto';
   text-align: center;
 }
 
 .about h2 {
-  font-family: 'Nunito';
+  font-family: 'Roboto';
   text-align: center;
 }
 
 .about p {
-  font-family: 'Nunito';
+  font-family: 'Roboto';
   text-align: justify;
 }
 
 .techs h2 {
-  font-family: 'Nunito';
+  font-family: 'Roboto';
   text-align: center;
 }
 
 .techs p {
-  font-family: 'Nunito';
+  font-family: 'Roboto';
   text-align: justify;
 }
 
 .team h2 {
-  font-family: 'Nunito';
+  font-family: 'Roboto';
   text-align: center;
 }
 
-.techs-card{
-  box-shadow: 3px 2px 12px -2px rgba(0,0,0,0.75);
-  border-radius: 20px 0px;
+.techs-container {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  margin-top: 20px;
-  padding: 10px;
-  background-color: rgb(64, 65, 64);
-  color: white;
-  font-family: 'Nunito';
-  font-weight: bold;
-}
-
-.tech-content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  text-align: center;
-}
-
-.techs-card img {
-  align-self: center;
-  width: 160px;
-  height: 160px;
-  border-radius: 5px;
-  margin-bottom: 20px;
-  font-weight: bold;
 }
 
 .card {
-  box-shadow: 3px 2px 12px -2px rgba(0,0,0,0.75);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-  padding: 10px;
-  border-radius: 20px 0px;
-  background-color: rgb(65, 64, 64);
-  color: white;
-  font-family: 'Nunito';
-  font-weight: bold;
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 210px 200px ;
+  grid-template-areas: "image" "text";
+  font-family: 'Roboto';
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin-top: 40px;
 }
 
-.card:last-child {
-  margin-bottom: 20px;
+
+
+.card-u {
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 190px 150px 80px;
+  grid-template-areas: "image" "text" "github";
+  font-family: 'Roboto';
+  border-radius: 18px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+  text-align: center;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin-top: 200px;
 }
 
-.card img {
-  border-radius: 100%;
-  width: 200px;
-  margin-bottom: 20px;
-  font-weight: bold;
+.card-image img{
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.github {
+  grid-area: github;
+}
+
+.github img {
+  width: 60px;
+  height: 60px;
+}
+
+.card-u{
+  margin: 20px 0px;
+}
+
+.card-user img{
+  width: 100%;
+  height: 210px;
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-text {
+  grid-area: text;
+  margin: 25px;
+}
+
+.card-text p {
+  color: grey;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.card-text h2 {
+  margin-top: 0px;
+  font-size: 28px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+.card-u:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
 }
 
 
@@ -104,44 +156,53 @@
 
 
 @media only screen and (min-width: 1024px) {
-  .card-container {
-    display: flex;
+  .techs-container{
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
   }
-
-  .card {
-    margin-left: 0.5%;
-    margin-right: 0.5%;
+  .card{
+    margin: 20px 20px;
   }
-  .card:last-child {
-    margin-bottom: 0px;
-  }
-
-  .techs-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-
-  .techs-card {
-    margin-left: 0.5%;
-    margin-right: 0.5%;
-    width: 300px;
-    height: 400px;
-  }
-  
+  .card-u {
+    border-radius: 15px;
+    margin: 20px 20px;
+  }  
 }
 
 @media only screen and (max-width: 1023px) {
+  .techs-container{
+    flex-direction: row;
+  }
+  .card{
+    margin: 20px 20px;
+  }
+  .card-u {
+    border-radius: 15px;
+    margin: 20px 20px;
+  }  
 }
 
 @media only screen and (min-width: 1400px) {
+  .techs-container{
+    flex-direction: row;
+  }
+  .card{
+    margin: 20px 20px;
+  }
+  .card-u {
+    border-radius: 15px;
+    margin: 20px 20px;
+  }  
 }
 
 @media only screen and (min-width: 1500px) {
+  .techs-container{
+    flex-direction: row;
+  }
+  .card{
+    margin: 20px 20px;
+  }
+  .card-u {
+    border-radius: 15px;
+    margin: 20px 20px;
+  }  
 }

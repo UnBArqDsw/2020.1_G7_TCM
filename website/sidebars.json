@@ -1,28 +1,35 @@
 {
   "docs": {
-    "1 Desenho de Software (Base)": [
+    "Base": [
+      "base/documento_de_visao",
+      "base/gerencia_de_custos",
       {
         "type": "subcategory",
-        "label": "1.1 Módulo Projeto Não Orientado a Abordagens Específicas",
+        "label": "Pré-Rastreabilidade",
         "ids": [
-          "base/documento_de_visao",
-          "base/brainstorm", 
-          "base/gerencia_riscos", 
-          "base/gerencia_de_custos", 
           "base/rich_picture",
+          "base/gerencia_riscos",
           "base/5w2h",
-          "base/design_sprint",
-          "base/entrevista",
           "base/obs",
           "base/mapa_mental",
           "base/lexicos",
-          "base/gerenciamento_cronograma",
-          "base/personas"
+          "base/gerenciamento_cronograma"
         ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Elicitação",
+        "ids": ["base/brainstorm", "base/entrevista", "base/personas"]
       }
     ],
-    "Modelagem": [],
-    "Padrões de Projeto": [],
-    "Aquitetura de software e reutilização": []
+    "Modelagem": [
+      "modelagem/index"
+    ],
+    "Padrões de Projeto": [
+      "padroesProjeto/index"
+    ],
+    "Aquitetura de software e reutilização": [
+      "reutilizacao/index"
+    ]
   }
 }

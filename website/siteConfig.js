@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Grupo 7', // Title for your website.
-  tagline: 'Seu organizador de torneios de Tênis',
+  title: 'TCM', // Title for your website.
+  tagline: 'Seu gerenciador de torneios de Tênis favorito',
   url: 'https://unbarqdsw.github.io/2020.1_G7_TCM/', // Your website URL
   baseUrl: '/2020.1_G7_TCM/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -39,7 +39,10 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'base/documento_de_visao', label: 'Documentação'},
+    {doc: 'base/documento_de_visao', label: 'Base'},
+    {doc: 'modelagem/index', label: 'Modelagem'},
+    {doc: 'padroesProjeto/index', label: 'Padrões de Projeto'},
+    {doc: 'reutilizacao/index', label: 'Arquitetura e Reutilização'}
   ],
 
   // If you have users set above, you add it here:
@@ -52,8 +55,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#388E3C',
-    secondaryColor: '#667a34',
+    primaryColor: '#1B5E20',
+    secondaryColor: '#51CCA4',
   },
 
   /* Custom fonts for website
@@ -70,7 +73,7 @@ const siteConfig = {
 */
 
 stylesheets: [
-  "https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap"
+  "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
 ],
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
