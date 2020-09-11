@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0">
     <channel>
-        <title>Grupo 7 Blog</title>
+        <title>TCM Blog</title>
         <link>https://unbarqdsw.github.io/2020.1_G7_TCM//2020.1_G7_TCM/blog</link>
-        <description>The best place to stay up-to-date with the latest Grupo 7 news and events.</description>
+        <description>The best place to stay up-to-date with the latest TCM news and events.</description>
         <lastBuildDate>Tue, 24 Oct 2017 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
-            <title>Grupo 7 Blog</title>
+            <title>TCM Blog</title>
             <url>https://unbarqdsw.github.io/2020.1_G7_TCM//2020.1_G7_TCM/img/favicon.ico</url>
             <link>https://unbarqdsw.github.io/2020.1_G7_TCM//2020.1_G7_TCM/blog</link>
         </image>
