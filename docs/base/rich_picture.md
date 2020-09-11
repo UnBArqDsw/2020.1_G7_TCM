@@ -22,19 +22,28 @@ Para o desenvolvimento dos Rich Pictures foi definido um pareamento onde os auto
 </p>
 
 ## Rich Pictures
-
+### Versão 1
 ### 1. Geral
 
 [![Rich Picture Geral](../assets/RichPicture/RP_Geral.jpg)](../assets/RichPicture/RP_Geral.jpg)
 
 Aqui foi abordado o problema atual dos jogadores de tênis e possíveis soluções que podem ser abordadas no software, como usabilidade satisfatória, estabilidade de servidores e estatísticas.
 
+### Versão 2
+
+### 2. Geral
+[![Rich Picture Geral 2](../assets/RichPicture/rich-picture2.png)](../assets/RichPicture/rich-picture2.png)
+
+
+
 ## Referências
 
-> Better Evaluation. Rich Pictures. Disponível em https://www.betterevaluation.org/en/evaluation-options/richpictures Acesso em 28/08/20
+> Better Evaluation. Rich Pictures. Disponível em https://www.betterevaluation.org/en/evaluation-options/richpictures Acesso em 28/08/20.
 
+> Draw.io. Disponível em: https://app.diagrams.net/
 ## Versionamento
 
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 28/08/20 | 1.0 | Criação do documento | Matheus Estanislau e Renan Cristyan |
+| 11/09/20 | 2.0 | Adicionada versão 2 do rich-picture geral | Moacir Mascarenha |
