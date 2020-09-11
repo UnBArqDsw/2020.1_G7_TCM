@@ -8,8 +8,7 @@ O diagrama de Causa e Efeito, também conhecido como Diagrama de Ishikawa ou Dia
 
 ## Metodologia
 
- Com a identificação de problemas para o projeto e equipe é possivel elaborar os diagramas de causa e efeito, utilizando a ferramenta [lucidchart](www.lucidchart.com), baseados nos 6Ms de Ishikawa, sendo eles:
-
+Com a identificação de problemas para o projeto e equipe é possivel elaborar os diagramas de causa e efeito, utilizando a ferramenta [lucidchart](www.lucidchart.com), baseados nos 6Ms de Ishikawa, sendo eles:
 
 - Método
 - Máquina
@@ -18,12 +17,12 @@ O diagrama de Causa e Efeito, também conhecido como Diagrama de Ishikawa ou Dia
 - Material
 - Mão de obra 
 
-	Ao final da construção do diagrama e de sua análise, deverá ser possível pensar em maneiras de se evitar o problema principal.
-    #### Exemplo:
-    [![Atraso na entrega](../assets/Causa_efeito/diagrama_exemplo.jpg)](.../assets/Causa_efeito/diagrama_exemplo.jpg)
+Ao final da construção do diagrama e de sua análise, deverá ser possível pensar em maneiras de se evitar o problema principal.
 
+### Exemplo:
+[![Atraso na entrega](../assets/Causa_efeito/diagrama_exemplo.jpg)](.../assets/Causa_efeito/diagrama_exemplo.jpg)
 
-    Figura 1. [Exemplo de Diagrama de Ishikawa](https://blogdaqualidade.com.br/diagrama-de-ishikawa/)
+Figura 1. [Exemplo de Diagrama de Ishikawa](https://blogdaqualidade.com.br/diagrama-de-ishikawa/)
 
 ## Diagramas
 
@@ -35,12 +34,16 @@ O diagrama de Causa e Efeito, também conhecido como Diagrama de Ishikawa ou Dia
 
 ### Baixa produtividade da equipe
 
-[![Atraso na entrega](../assets/Causa_efeito/diagrama2.png)](../assets/Causa_efeito/diagrama2.png)
+[![Baixa produtividade da equipe](../assets/Causa_efeito/diagrama2.png)](../assets/Causa_efeito/diagrama2.png)
+
+### Pouca utilização do aplicativo
+
+[![Atraso na entrega](../assets/Causa_efeito/diagrama3.jpeg)](../assets/Causa_efeito/diagrama3.jpeg)
 
 ## Conclusão
 
 <p align=justify"">
-    O uso do diagrama possibilita identificar problemas e suas principais causas, auxiliando na identificação e solução dos problemas mais simples aos mais complexos. Além disso o diagrama é uma ferramenta importante para a gestão da qualidade.
+O uso do diagrama possibilita identificar problemas e suas principais causas, auxiliando na identificação e solução dos problemas mais simples aos mais complexos. Além disso o diagrama é uma ferramenta importante para a gestão da qualidade.
 </p>
 
 ## Referências
@@ -54,3 +57,4 @@ O diagrama de Causa e Efeito, também conhecido como Diagrama de Ishikawa ou Dia
 | -- | -- | -- | -- |
 | 25/08/20 | 1.0 | Criação do documento | Moacir Mascarenha e Renan Cristyan |
 | 26/08/20 | 1.1 | Adição da metodologia | Moacir Mascarenha e Renan Cristyan | 
+| 11/09/20 | 1.2 | Adição do diagrama de pouca utilização do aplicativo | Matheus Estanislau e Renan Cristyan |
