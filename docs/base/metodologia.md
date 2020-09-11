@@ -46,11 +46,18 @@ tarefas e responsabilidades dentro de uma organização de desenvolvimento.
  
 - **Sprint Backlog**: O Sprint Backlog é uma lista de tarefas que o Scrum Team se compromete a fazer em um Sprint. Os itens do Sprint Backlog são extraídos do Product Backlog [1]. Durante o Sprint Plannig Meeting a equipe analisa as tarefas a serem feitas do backlog, pendências e assim é definido o Sprint Backlog.
  
-- **Sprint**: O Sprint representa um Time Box dentro do qual atividades devem ser executadas [1]. O Sprint da equipe é um ciclo de uma semana.
+- **Sprint**: O Sprint representa um Time Box dentro do qual atividades devem ser executadas [1]. O Sprint da equipe é um ciclo de uma semana, sendo:
+
+    - Início da Sprint: Segunda-feira
+    - Fim da Sprint: Domingo
  
 - **Daily Scrum**: Daily Scrum é uma breve reunião diária da equipe, durante a sprint [1]. A equipe utiliza um bot no slack para realizar sua daily, onde as 09:00 horas o bot envia as seguintes perguntas para a equipe: No que você fez ontem? No que você vai trabalhar hoje? e Você teve algum impedimento?
  
 - **Sprint Review Meeting**: Sprint Review Meeting é quando a equipe apresenta as funcionalidades implementadas em uma Sprint [1]. No final de toda Sprint a equipe apresenta em uma reunião via hangouts o que foi entregue do planejado, dívidas, pontos negativos e positivos da sprint.
+
+- **Scrum master**: O Scrum Master procura assegurar que a equipe respeite e siga os valores e as práticas do Scrum. Ele também protege a equipe assegurando que ela não se comprometa excessivamente com relação àquilo que é capaz de realizar durante um Sprint [1]. O scrum master é definido pela equipe através de um rodizio dos integrantes, realizado no inicio de toda Sprint.
+
+- **Sprint Retrospective**: O Sprint Retrospective ocorre ao final de um Sprint e serve para identificar o que funcionou bem, o que pode ser melhorado e que ações serão tomadas para melhorar [1]. Ao final da Sprint Review Meeting acontece um debate entre os participantes onde a equipe é perguntada sobre os pontos que podem ser melhorados para a próxima sprint.
 
 ### XP (Extreme Programming)
 
@@ -80,7 +87,6 @@ refinamentos e para aumentar gradativamente uma solução eficaz em várias iter
 - **Verificação da qualidade de software**: A qualidade deve ser revista com
 respeito aos requisitos com base na confiabilidade, funcionalidade, e desempenho [5]. A aplicação será constantemente vericada para atender os padrões de qualidade definidos pela equipe e usuários, sendo essas verificações por meio de testes manuais e automatizados. 
 
-<!-- - **Controlar mudanças no software**: O processo descreve -->
 
 ### Kanban
 
@@ -128,3 +134,4 @@ Com o estudo das metodologias, processos e práticas ágeis, foi possível ident
 | 06/09/20 | 1.3 | Adicionado Metodologia desenvolvimento: XP | João Pedro e Moacir Mascarenha |
 | 06/09/20 | 1.4 | Adicionado Metodologia desenvolvimento: RUP e conclusão | João Pedro e Moacir Mascarenha |
 | 09/09/20 | 1.5 | Revisão do documento | Renan Cristyan |
+| 09/09/20 | 1.6 | Ajuste no topico Scrum | João Pedro, Matheus Estanislau |
