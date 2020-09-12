@@ -8,7 +8,7 @@ O diagrama de Causa e Efeito, também conhecido como Diagrama de Ishikawa ou Dia
 
 ## Metodologia
 
-Com a identificação de problemas para o projeto e equipe é possivel elaborar os diagramas de causa e efeito, utilizando a ferramenta [lucidchart](www.lucidchart.com), baseados nos 6Ms de Ishikawa, sendo eles:
+Com a identificação de problemas para o projeto e equipe é possível elaborar os diagramas de causa e efeito, utilizando a ferramenta [lucidchart](www.lucidchart.com), baseados nos 6Ms de Ishikawa, sendo eles:
 
 - Método
 - Máquina
@@ -47,7 +47,7 @@ Figura 1. [Exemplo de Diagrama de Ishikawa](https://blogdaqualidade.com.br/diagr
 
 ## Conclusão
 
-<p align=justify"">
+<p align="justify">
 O uso do diagrama possibilita identificar problemas e suas principais causas, auxiliando na identificação e solução dos problemas mais simples aos mais complexos. Além disso o diagrama é uma ferramenta importante para a gestão da qualidade.
 </p>
 

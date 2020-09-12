@@ -1,18 +1,18 @@
 ---
-id: Diagrama da metodologia
 title: Diagrama da metodologia
+id: diagrama_da_metodologia
 ---
 
 
 ## Introdução
 
 <p align = "justify">
-O diagrama BPMN tem o objetivo de criar um padrão, uma linguagem comum para modelagem de processos da metologia da equipe, permitindo melhor ilustração e comunicação de todo processo
+O diagrama BPMN tem o objetivo de criar um padrão, uma linguagem comum para modelagem de processos da metodologia da equipe, permitindo melhor ilustração e comunicação de todo processo
 </p>
 
 ## Metodologia
 
-O diagrama BPMN foi modelado de acordo com os [processos metodologicos](./metodologia.md) definidos pela equipe . A equipe utilizou o template de BPMN do lucidchart para elaboração do diagrama metodológico.
+O diagrama BPMN foi modelado de acordo com os [processos metodológicos](./metodologia.md) definidos pela equipe . A equipe utilizou o template de BPMN do lucidchart para elaboração do diagrama metodológico.
 
 
 

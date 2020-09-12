@@ -4,11 +4,13 @@ title: Gerenciamento do cronograma do projeto
 ---
 
 ## Introdução
+
 <p align = "justify">
-      Segundo o Guia PMBOK®, o gerenciamento do cronograma do projeto inclui os processos necessários para gerenciar o término pontual do projeto.O gerenciamento do cronograma aborda os processos de planejar o gerenciamento do cronograma, definir as atividades, sequenciar as atividades, estimar a duração das atividades, desenvolver o cronograma, controlar o cronograma. [1]
+      Segundo o Guia PMBOK®, o gerenciamento do cronograma do projeto inclui os processos necessários para gerenciar o término pontual do projeto. O gerenciamento do cronograma aborda os processos de planejar o gerenciamento do cronograma, definir as atividades, sequenciar as atividades, estimar a duração das atividades, desenvolver o cronograma, controlar o cronograma. [1]
 </p>
 
 ## Metodologia
+
 <p align = "justify">
     O documento será dividido em tópicos que representam os processos de gerenciamento do cronograma  para o projeto.
 </p>
@@ -23,7 +25,7 @@ title: Gerenciamento do cronograma do projeto
     Processo de identificar e documentar os relacionamentos entre as atividades do projeto.[1]
 
 -  Estimar as Durações das Atividades: <br>
-    Estimar o tempo de trabalho necessário para terminar atividades individuais com os recursos estimados
+    Estimar o tempo de trabalho necessário para terminar atividades individuais com os recursos estimados.
     
 -  Desenvolver o Cronograma: <br>
     analisar as sequências de atividades, durações, requisitos de recursos e restrições de cronograma para criar o modelo de cronograma do projeto para execução, monitoramento e controle do mesmo. [1]
@@ -43,21 +45,25 @@ O escopo do Projeto é definido a partir do cronograma estipulado pela disciplin
 </p>
 
 ### Definir as Atividades:
+
 <p align = "justify">
-A partir da definição do escopo do projeto é possível dividi-lo em entregas menores, mais fáceis de gerenciar, assim determinar tarefas(atividades) para concluir,desenvolver, cada parte do escopo
+A partir da definição do escopo do projeto é possível dividi-lo em entregas menores, mais fáceis de gerenciar, assim determinar tarefas(atividades) para concluir,desenvolver, cada parte do escopo.
 </p>
 
 ### Sequenciar as Atividades:
+
 <p align = "justify">
 As tarefas serão sequenciadas a partir dos módulos do escopo, definidos na disciplina, com nível de hierarquia de importância e dependência entre as atividades.
 </p>
 
 ### Estimar as Durações das Atividades:
+
 <p align = "justify">
 As durações das atividades serão definidas em reuniões de planejamento com a equipe, com critérios específicos como: complexidade da atividade, capacidade de entrega da equipe e duração de um ciclo de entrega (Sprint).
 </p>
 
 ### Desenvolver o Cronograma
+
 <p align = "justify">
 Com atividades definidas para cada módulo do escopo é possível elaborar um cronograma sequencial,de acordo com as datas de entregas da disciplina, e com a metodologia que será utilizada pela equipe durante o projeto.
 </p>
@@ -69,11 +75,13 @@ Com atividades definidas para cada módulo do escopo é possível elaborar um cr
 </p>
 
 ### Controlar o Cronograma:
+
 <p align = "justify">
 O monitoramento do cronograma será feito constantemente durante cada sprint com o intuito de averiguar o andamento do projeto e realizar mudanças se necessário.
 </p>
 
 ## Conclusão
+
 <p align = "justify">
     O gerenciamento do cronograma permite manter a equipe informada sobre as atividades,entregas e iterações. Determinando o quê deve ser entregue e o prazo.
 </p>

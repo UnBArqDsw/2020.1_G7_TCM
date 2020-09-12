@@ -1,35 +1,52 @@
 {
   "docs": {
     "Base": [
-      "base/documento_de_visao",
-      "base/gerencia_de_custos",
+      {
+        "type": "subcategory",
+        "label": "Planos",
+        "ids": [
+          "base/gerenciamento_cronograma",
+          "base/gerencia_de_custos",
+          "base/gerencia_riscos"
+        ]
+      },
       {
         "type": "subcategory",
         "label": "Pré-Rastreabilidade",
         "ids": [
           "base/rich_picture",
-          "base/gerencia_riscos",
           "base/5w2h",
           "base/obs",
           "base/mapa_mental",
           "base/lexicos",
-          "base/gerenciamento_cronograma"
+          "base/documento_de_visao",
+          "base/diagrama_causa_efeito"
         ]
       },
       {
         "type": "subcategory",
         "label": "Elicitação",
-        "ids": ["base/brainstorm", "base/entrevista", "base/personas"]
+        "ids": [
+          "base/brainstorm",
+          "base/entrevista",
+          "base/personas",
+          "base/backlog",
+          "base/obs"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Metodologia",
+        "ids": ["base/metodologia", "base/diagrama_da_metodologia"]
+      },
+      {
+        "type": "subcategory",
+        "label": "Modelagem",
+        "ids": ["base/prototipo"]
       }
     ],
-    "Modelagem": [
-      "modelagem/index"
-    ],
-    "Padrões de Projeto": [
-      "padroesProjeto/index"
-    ],
-    "Aquitetura de software e reutilização": [
-      "reutilizacao/index"
-    ]
+    "Modelagem": ["modelagem/index"],
+    "Padrões de Projeto": ["padroesProjeto/index"],
+    "Aquitetura de software e reutilização": ["reutilizacao/index"]
   }
 }
