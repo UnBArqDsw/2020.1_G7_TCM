@@ -23,15 +23,15 @@ O diagrama BPMN foi modelado de acordo com os [processos metodológicos](./metod
 
 #### BPMN Geral da disciplina
 
-![Bpmn geral](../assets/Bpmn/bpmn_geral.png)
+[![Bpmn geral](../assets/Bpmn/bpmn_geral.png)](../assets/Bpmn/bpmn_geral.png)
 
 #### BPMN Sprint
 
-![BPMN Sprint](../assets/Bpmn/bpmn_sprint.png)
+[![BPMN Sprint](../assets/Bpmn/bpmn_sprint.png)](../assets/Bpmn/bpmn_sprint.png)
 
 #### BPMN Módulo Base
 
-![BPMN Sprint](../assets/Bpmn/bpmn_base.png)
+[![BPMN Base](../assets/Bpmn/bpmn_base.png)](../assets/Bpmn/bpmn_base.png)
 
 
 ## Conclusão
@@ -48,5 +48,5 @@ Os diagramas elaborados permitiram uma melhor ilustração e comunicação sobre
 
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 11/09/20 | 1.0 | Elaboração dos diagramas BPMN | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha, Renan Cristyan| 
-| 11/09/20 | 1.0 | Criação do documento | João Pedro e Matheus Estanislau | 
+| 11/09/20 | 1.0 | Elaboração dos diagramas BPMN | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan| 
+| 11/09/20 | 1.1 | Criação do documento | João Pedro e Matheus Estanislau | 
