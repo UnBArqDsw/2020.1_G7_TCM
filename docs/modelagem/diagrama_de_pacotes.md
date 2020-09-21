@@ -37,4 +37,4 @@ A partir da elaboração do diagrama de pacotes foi possível ter uma visão ger
 
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 21/10/20 | 1.0 | Criação do documento | Lucas Alexandre, Matheus Estanislau e Moacir Mascarenha | 
+| 21/09/20 | 1.0 | Criação do documento | Lucas Alexandre, Matheus Estanislau e Moacir Mascarenha | 
