@@ -13,14 +13,14 @@ O diagrama de comunicação é um tipo de diagrama de interação UML que mostra
 ## Metodologia
 
 <p align = "justify">
-Para a criação da primeira versão do diagrama de comunicação, a equipe utilizou o programa [Lucidchart](https://www.lucidchart.com/) para colaborar em tempo real no diagrama. Além disso, foi utilizado o Google Hangouts para videoconferência e Visual Studio Code / Live Share para elaboração da documentação.
+Para a criação da primeira versão do diagrama de comunicação, a equipe utilizou o programa <a href="https://www.lucidchart.com/">Lucidchart</a> para colaborar em tempo real no diagrama. Além disso, foi utilizado o Google Hangouts para videoconferência e Visual Studio Code / Live Share para elaboração da documentação.
 </p>
 
 ## Diagrama de classes
 
 ### Versão 1.0
 
-![![diagrama de Comunicacao](../assets/diagrama_comunicacao/diagrama_comunicacao)](../assets/diagrama_comunicacao/diagrama_comunicacao)
+![![diagrama de Comunicacao](../assets/diagrama_comunicacao/diagrama_comunicacao.png)](../assets/diagrama_comunicacao/diagrama_comunicacao.png)
 
 
 ## Conclusão
