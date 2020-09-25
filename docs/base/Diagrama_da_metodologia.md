@@ -33,6 +33,9 @@ O diagrama BPMN foi modelado de acordo com os [processos metodológicos](./metod
 
 [![BPMN Base](../assets/Bpmn/bpmn_base.png)](../assets/Bpmn/bpmn_base.png)
 
+#### BPMN Módulo Modelagem
+
+[![BPMN Modelagem](../assets/Bpmn/bpmn_modelagem.png)](../assets/Bpmn/bpmn_modelagem.png)
 
 ## Conclusão
 
@@ -44,9 +47,12 @@ Os diagramas elaborados permitiram uma melhor ilustração e comunicação sobre
 
 > Notação BPMN 2.0. Disponivel em: https://www.heflo.com/pt-br/bpm/notacao-bpmn/
 
+> Object Management Group, Business Process Model and Notation. Disponível em http://www.bpmn.org/. Acesso em 25/09/20.
+
 ## Autor(es)
 
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 11/09/20 | 1.0 | Elaboração dos diagramas BPMN | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan| 
 | 11/09/20 | 1.1 | Criação do documento | João Pedro e Matheus Estanislau | 
+| 25/09/20 | 1.2 | Adição do diagrama do módulo modelagem | Renan Cristyan | 
