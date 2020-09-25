@@ -22,7 +22,31 @@ O documento é dividido em  Políticas de Commits, Políticas de Branchs e Polí
 
 ### Políticas
 
+<br/>
+
 - Políticas de Commits
+
+<p align = "justify">
+Os <i>commits</i> O commit deve ser escrito de uma maneira simples e tambem devem ser atômicos. O texto dos commits deve descrever o que foi produzido, de forma resumida, sem acentuação, com o tempo verbal no particípio. Além disso, deve conter o número de sua <i>issue</i> correspondente, no seguinte formato:
+</p>
+
+**Repositorio de Documentação**
+
+```[#<id da issue>] < Texto com verbo no particípio>.```
+
+**Exemplo:**
+
+```[#01] Criado Documento```
+
+**Outos Repositorios**
+
+```[<Tag da issue>] <Texto com verbo no particípio>.```
+
+**Exemplo:**
+
+```[US00] Criada funcionalidade.```
+
+<br/>
 
 - Políticas de Branchs
 
@@ -40,10 +64,11 @@ O documento é dividido em  Políticas de Commits, Políticas de Branchs e Polí
 
 ## Referências
 
-> 
+> Semantic Versioning 2.0.0 . Semantic Versioning Specification (SemVer). Disponível em <http://semver.org/>
 
-> 
-
+> > PMI®
+. PMBOK®
+: Um Guia do Conhecimento em Gerenciamento de Projetos (Guia PMBOK)/Project Management Institute.Sexta. Pensilvânia 19073-3299 EUA
 ## Autor(es)
 
 | Data | Versão | Descrição | Autor(es) |
