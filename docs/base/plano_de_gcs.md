@@ -24,10 +24,10 @@ O documento é dividido em  Políticas de Commits, Políticas de Branchs e Polí
 
 <br/>
 
-- Políticas de Commits
+- **Políticas de Commits**
 
 <p align = "justify">
-Os <i>commits</i> O commit deve ser escrito de uma maneira simples e tambem devem ser atômicos. O texto dos commits deve descrever o que foi produzido, de forma resumida, sem acentuação, com o tempo verbal no particípio. Além disso, deve conter o número de sua <i>issue</i> correspondente, no seguinte formato:
+Os <i>commits</i> O commit deve ser escrito de uma maneira simples e tambem devem ser atômicos. O texto dos commits deve descrever o que foi prouzido, de forma resumida, sem acentuação, com o tempo verbal no particípio. Além disso, deve conter o número de sua <i>issue</i> correspondente, no seguinte formato:
 </p>
 
 **Repositorio de Documentação**
@@ -48,9 +48,18 @@ Os <i>commits</i> O commit deve ser escrito de uma maneira simples e tambem deve
 
 <br/>
 
-- Políticas de Branchs
+- **Políticas de Branchs**
+  
+ [![Branchs](../assets/diagrama_gcs/branchs.png)](../assets/diagrama_gcs/branchs.png)
 
-- Política de Aprovação
+ *Imagem tirada da referencia [2]*
+
+O repositório do projeto terá uma branch master, sendo ela a branch estável.
+
+Nenhum membro será autorizado a fazer commits diretamente na master. Cada atividade deve ter uma branch auxiliar propria,criada a partir da master. Os membros devem solicitar via pull requests atualizações na master.
+
+
+- **Política de Aprovação**
 
 ## Uso de Issues
 
@@ -64,9 +73,11 @@ Os <i>commits</i> O commit deve ser escrito de uma maneira simples e tambem deve
 
 ## Referências
 
-> Semantic Versioning 2.0.0 . Semantic Versioning Specification (SemVer). Disponível em <http://semver.org/>
+> [1] Semantic Versioning 2.0.0 . Semantic Versioning Specification (SemVer). Disponível em <http://semver.org/>
 
-> > PMI®
+> [2] https://mikedecr.github.io/teaching/computing-811/slides/08_git/08_git-intro.html#1
+
+> [3] PMI®
 . PMBOK®
 : Um Guia do Conhecimento em Gerenciamento de Projetos (Guia PMBOK)/Project Management Institute.Sexta. Pensilvânia 19073-3299 EUA
 ## Autor(es)
