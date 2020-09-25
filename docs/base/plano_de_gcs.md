@@ -61,6 +61,8 @@ Nenhum membro será autorizado a fazer commits diretamente na master. Cada ativi
 
 - **Política de Aprovação**
 
+Para a aprovação do código, o pull request deve ser revisado por ao menos 1 membro da equipe que não esteja envolvido na tarefa, as branch e dos commits devem estar de acordo com o definido, a build não pode apresentar erros, e assim a tarefa será aprovada.
+
 ## Uso de Issues
 
 ## Ferramentas
