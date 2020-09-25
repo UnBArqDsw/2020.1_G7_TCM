@@ -58,6 +58,14 @@ O repositório do projeto terá uma branch master, sendo ela a branch estável.
 
 Nenhum membro será autorizado a fazer commits diretamente na master. Cada atividade deve ter uma branch auxiliar propria,criada a partir da master. Os membros devem solicitar via pull requests atualizações na master.
 
+``` <Identificador da atividade>-<Nome issue associada a atividade>```
+
+**Exemplos:**
+
+```US01-fazer-login```
+
+Após o fim do desenvolvimento nas branches auxiliares elas devem ser incorporadas a master por meio de pull request.
+
 
 - **Política de Aprovação**
 
