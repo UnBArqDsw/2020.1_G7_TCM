@@ -26,9 +26,11 @@ Foi utilizado o <a href='http://lucidchart.com'>Lucidchart</a> para a elaboraç�
 
 
 ### Solicitação de inscrição no torneio
+
 ![![diagrama Solicitação de inscrição no torneio](../assets/Diagrama_sequencia/sequencia2.png)](../assets/Diagrama_sequencia/sequencia2.png)
 
 ### Gerenciado do torneio
+
 ![![diagrama Solicitação de inscrição no torneio](../assets/Diagrama_sequencia/sequencia3.png)](../assets/Diagrama_sequencia/sequencia3.png)
 
 
@@ -36,20 +38,17 @@ Foi utilizado o <a href='http://lucidchart.com'>Lucidchart</a> para a elaboraç�
 ## Conclusão
 
 <p align = "justify">
-<!-- Descreva neste tópico como a aplicação da técnica e a criação do documento foi útil para o projeto. -->
+O diagrama de sequência permite a fácil identificação das etapas e suas interações em determinados processos, auxiliando a equipe de desenvolvimento a entender como os objetos interagem e o funcionamento dentro do negócio. 
 </p>
 
 ## Referências
 
-<!-- Insira referências relevantes do projeto (com um sinal de '>' antes), se possível priorize por livros e artigos, depois sites, blogs e outros projetos parecidos.
-Exemplo:
-> Referência
- -->
+> UML Sequence Diagrams, disponível em: https://www.uml-diagrams.org/sequence-diagrams.html
 
->
+> The sequence diagram, disponível em: https://developer.ibm.com/technologies/web-development/articles/the-sequence-diagram/
 
 ## Autor(es)
-<!-- Para cada alteração no documento, lembre-se de descrever as mudanças, a versão, a data e creditar os autores. -->
+
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 26/09/2020 | 1.0 | Criação do documento | Moacir Mascarenha e Matheus Estanislau | 
