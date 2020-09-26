@@ -37,6 +37,10 @@ O diagrama BPMN foi modelado de acordo com os [processos metodológicos](./metod
 
 [![BPMN Modelagem](../assets/Bpmn/bpmn_modelagem.png)](../assets/Bpmn/bpmn_modelagem.png)
 
+#### BPMN Módulo Modelagem (extras)
+
+[![BPMN Modelagem Extras](../assets/Bpmn/bpmn_extras_modelagem.png)](../assets/Bpmn/bpmn_extras_modelagem.png)
+
 ## Conclusão
 
 <p align = "justify">
