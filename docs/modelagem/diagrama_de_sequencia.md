@@ -7,7 +7,6 @@ title: Diagrama de sequência
 ## Introdução
 
 <p align = "justify">
-
 O diagrama de sequência é utilizado principalmente para ilustrar as interações entre objetos em uma ordem sequencial em que essas interações ocorrem, descrevendo uma interação focado na sequência de mensagens, junto com suas especificações de ocorrência correspondentes nas linhas de vida.
 </p>
 
@@ -28,6 +27,10 @@ Foi utilizado o <a href='http://lucidchart.com'>Lucidchart</a> para a elaboraç�
 
 ### Solicitação de inscrição no torneio
 ![![diagrama Solicitação de inscrição no torneio](../assets/Diagrama_sequencia/sequencia2.png)](../assets/Diagrama_sequencia/sequencia2.png)
+
+### Gerenciado do torneio
+![![diagrama Solicitação de inscrição no torneio](../assets/Diagrama_sequencia/sequencia3.png)](../assets/Diagrama_sequencia/sequencia3.png)
+
 
 
 ## Conclusão
