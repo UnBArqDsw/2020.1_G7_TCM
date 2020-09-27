@@ -29,7 +29,7 @@ Foi utilizado o <a href='http://lucidchart.com'>Lucidchart</a> para a elaboraç�
 
 ![![diagrama Solicitação de inscrição no torneio](../assets/Diagrama_sequencia/sequencia2.png)](../assets/Diagrama_sequencia/sequencia2.png)
 
-### Gerenciado do torneio
+### Gerenciamento do torneio
 
 ![![diagrama Solicitação de inscrição no torneio](../assets/Diagrama_sequencia/sequencia3.png)](../assets/Diagrama_sequencia/sequencia3.png)
 
