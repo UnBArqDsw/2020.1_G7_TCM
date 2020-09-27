@@ -66,11 +66,24 @@ Para a criação da primeira versão do NFR, a equipe utilizou o programa <a hre
 [![Confiabilidade](../assets/NFR/nfr_confiabilidade.png)](../assets/NFR/nfr_confiabilidade.png)
 
 
-| NFR02 | Atores |  
+| NFR03 | Atores |  
 |--|--|
 |Versão| 1.0 | 
 |**Data**| 21/09/2020 |
 |**Hora**| 10h37 |
+|**Autor(es)**| Lucas Alexandre e Moacir Mascarenha |
+
+## NFR04 - Suportabilidade 
+
+
+[![Suportabilidade](../assets/NFR/nfr_suportabilidade.png)](../assets/NFR/nfr_suportabilidade.png)
+
+
+| NFR04 | Atores |  
+|--|--|
+|Versão| 1.0 | 
+|**Data**| 21/09/2020 |
+|**Hora**| 11h14 |
 |**Autor(es)**| Lucas Alexandre e Moacir Mascarenha |
 
 ## Conclusão
