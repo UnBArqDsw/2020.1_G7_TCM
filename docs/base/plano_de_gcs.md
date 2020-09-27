@@ -89,6 +89,18 @@ Para a aprovação do código, o pull request deve ser revisado por ao menos 1 m
 
 ## Ferramentas
 
+| Ferramenta | Descrição |
+|:----:|:---------:|
+| Git | Ferramenta de versionamento |
+| GitHub | Ferramenta de hospedagem de repositórios |
+| ZenHub | Ferramenta de gerenciamento de equipe |
+| React | Ferramenta de criação de interface de usuário |
+| NodeJS | Ferramenta para criação de API's | 
+| Docker | Ferramenta de virtualização e configuração de ambiente por meio de containers | 
+| Docker Compose | Ferramenta de gerenciamento de containers Docker | 
+| Github actions | Ferramenta de integração contínua | 
+| VS Code | Ferramenta de edição de código fonte |
+| Slack e whatsapp | Ferramenta de comunicação do grupo |
 
 ## Conclusão
 
