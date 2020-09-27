@@ -37,7 +37,7 @@ Para a criação da primeira versão do NFR, a equipe utilizou o programa <a hre
 ## NFR01 - Usabilidade 
 
 
-[![Geral](../assets/NFR/nfr_usabilidade.png)](../assets/NFR/nfr_geral.png)
+[![Usabilidade](../assets/NFR/nfr_usabilidade.png)](../assets/NFR/nfr_geral.png)
 
 
 | NFR01 | Atores |  
@@ -50,7 +50,7 @@ Para a criação da primeira versão do NFR, a equipe utilizou o programa <a hre
 ## NFR02 - Desempenho 
 
 
-[![Geral](../assets/NFR/nfr_desempenho.png)](../assets/NFR/nfr_desempenho.png)
+[![Desempenho](../assets/NFR/nfr_desempenho.png)](../assets/NFR/nfr_desempenho.png)
 
 
 | NFR02 | Atores |  
@@ -58,6 +58,19 @@ Para a criação da primeira versão do NFR, a equipe utilizou o programa <a hre
 |Versão| 1.0 | 
 |**Data**| 21/09/2020 |
 |**Hora**| 10h05 |
+|**Autor(es)**| Lucas Alexandre e Moacir Mascarenha |
+
+## NFR03 - Confiabilidade 
+
+
+[![Confiabilidade](../assets/NFR/nfr_confiabilidade.png)](../assets/NFR/nfr_confiabilidade.png)
+
+
+| NFR02 | Atores |  
+|--|--|
+|Versão| 1.0 | 
+|**Data**| 21/09/2020 |
+|**Hora**| 10h37 |
 |**Autor(es)**| Lucas Alexandre e Moacir Mascarenha |
 
 ## Conclusão
