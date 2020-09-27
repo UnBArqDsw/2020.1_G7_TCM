@@ -39,17 +39,14 @@ Foi utilizado os softwares Lucidchart e Draw.io para a implementação dos diagr
 ## Conclusão
 
 <p align = "justify">
-
+Através do diagrama de estados, foi possível representar na forma de diagramas e figuras os diferentes estados que os processos Rodada, Partida e Gerenciar Torneio podem passar.
 </p>
 
 ## Referências
 
-<!-- Insira referências relevantes do projeto (com um sinal de '>' antes), se possível priorize por livros e artigos, depois sites, blogs e outros projetos parecidos.
-Exemplo:
-> Referência
- -->
+> State Machine Diagrams. Disponível em: https://www.uml-diagrams.org/state-machine-diagrams.html Acesso em 27/09/20
 
->
+> O que é um diagrama de máquina de estados?. Disponível em:  https://www.lucidchart.com/pages/pt/o-que-e-diagrama-de-maquina-de-estados-uml Acesso em 27/09/20
 
 ## Autor(es)
 | Data | Versão | Descrição | Autor(es) |
