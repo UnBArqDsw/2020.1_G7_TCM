@@ -89,7 +89,7 @@ Para a criação da primeira versão do NFR, a equipe utilizou o programa <a hre
 ## Conclusão
 
 <p align = "justify">
-
+A utilização do NFR-Framework possibilitou modelar os requisitos não funcionais gerais do projeto, decompondo os requisitos não funcionais em alternativas que vão atendê-los. 
 </p>
 
 ## Referências
@@ -102,4 +102,4 @@ Para a criação da primeira versão do NFR, a equipe utilizou o programa <a hre
 
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 27/09/2020 | 1.0 | Criação do documento | Lucas Alexandre, Moacir Mascarenha | 
+| 27/09/2020 | 1.0 | Criação do documento | Lucas Alexandre e Moacir Mascarenha | 
