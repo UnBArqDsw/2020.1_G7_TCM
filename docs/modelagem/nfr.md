@@ -30,11 +30,22 @@ Para a criação da primeira versão do NFR, a equipe utilizou o programa <a hre
 | NFR00 | Atores |  
 |--|--|
 |Versão| 1.0 | 
-|**Data**| 17/10/2019 |
+|**Data**| 17/09/2020 |
 |**Hora**| 10h42 |
 |**Autor(es)**| Lucas Alexandre e Moacir Mascarenha |
 
+## NFR01 - Usabilidade 
 
+
+[![Geral](../assets/NFR/nfr_usabilidade.png)](../assets/NFR/nfr_geral.png)
+
+
+| NFR01 | Atores |  
+|--|--|
+|Versão| 1.0 | 
+|**Data**| 17/09/2020 |
+|**Hora**| 11h10 |
+|**Autor(es)**| Lucas Alexandre e Moacir Mascarenha |
 
 
 ## Conclusão
