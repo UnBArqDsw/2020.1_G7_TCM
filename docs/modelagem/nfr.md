@@ -15,19 +15,27 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 ## Metodologia
 
 <p align = "justify">
+Para a criação da primeira versão do NFR, a equipe utilizou o programa <a href="https://app.diagrams.net/">draw.io</a> para colaborar em tempo real. Além disso, foi utilizado o Google Hangouts para videoconferência e Visual Studio Code / Live Share para elaboração da documentação.
 </p>
 
-## Desenvolvimento (Renomeie este tópico) 
+## Diagramas
 
 
-### Versão 1.0
+## NFR00 - Geral 
 
-<p align = "justify">
 
-</p>
+[![Geral](../assets/NFR/nfr_geral.png)](../assets/NFR/nfr_geral.png)
 
-<p align = "justify">
-</p>
+
+| NFR00 | Atores |  
+|--|--|
+|Versão| 1.0 | 
+|**Data**| 17/10/2019 |
+|**Hora**| 10h42 |
+|**Autor(es)**| Lucas Alexandre e Moacir Mascarenha |
+
+
+
 
 ## Conclusão
 
@@ -37,8 +45,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 
 ## Referências
 
-
-> Enhancing Data Warehouse Design with the NFR Framework ,disponível em: http://wer.inf.puc-rio.br/wer02/zip/Enhancing_Data(4).pdf
+> Enhancing Data Warehouse Design with the NFR Framework. Disponível em: http://wer.inf.puc-rio.br/wer02/zip/Enhancing_Data(4).pdf
  
 
 
@@ -46,4 +53,4 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 27/10/2020 | 1.0 | Criação do documento | Lucas Alexandre, Moacir Mascarenha | 
+| 27/09/2020 | 1.0 | Criação do documento | Lucas Alexandre, Moacir Mascarenha | 
