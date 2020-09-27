@@ -34,10 +34,11 @@ Foi utilizado os softwares Lucidchart e Draw.io para a implementação dos diagr
 
 #### Partida
 
+[![Partida](../assets/Diagrama_estados/Diagrama_de_estado_partida.jpeg)](../assets/Diagrama_estados/Diagrama_de_estado_partida.jpeg)
+
 ## Conclusão
 
 <p align = "justify">
-O diagrama de estados permitiu que nossa equipe 
 
 </p>
 
