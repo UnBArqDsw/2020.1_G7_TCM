@@ -47,6 +47,18 @@ Para a criação da primeira versão do NFR, a equipe utilizou o programa <a hre
 |**Hora**| 11h10 |
 |**Autor(es)**| Lucas Alexandre e Moacir Mascarenha |
 
+## NFR02 - Desempenho 
+
+
+[![Geral](../assets/NFR/nfr_desempenho.png)](../assets/NFR/nfr_desempenho.png)
+
+
+| NFR02 | Atores |  
+|--|--|
+|Versão| 1.0 | 
+|**Data**| 21/09/2020 |
+|**Hora**| 10h05 |
+|**Autor(es)**| Lucas Alexandre e Moacir Mascarenha |
 
 ## Conclusão
 
