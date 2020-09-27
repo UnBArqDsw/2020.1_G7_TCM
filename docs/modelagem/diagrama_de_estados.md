@@ -26,9 +26,13 @@ Foi utilizado os softwares Lucidchart e Draw.io para a implementação dos diagr
 
 #### Gerenciamento de torneio
 
-#### Partida
+[![Gerenciamento de torneio](../assets/Diagrama_estados/Diagrama_de_estado_gerenciar_torneio.png)](../assets/Diagrama_estados/Diagrama_de_estado_gerenciar_torneio.png)
 
 #### Rodada
+
+[![Rodada](../assets/Diagrama_estados/Diagrama_de_estado_rodada.png)](../assets/Diagrama_estados/Diagrama_de_estado_rodada.png)
+
+#### Partida
 
 ## Conclusão
 
