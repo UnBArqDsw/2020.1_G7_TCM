@@ -73,7 +73,22 @@ Para a aprovação do código, o pull request deve ser revisado por ao menos 1 m
 
 ## Uso de Issues
 
+<p align = "justify">As issuesserão criadas com o objetivo de descrever e rastrear as tarefas desenvolvidas pela equipe durante o projeto.</p>
+
+<p align = "justify">As issues vão conter identificadores, para que se possa indicar de qual tarefa se trata. Os identificadores definidos para o projeto serão:</p>
+
+* **[Doc]** - Utilizado para as issues que representam Documentos.
+* **[EPIC]** - Utilizado para as issues que representam épicos.
+* **[FT]** - Utilizado para as issues que representam <i>features</i>.
+* **[US]** - Utilizado para as issues que representam histórias de usuário.
+* **[BUG]** - Utilizado para <i>issues</i> que representam correção de <i>bugs</i>.
+
+- formato padrão das issues: 
+
+[![Branchs](../assets/diagrama_gcs/template_issue.png)](../assets/diagrama_gcs/template_issue.png)
+
 ## Ferramentas
+
 
 ## Conclusão
 
