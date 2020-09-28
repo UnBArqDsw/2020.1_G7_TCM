@@ -21,8 +21,22 @@ Para a elaboração do diagrama de atividades, a equipe utilizou o programa [Dra
 ## Diagrama de Atividades
 
 ### Versão 1.0
+#### Rastreabilidade de Requisitos
+
+|ID|Descriçao|
+|---|---|
+|BS01|Criar conta|
+|BS02|Fazer login|
+|BS03|Criar partida|
+|BS05, ENT02, ENT03, ENT06, ENT16, OBS01|Criar torneio|
+|BS12, BS14 |Procurar torneio|
+|BS04, BS11, ENT04, ENT07|Convidar jogadores|
+|BS13, BS19, ENT12|Listar torneios|
+|BS06, BS10, BS13, ENT01, ENT15, OBS10, OBS11|Informações do torneio|
 
 ![![Diagrama de Atividades](../assets/Diagrama_atividades/diagrama_de_atividades.png)](../assets/Diagrama_atividades/diagrama_de_atividades.png)
+
+
 
 ## Conclusão
 
