@@ -1,5 +1,5 @@
 ---
-id: léxicos
+id: lexicos
 title: Léxico
 ---
 ## Introdução
