@@ -35,6 +35,8 @@ Com o diagrama de componentes, a equipe tem uma melhor visualização dos compon
 
 > UML Structural Diagrams: Component Diagram - Georgia Tech - Software Development Process. Disponível em: https://www.youtube.com/watch?v=ipKJwnPsst8 Acesso em 21/09/20
 
+> What is Component Diagram? Disponível em: https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-component-diagram/ Acesso em 28/09/20
+
 ## Autor(es)
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
