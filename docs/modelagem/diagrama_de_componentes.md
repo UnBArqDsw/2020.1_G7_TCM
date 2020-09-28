@@ -7,7 +7,7 @@ title: Diagrama de componentes
 ## Introdução
 
 <p align = "justify">
-O diagrama de componente é uma representação dos relacionamentos entre os componentes encontrados no sistema, ajudam a equipe a entender a estrutura e o relacionamento dos componentes, tambem facilita na criação de novos componentes. 
+O diagrama de componente é uma representação dos relacionamentos entre os componentes encontrados no sistema, ajudam a equipe a entender a estrutura e o relacionamento dos componentes, tambem facilita na criação de novos componentes. Cada componente é responsável por uma parte do sistema e pode ser visualizado atraves do diagrama seus níveis de funcionalidade.
 </p>
 
 ## Metodologia
@@ -22,7 +22,7 @@ Para a elaboração do diagrama foi utilizado o software [Lucidchart](https://ww
 ## Conclusão
 
 <p align = "justify">
-Com o diagrama de componentes, a equipe tem uma melhor visualização dos componentes e dos conceitos abstratos, além de suas formas de interação.
+Com o diagrama de componentes, a equipe tem uma melhor visualização dos componentes e dos conceitos abstratos, além de suas formas de interação. Apesar do projeto ser relativamente simples, a implementação deste documento e do diagrama correspondente serviu como aprendizagem para os membros responsáveis.
 </p>
 
 ## Referências
