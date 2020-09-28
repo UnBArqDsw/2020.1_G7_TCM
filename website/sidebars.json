@@ -45,7 +45,30 @@
         "ids": ["base/prototipo"]
       }
     ],
-    "Modelagem": ["modelagem/index"],
+    "Modelagem": [
+      {
+        "type": "subcategory",
+        "label": "Diagramas UML",
+        "ids": [
+          "modelagem/diagrama_de_atividade",
+          "modelagem/diagrama_de_classes",
+          "modelagem/diagrama_de_componentes",
+          "modelagem/diagrama_de_comunicacao",
+          "modelagem/diagrama_de_estados",
+          "modelagem/diagrama_de_pacotes",
+          "modelagem/diagrama_sequencia"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Extras",
+        "ids": [
+          "base/lexicos",
+          "base/plano_de_gcs",
+          "modelagem/nfr"
+        ]
+      }
+    ],
     "Padrões de Projeto": ["padroesProjeto/index"],
     "Aquitetura de software e reutilização": ["reutilizacao/index"]
   }
