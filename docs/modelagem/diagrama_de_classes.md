@@ -13,6 +13,8 @@ O diagrama de classes UML é um diagrama que mostra a estrutura do sistema desen
 ## Metodologia
 
 <p align = "justify">
+A equipe se reuniu por videoconferência e realizou um brainstorm onde foram dicutidos os tópicos chaves e a arquitetura geral dos sistemas, e assim criamos as primeiras classes, atributos e métodos. Apos a implementação de outros diagramas a equipe gerou novas ideias e evoluiu o diagrama de classes.
+
 Para a criação da primeira versão do diagrama de classes, a equipe utilizou o programa [Lucidchart](https://www.lucidchart.com/) para colaborar em tempo real no diagrama. Além disso, foi utilizado o Google Hangouts para videoconferência e Visual Studio Code / Live Share para elaboração da documentação.
 </p>
 
@@ -25,7 +27,7 @@ Para a criação da primeira versão do diagrama de classes, a equipe utilizou o
 ## Conclusão
 
 <p align = "justify">
-Através do diagrama de classes, foi possível representar a estrutura do sistema a nível de classes e auxiliar na modelagem da arquitetura geral, além do banco de dados.
+Através do diagrama de classes, foi possível representar a estrutura do sistema a nível de classes e auxiliar na modelagem da arquitetura geral, além do banco de dados. Ao longo do desenvolvimento da disciplina, iremos adaptar e evoluir o diagrama e sua documentação para refletir no estado atual do projeto.
 </p>
 
 ## Referências
@@ -39,3 +41,4 @@ Através do diagrama de classes, foi possível representar a estrutura do sistem
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 21/09/20 | 1.0 | Criação do documento | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan |
+| 28/09/20 | 1.0 | Ajustes no documento | João Pedro e Renan Cristyan |
