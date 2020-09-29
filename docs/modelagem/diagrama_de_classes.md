@@ -24,6 +24,9 @@ Para a criação da primeira versão do diagrama de classes, a equipe utilizou o
 
 ![![Diagrama de Classes](../assets/diagrama_de_classes/diagrama_de_classes.png)](../assets/diagrama_de_classes/diagrama_de_classes.png)
 
+### Versão 1.1
+![![Diagrama de Classes](../assets/diagrama_de_classes/diagrama_de_classes_1.1.png)](../assets/diagrama_de_classes/diagrama_de_classes_1.1.png)
+
 ## Conclusão
 
 <p align = "justify">
@@ -42,3 +45,4 @@ Através do diagrama de classes, foi possível representar a estrutura do sistem
 | -- | -- | -- | -- |
 | 21/09/20 | 1.0 | Criação do documento | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan |
 | 28/09/20 | 1.1 | Ajustes no documento | João Pedro e Renan Cristyan |
+| 28/09/20 | 1.2 | Adicionado diagrama de classes 1.1 | João Pedro e Renan Cristyan |
