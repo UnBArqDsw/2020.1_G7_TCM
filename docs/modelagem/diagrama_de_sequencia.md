@@ -13,6 +13,8 @@ O diagrama de sequência é utilizado principalmente para ilustrar as interaçõ
 ## Metodologia
 
 <p align = "justify">
+Primeiramente levantamos as sequencias presentes na aplicação atraves do diagrama de classes. Foi feito um brainstorming para definição para a evolução das sequencias levantadas. Logo após, as conexões e relacionamentos entre os componentes.
+
 Foi utilizado o <a href='http://lucidchart.com'>Lucidchart</a> para a elaboração do diagrama de sequência, também foi usado a plataforma Hangouts, da Google, para realização da videoconferência para discussão da estrutura do diagrama, Visual Studio Code com extensão liveshare para confecção do documento.
 </p>
 
@@ -53,4 +55,4 @@ O diagrama de sequência permite a fácil identificação das etapas e suas inte
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 26/09/2020 | 1.0 | Criação do documento | Moacir Mascarenha e Matheus Estanislau |
-| 28/09/2020 | 1.1 | Criação do documento |Lucas Alexandre e  Moacir Mascarenha |
+| 28/09/2020 | 1.1 | Adicionado rastro |Lucas Alexandre e  Moacir Mascarenha |
