@@ -22,6 +22,13 @@ Para a criação da primeira versão do diagrama de comunicação, a equipe util
 
 ![![diagrama de Comunicacao](../assets/diagrama_comunicacao/diagrama_comunicacao.png)](../assets/diagrama_comunicacao/diagrama_comunicacao.png)
 
+#### Rastreabilidade de Requisitos
+
+| ID|Descrição|
+|---|---|
+|US12, US13 e US15 |Usuário|
+|US17, US18, US19, US33, US40|Torneio|
+
 
 ## Conclusão
 
@@ -40,3 +47,4 @@ Com o diagrama de comunicação, podemos observar as interações dos objetos e 
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 24/09/20 | 1.0 | Criação do documento | João Pedro e Lucas Alexandre |
+|28/09/20|1.1| Adicionado rastro| Lucas e Moacir |
