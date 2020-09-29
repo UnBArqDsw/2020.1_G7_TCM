@@ -7,7 +7,7 @@ title: Plano de GCS
 ## Introdução
  
 <p align = "justify">
-O Plano de Gerenciamento de Configuração detalha o planejamento de atividades, as responsabilidades designadas e os recursos necessários para o projeto.
+O Plano de Gerenciamento de Configuração detalha o planejamento de atividade a ser executada durante o ciclo de vida do projeto, as responsabilidades designadas, recursos necessários para o projeto e padronização das ferramentas, de forma a assegurar um processo de desenvolvimento e evolução sistemático e rastreável.
 </p>
  
 ## Metodologia
@@ -91,7 +91,7 @@ Para a aprovação do código, o pull request deve ser revisado por pelo menos 1
 | Git | Versionamento |
 | GitHub | Hospedagem de repositórios |
 | ZenHub | Gerenciamento de equipe |
-| React | Criação de interface de usuário |
+| React | Software de criação de interface de usuário |
 | NodeJS | Criação de API's |
 | Docker | Virtualização e configuração de ambiente por meio de containers |
 | Docker Compose | Gerenciamento de containers Docker |

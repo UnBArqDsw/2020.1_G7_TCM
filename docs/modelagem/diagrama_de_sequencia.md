@@ -16,14 +16,12 @@ O diagrama de sequência é utilizado principalmente para ilustrar as interaçõ
 Foi utilizado o <a href='http://lucidchart.com'>Lucidchart</a> para a elaboração do diagrama de sequência, também foi usado a plataforma Hangouts, da Google, para realização da videoconferência para discussão da estrutura do diagrama, Visual Studio Code com extensão liveshare para confecção do documento.
 </p>
 
-## Diagramas
+## Diagrama de Sequência
 
 ### Versão 1.0
 ### Criação de torneio
 
-
 ![![diagrama Criação de torneio](../assets/Diagrama_sequencia/sequencia1.png)](../assets/Diagrama_sequencia/sequencia1.png)
-
 
 ### Solicitação de inscrição no torneio
 
@@ -32,8 +30,6 @@ Foi utilizado o <a href='http://lucidchart.com'>Lucidchart</a> para a elaboraç�
 ### Gerenciamento do torneio
 
 ![![diagrama Solicitação de inscrição no torneio](../assets/Diagrama_sequencia/sequencia3.png)](../assets/Diagrama_sequencia/sequencia3.png)
-
-
 
 ## Conclusão
 
