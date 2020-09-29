@@ -7,12 +7,14 @@ title: Diagrama de Comunicação
 ## Introdução
 
 <p align = "justify">
-O diagrama de comunicação é um tipo de diagrama de interação UML que mostra as interações entre objetos e / ou partes usando mensagens que podem ser trocados entre eles, sequenciadas, em um arranjo de forma livre.
+O diagrama de comunicação é um tipo de diagrama de interação UML que mostra as interações entre objetos e / ou partes usando mensagens que podem ser trocados entre eles, sequenciadas, em um arranjo de forma livre. Tem o intuito de mostrar como os objetos interagem para executar o comportamento de parte de um caso de uso específico.
 </p>
 
 ## Metodologia
 
 <p align = "justify">
+Primeiramente os autores analizaram os casos de uso do projeto, tiveram uma discussão e decidiram as interações que são mais importantes para o sistema, e assim representaram através do diagrama.
+
 Para a criação da primeira versão do diagrama de comunicação, a equipe utilizou o programa <a href="https://www.lucidchart.com/">Lucidchart</a> para colaborar em tempo real no diagrama. Além disso, foi utilizado o Google Hangouts para videoconferência e Visual Studio Code / Live Share para elaboração da documentação.
 </p>
 
@@ -26,7 +28,7 @@ Para a criação da primeira versão do diagrama de comunicação, a equipe util
 
 | ID|Descrição|
 |---|---|
-|US12, US13 e US15 |Usuário|
+|US12, US13, US15 |Usuário|
 |US17, US18, US19, US33, US40|Torneio|
 
 
@@ -47,4 +49,5 @@ Com o diagrama de comunicação, podemos observar as interações dos objetos e 
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 24/09/20 | 1.0 | Criação do documento | João Pedro e Lucas Alexandre |
-|28/09/20|1.1| Adicionado rastro| Lucas e Moacir |
+|28/09/20|1.1| Adicionado rastro| Lucas Alexandre e Moacir Mascarenha |
+|28/09/20|1.2| Ajustes na metodologia | João Pedro e Renan Cristyan |
