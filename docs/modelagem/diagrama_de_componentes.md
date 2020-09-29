@@ -12,13 +12,15 @@ O diagrama de componente é uma representação dos relacionamentos entre os com
 
 ## Metodologia
 
+<p align = "justify">
+O primeiro passo que a equipe fez foi realizar um brainstorming para identificar os componentes e subsistemas principais do projeto. Depois disso, buscamos implementar a forma de relacionamento de cada componente e ligá-los com fios, portas e afins.
+
 Para a elaboração do diagrama foi utilizado o software [Lucidchart](https://www.lucidchart.com). A estrutura é formada por subsistemas, componentes, interface e relações entre os componentes. A interface é representada por um 'i' em frente ao seu nome.
+</p>
 
 ## Diagrama de Componentes
 
 ### Versão 1.0
-
-
 
 ![![diagrama de componentes](../assets/Diagrama_componentes/diagrama_de_componentes.png)](../assets/Diagrama_componentes/diagrama_de_componentes.png)
 
