@@ -15,9 +15,23 @@ O diagrama de componente é uma representação dos relacionamentos entre os com
 Para a elaboração do diagrama foi utilizado o software [Lucidchart](https://www.lucidchart.com). A estrutura é formada por subsistemas, componentes, interface e relações entre os componentes. A interface é representada por um 'i' em frente ao seu nome.
 
 ## Diagrama de Componentes
+
 ### Versão 1.0
 
+
+
 ![![diagrama de componentes](../assets/Diagrama_componentes/diagrama_de_componentes.png)](../assets/Diagrama_componentes/diagrama_de_componentes.png)
+
+
+#### Rastreabilidade de Requisitos
+
+| ID|Descrição|
+|---|---|
+|US17, US18, US19 e US20|Torneio|
+|US01, US06, US07 e US08|Usuário|
+|US08, US09, US10 e US11 |Autenticação|
+|US45 |Rodada|
+|US35|Partida|
 
 ## Conclusão
 

@@ -36,6 +36,15 @@ Foi utilizado os softwares Lucidchart e Draw.io para a implementação dos diagr
 
 [![Partida](../assets/Diagrama_estados/Diagrama_de_estado_partida.jpeg)](../assets/Diagrama_estados/Diagrama_de_estado_partida.jpeg)
 
+
+#### Rastreabilidade de Requisitos
+
+| ID|Descrição|
+|---|---|
+|US17, US18, US19, US20|Torneio|
+|US45 |Rodada|
+|US35|Partida|
+
 ## Conclusão
 
 <p align = "justify">
@@ -51,4 +60,5 @@ Através do diagrama de estados, foi possível representar na forma de diagramas
 ## Autor(es)
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 27/09/20 | 1.0 | Criação do documento | Moacir Mascarenha e Renan Cristyan | 
+| 27/09/20 | 1.0 | Criação do documento | Moacir Mascarenha e Renan Cristyan |
+| 28/09/20 | 1.1 | Adicionado rastro | Lucas Alexandre e Moacir Mascarenha  |

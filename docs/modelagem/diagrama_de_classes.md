@@ -22,10 +22,21 @@ Para a criação da primeira versão do diagrama de classes, a equipe utilizou o
 
 ### Versão 1.0
 
+
+
 ![![Diagrama de Classes](../assets/diagrama_de_classes/diagrama_de_classes.png)](../assets/diagrama_de_classes/diagrama_de_classes.png)
 
 ### Versão 1.1
 ![![Diagrama de Classes](../assets/diagrama_de_classes/diagrama_de_classes_1.1.png)](../assets/diagrama_de_classes/diagrama_de_classes_1.1.png)
+
+#### Rastreabilidade de Requisitos
+
+| ID|Descrição|
+|---|---|
+|US17, US18, US19, US20|Torneio|
+|US01, US06, US07, US08|Usuário|
+|US45|Rodada|
+|US35|Partida|
 
 ## Conclusão
 

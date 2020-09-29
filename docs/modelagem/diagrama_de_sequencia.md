@@ -31,6 +31,11 @@ Foi utilizado o <a href='http://lucidchart.com'>Lucidchart</a> para a elaboraç�
 
 ![![diagrama Solicitação de inscrição no torneio](../assets/Diagrama_sequencia/sequencia3.png)](../assets/Diagrama_sequencia/sequencia3.png)
 
+
+#### Rastreabilidade
+
+[Diagrama de classe](https://github.com/UnBArqDsw/2020.1_G7_TCM/blob/master/docs/assets/diagrama_de_classes/diagrama_de_classes.png)
+
 ## Conclusão
 
 <p align = "justify">
@@ -47,4 +52,5 @@ O diagrama de sequência permite a fácil identificação das etapas e suas inte
 
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 26/09/2020 | 1.0 | Criação do documento | Moacir Mascarenha e Matheus Estanislau | 
+| 26/09/2020 | 1.0 | Criação do documento | Moacir Mascarenha e Matheus Estanislau |
+| 28/09/2020 | 1.1 | Criação do documento |Lucas Alexandre e  Moacir Mascarenha |
