@@ -39,6 +39,7 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
+    {doc: "sprints/sprint1", label: 'Sprints'},
     {doc: 'base/documento_de_visao', label: 'Base'},
     {doc: 'modelagem/diagrama_de_atividade', label: 'Modelagem'},
     {doc: 'padroesProjeto/index', label: 'Padrões de Projeto'},

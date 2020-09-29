@@ -1,6 +1,6 @@
 ---
 id: diagrama_de_pacotes
-title: Diagrama de pacotes
+title: Diagrama de Pacotes
 ---
 
 

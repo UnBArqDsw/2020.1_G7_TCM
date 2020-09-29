@@ -1,5 +1,12 @@
 {
   "docs": {
+    "Sprints": [
+          "sprints/sprint1",
+          "sprints/sprint2",
+          "sprints/sprint3",
+          "sprints/sprint4",
+          "sprints/sprint5"
+    ],
     "Base": [
       {
         "type": "subcategory",
@@ -65,7 +72,9 @@
         "ids": [
           "base/lexicos",
           "base/plano_de_gcs",
-          "modelagem/nfr"
+          "modelagem/nfr",
+          "base/diagrama_da_metodologia",
+          "base/backlog"
         ]
       }
     ],

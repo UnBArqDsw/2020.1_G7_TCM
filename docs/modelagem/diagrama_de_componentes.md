@@ -1,6 +1,6 @@
 ---
 id: diagrama_de_componentes
-title: Diagrama de componentes
+title: Diagrama de Componentes
 ---
 
 

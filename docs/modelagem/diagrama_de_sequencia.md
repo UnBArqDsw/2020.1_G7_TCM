@@ -1,6 +1,6 @@
 ---
 id: diagrama_sequencia
-title: Diagrama de sequência
+title: Diagrama de Sequência
 ---
 
 

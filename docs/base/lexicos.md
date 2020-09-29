@@ -11,7 +11,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica usada para auxiliar a comu
 ## Metodologia
  
 <p align = "justify">
-Neste documento foram compilados alguns termos e palavras corriqueiros ao projeto, e eles foram classificados como verbo, objeto ou estado. Existe também uma descrição da noção do símbolo, que é seu significado, e seu impacto no projeto. Cada léxico foi organizado em uma tabela onde é possível acessar o requisito que o originou, a fim de manter a rastreabilidade.
+Neste documento foram compilados alguns termos e palavras corriqueiros ao projeto, e eles foram classificados como verbo, objeto ou estado. Existe também uma descrição da noção do símbolo, que é seu significado, e seu impacto no projeto. Cada léxico foi organizado em uma tabela onde é possível acessar o requisito que o originou, a fim de manter a rastreabilidade.</p>
+
 |Tag|Título|
 |--|--|
 |Classificação|--|
@@ -19,7 +20,7 @@ Neste documento foram compilados alguns termos e palavras corriqueiros ao projet
 |Impacto|--|
 |Rastro|--|
 |Data|--|
-</p>
+
  
 ## Léxicos
  
