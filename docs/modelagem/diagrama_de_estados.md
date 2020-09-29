@@ -20,7 +20,7 @@ Inicialmente, buscou-se identificar as partes ou processos do sistema a serem il
 Foi utilizado os softwares Lucidchart e Draw.io para a implementação dos diagramas, Google Hangouts para videoconferência, Google Drive para compartilhamento de imagens e Visual Studio Code com extensão Live Share para elaboração do documento.
 </p>
 
-## Diagramas
+## Diagrama de Estados
 
 ### Versão 1.0
 

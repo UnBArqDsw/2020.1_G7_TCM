@@ -18,7 +18,7 @@ A equipe se reuniu por videoconferência e realizou um brainstorm onde foram dic
 Para a criação da primeira versão do diagrama de classes, a equipe utilizou o programa [Lucidchart](https://www.lucidchart.com/) para colaborar em tempo real no diagrama. Além disso, foi utilizado o Google Hangouts para videoconferência e Visual Studio Code / Live Share para elaboração da documentação.
 </p>
 
-## Diagrama de classes
+## Diagrama de Classes
 
 ### Versão 1.0
 
@@ -41,4 +41,4 @@ Através do diagrama de classes, foi possível representar a estrutura do sistem
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 21/09/20 | 1.0 | Criação do documento | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan |
-| 28/09/20 | 1.0 | Ajustes no documento | João Pedro e Renan Cristyan |
+| 28/09/20 | 1.1 | Ajustes no documento | João Pedro e Renan Cristyan |

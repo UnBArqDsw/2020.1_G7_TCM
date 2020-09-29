@@ -15,8 +15,7 @@ O diagrama de pacotes é um diagrama estrutural utilizado para mostrar, em pacot
 
 Foi utilizado o [Lucidchart](http://lucidchart.com/) para a elaboração do diagrama de pacote, também foi usado a plataforma Hangouts, da Google, para realização da videoconferência para discussão da estrutura do diagrama, Visual Studio Code com extensão liveshare para confecção do documento.
 
-## Diagramas 
-
+## Diagrama de Pacotes
 
 ### Versão 1.0
 
