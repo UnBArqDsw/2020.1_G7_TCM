@@ -103,7 +103,7 @@ borderRadius: 5
 ## Conclusão
 
 <p align = "justify">
-
+Após a elaboração do documento a equipe possui uma padronização da interface e do código, a equipe deve seguir os padrões para uma melhor consistencia e qualidade do software, evitando fugas de estilo e mantendo a coesão e legibilidade do código. 
 </p>
 
 ## Referências
@@ -122,3 +122,4 @@ borderRadius: 5
 | 03/10/20 | 1.0 | Criação do documento | João Pedro, Matheus Estanislau | 
 | 03/10/20 | 1.1 | Adicionado regra JavaScript | João Pedro, Matheus Estanislau |
 | 03/10/20 | 1.2 | Adicionado regras de Interface | João Pedro, Matheus Estanislau |  
+| 03/10/20 | 1.3 | Adicionado conclusão | João Pedro, Matheus Estanislau |  
