@@ -36,6 +36,13 @@ Foi utilizado os softwares Lucidchart e Draw.io para a implementação dos diagr
 
 [![Partida](../assets/Diagrama_estados/Diagrama_de_estado_partida.jpeg)](../assets/Diagrama_estados/Diagrama_de_estado_partida.jpeg)
 
+### Versão 1.1
+
+Ajustes nos nomes dos estados do diagrama de gerenciamento de torneio
+
+#### Gerenciamento de torneio
+
+[![Gerenciamento de torneio](../assets/Diagrama_estados/diagrama_de_estados_gerenciar_torneio_v1.1.png)](../assets/Diagrama_estados/diagrama_de_estados_gerenciar_torneio_v1.1.png)
 
 #### Rastreabilidade de Requisitos
 
