@@ -24,6 +24,14 @@ Para a criação da primeira versão do diagrama de comunicação, a equipe util
 
 ![![diagrama de Comunicacao](../assets/diagrama_comunicacao/diagrama_comunicacao.png)](../assets/diagrama_comunicacao/diagrama_comunicacao.png)
 
+
+## Versão 2.0 
+
+
+Para a segunda versão deste diagrama foi usado como base a [versão 2 do diagrama de classes](./diagrama_de_classes.md), os participantes discutiram através de uma reunião, sobre as mudanças necessárias para que se adeque aos padrões utilizados no diagrama de classes. Também foi levado em consideração os questionamentos da avaliação do ponto de controle 2, como adição dos parâmetros aos métodos e aumento do escopo
+
+![![diagrama de Comunicacao](../assets/diagrama_comunicacao/diagrama_comunicacao2.png)](../assets/diagrama_comunicacao/diagrama_comunicacao2.png)
+
 #### Rastreabilidade de Requisitos
 
 | ID|Descrição|
@@ -51,3 +59,4 @@ Com o diagrama de comunicação, podemos observar as interações dos objetos e 
 | 24/09/20 | 1.0 | Criação do documento | João Pedro e Lucas Alexandre |
 |28/09/20|1.1| Adicionado rastro| Lucas Alexandre e Moacir Mascarenha |
 |28/09/20|1.2| Ajustes na metodologia | João Pedro e Renan Cristyan |
+|16/10/20| 2.0 | Adicionada a versão 2.0 do diagrama| João Pedro e Lucas Alexandre |
