@@ -42,8 +42,9 @@ As responsabilidades devem ser atribuídas a abstrações e não a objetos concr
 </p>
 
 ##### Aplicação no projeto
-É possivel identificar o padrão polimorfismo em todo o [diagrama de classe](../modelagem/diagrama_de_classes.md).
+É possivel identificar o padrão polimorfismo em várias classes do [diagrama de classe](../modelagem/diagrama_de_classes.md).
 
+Exemplo:
 ![Participants](../assets/Grasp/polimorfismo.jpg)
 
 É possível identificar o uso deste padrão incorporado em varios padrões GOFs, como: [GOFs Criacionais](./gof_criacionais.md).
@@ -51,7 +52,13 @@ As responsabilidades devem ser atribuídas a abstrações e não a objetos concr
 
 #### controller
 
-<p align = "justify"> </p>
+<p align = "justify">
+O padrão controller determina que a responsabilidade da manipulação de eventos deve permanecer fora da interface com usuário, ela também distribui responsabilidades entre as demais classes do sistema, funciona como fachada do sistema retornando mensagens ao cliente
+</p>
+
+##### Aplicação no projeto
+
+Utilizamos o padrão de projeto Controller em nosso backend distribuindo a manipulção de eventos para os serviços responsaveis, no projeto será utilizado a controller de Usuário, Sessão, Torneio, Rounds e Partidas.
 
 ## Conclusão
 
@@ -68,10 +75,13 @@ As responsabilidades devem ser atribuídas a abstrações e não a objetos concr
 
 > Padrões GRASP. Dispnível em: http://www.facom.ufu.br/~bacala/ESOF/05a-Padr%C3%B5es%20GRASP.pdf
 
+> Padrão GRASP Controller. Dispnível em: https://www.ramonsilva.net/post/controller-padr%C3%B5es-grasp
+
 ## Autor(es)
 
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 18/10/20 | 1.0 | Criação do documento | João Pedro e Moacir Mascarenhas |
-| 18/10/20 | 1.1 | Adicionado padrão creator | João Pedro, Matheus Estanislau e  Moacir Mascarenhas |
-| 18/10/20 | 1.1 | Adicionado padrão polimorfismo | João Pedro, Matheus Estanislau e  Moacir Mascarenhas |
+| 18/10/20 | 1.0 | Criação do documento | João Pedro e Moacir Mascarenha |
+| 18/10/20 | 1.1 | Adicionado padrão creator | João Pedro, Matheus Estanislau e  Moacir Mascarenha |
+| 18/10/20 | 1.2 | Adicionado padrão polimorfismo | João Pedro, Matheus Estanislau e  Moacir Mascarenha |
+| 18/10/20 | 1.3 | Adicionado padrão controller | João Pedro, Matheus Estanislau e  Moacir Mascarenha |
