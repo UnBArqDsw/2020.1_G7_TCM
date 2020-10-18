@@ -1,6 +1,6 @@
 ---
 id: gofs_criacionais
-title: GOFS Criacionais
+title: GOFs Criacionais
 ---
 
 ## Introdução
