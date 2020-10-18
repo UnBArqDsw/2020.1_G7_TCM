@@ -13,20 +13,19 @@ Os padrões GRASP (General Responsibility Assignment Software Patterns) consiste
 ## Metodologia
 
 <p align = "justify">
-
+A partir do estudo da equipe sobre os padrões de projeto(GRASP e gofs) e feedback das avaliações, foi identificado os problemas onde os padrões podem ser aplicados.
 </p>
 
 ## Padrões
 
 ### Versão 1.0
 
-<p align = "justify">
+#### Creator
 
-</p>
+#### Polimorfismo
 
-<p align = "justify">
+#### controller
 
-</p>
 
 ## Conclusão
 
@@ -40,8 +39,9 @@ Os padrões GRASP (General Responsibility Assignment Software Patterns) consiste
 > Padrões GRASP. Disponivel em: http://www.facom.ufu.br/~bacala/ESOF/05a-Padr%C3%B5es%20GRASP.pdf
 
 > Understanding the GRASP Design Patterns. Disponivel em: https://medium.com/@ReganKoopmans/understanding-the-grasp-design-patterns-2cab23c7226e
+
 ## Autor(es)
-<!-- Para cada alteração no documento, lembre-se de descrever as mudanças, a versão, a data e creditar os autores. -->
+
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 18/10/20 | 1.0 | Criação do documento | João Pedro e Moacir Mascarenhas |
