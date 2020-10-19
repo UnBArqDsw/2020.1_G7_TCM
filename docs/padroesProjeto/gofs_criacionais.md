@@ -58,3 +58,4 @@ Apos a implementação do padrão criacional factory method é possivel notar um
 | -- | -- | -- | -- |
 | 18/10/20 | 1.0 | Criação do documento | João Pedro e Moacir Mascarenha |
 | 18/10/20 | 1.1 | Adicionado Padrão Method | João Pedro, Matheus Estanislau, Moacir Mascarenha |
+| 19/10/20 | 1.2 | Atualizada imagem do padrão Factory Method | Renan Cristyan |
