@@ -41,6 +41,12 @@ O diagrama BPMN foi modelado de acordo com os [processos metodológicos](./metod
 
 [![BPMN Modelagem Extras](../assets/Bpmn/bpmn_extras_modelagem.png)](../assets/Bpmn/bpmn_extras_modelagem.png)
 
+### BPMN Módulo Padrões de Projeto
+[![BPMN padrões de projeto](../assets/Bpmn/bpmn_modulo_padroes_projeto.png)](../assets/Bpmn/bpmn_modulo_padroes_projeto.png)
+
+### BPMN Módulo Padrões de Projeto (extras)
+[![BPMN padrões de projeto extras](../assets/Bpmn/bpmn_extras_padroes.png)](../assets/Bpmn/bpmn_extras_padroes.png)
+
 ## Conclusão
 
 <p align = "justify">
@@ -60,3 +66,4 @@ Os diagramas elaborados permitiram uma melhor ilustração e comunicação sobre
 | 11/09/20 | 1.0 | Elaboração dos diagramas BPMN | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan| 
 | 11/09/20 | 1.1 | Criação do documento | João Pedro e Matheus Estanislau | 
 | 25/09/20 | 1.2 | Adição do diagrama do módulo modelagem | Renan Cristyan | 
+| 24/10/20 | 1.3 | Adição do diagrama do módulo padrões de projeto | Moacir Mascarenha e Renan Cristyan | 
