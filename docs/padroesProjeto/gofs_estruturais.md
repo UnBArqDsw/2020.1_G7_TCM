@@ -21,11 +21,28 @@ Os padrões estruturais se preocupam com a forma como classes e objetos são com
 
 ### Versão 1.0
 
+#### Facede
+
+<p align = "justify">
+O Facade é um padrão de projeto estrutural que fornece uma interface simplificada para uma biblioteca, um framework, ou qualquer conjunto complexo de classes [1].
+</p>
 
 #### Motivação
 
 
 #### Aplicação no projeto
+
+<p align = "justify">
+A imagem a baixo representa uma facade de autenticação de usuário, que é usada para um controle de acesso as rotas. Para acessar todas as rotas necessita desta interface, indicando que o usuário está logado ou não na aplicação.
+</p>
+
+![ Método Faced ](../assets/Gof/userauth.png)
+
+<p align = "justify">
+A imagem a baixo mostra um exemplo do uso da facede de autenticação para acesso a rota de round. que esta incluido no arquivo roundRoutes.ts
+</p>
+
+![ Método Faced ](../assets/Gof/userauthroutes.png)
 
 
 ## Conclusão
@@ -44,4 +61,5 @@ Os padrões estruturais se preocupam com a forma como classes e objetos são com
 
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
-| 24/10/20 | 1.0 | Criação do documento | João Pedro,Lucas Alexandre, Matheus estanislau|
+| 24/10/20 | 1.0 | Criação do documento | João Pedro e Lucas Alexandre |
+|24/10/20| 1.1 | Adicionado padrão facade | João Pedro, Lucas Alexandre e Matheus estanislau|
