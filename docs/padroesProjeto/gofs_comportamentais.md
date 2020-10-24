@@ -32,6 +32,14 @@ O Chain of Responsibility é um padrão de projeto comportamental que permite qu
 Foi usado o padrão Chain of Responsibility a partir de metodos handlers, para que a partir da request a controller decida qual service deverá realizar a função desejada. Assim reduzindo o grau de acoplamento e com maior flexibilidade.
 </p>
 
+#### Aplicação no projeto
+<p align = "justify">
+Na imagem abaixo encontra a controller de torneio em que contém o padrão chain of responsability na funçao handle que instancia a classe CreatePlayoff
+</p>
+
+![ aplicação chain of responsability ](../assets/Gof/chain_responsability.png)
+
+
 ## Conclusão
 
 ## Referências
