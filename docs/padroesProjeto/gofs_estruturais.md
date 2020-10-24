@@ -53,7 +53,7 @@ O Proxy é um padrão de projeto estrutural que permite que você forneça um su
 ![ Exemplo Proxy ](../assets/Gof/structure.png)
 
 
-### Motivação
+#### Motivação
 
 <p align = "justify">
 Foi usado o padrão Proxy para gerenciar os requests enviados da camada de view, interceptando estes requests e assim formando um middleware que faz o encaminhamento para sua respectiva rota.
