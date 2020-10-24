@@ -23,6 +23,11 @@ Foi utilizado o [Lucidchart](http://lucidchart.com/) para a elaboração do diag
 
 ![![diagrama de pacotes](../assets/Diagrama_pacotes/Diagrama_de_pacote.png)](../assets/Diagrama_pacotes/Diagrama_de_pacote.png)
 
+### Versão 2.0 
+
+![![diagrama de pacotes 2](../assets/Diagrama_pacotes/Diagrama_de_pacote2.png)](../assets/Diagrama_pacotes/Diagrama_de_pacote2.png)
+
+```Autores: Lucas Alexandre, Matheus Estanislau e Moacir Mascarenha ```
 
 ## Conclusão
 
@@ -40,3 +45,4 @@ A partir da elaboração do diagrama de pacotes foi possível ter uma visão ger
 | -- | -- | -- | -- |
 | 21/09/20 | 1.0 | Criação do documento | Lucas Alexandre, Matheus Estanislau e Moacir Mascarenha | 
 | 28/09/20 | 1.1 | Ajustes na metodologia e conclusão | João Pedro, Matheus Estanislau e Renan Cristyan | 
+|24/10/20| 2.0 | Adicionada a versão 2.0 do diagrama de pacotes| Lucas Alexandre|
