@@ -72,6 +72,18 @@ O padrão controller determina que a responsabilidade da manipulação de evento
 
 Utilizamos o padrão de projeto Controller em nosso backend distribuindo a manipulção de eventos para os serviços responsaveis, no projeto será utilizado a controller de Usuário, Sessão, Torneio, Rounds e Partidas.
 
+### Indirection
+
+<p align = "justify">
+O padrão indirection suporta baixo acoplamento entre dois elementos, atribuindo a objeto intermediário a responsabilidade de ser o mediador entre eles. Um exemplo é a introdução do componente controlador para mediação entre modelo.
+</p>
+
+#### Aplicação no projeto
+É possivel identificar o padrão indirection no diagrama de sequencia onde há baixo acoplamento entre a componente de registrar torneio e o repository do torneio. A controller e a service são dois intermediadores entre eles
+
+![Indirection](../assets/Diagrama_sequencia/sequencia4.png)
+
+
 ## Conclusão
 
 <p align = "justify">
@@ -99,5 +111,6 @@ Utilizamos o padrão de projeto Controller em nosso backend distribuindo a manip
 | 18/10/20 | 1.3 | Adicionado padrão controller | João Pedro, Matheus Estanislau e  Moacir Mascarenha |
 | 19/10/20 | 1.4 | Ajustes no documento | Renan Cristyan |
 | 19/10/20 | 1.5 | Adicionado padrão especialista | Renan Cristyan |
+| 24/10/20 | 1.6 | Adicionado padrao indirection | Lucas Alexandre e João Pedro|
 
 
