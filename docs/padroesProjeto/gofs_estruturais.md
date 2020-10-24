@@ -14,10 +14,9 @@ Os padrões estruturais se preocupam com a forma como classes e objetos são com
 
 <p align = "justify">
  A partir do estudo da equipe sobre os padrões estruturais e feedback das avaliações, a equipe analisou os diagramas identificando problemas onde os padrões poderiam ser aplicados. A partir desses padrões identificados, a equipe os implementou.
-
 </p>
 
-## Padrões
+## Padrões Estruturais
 
 ### Versão 1.0
 
@@ -29,6 +28,7 @@ O Facade é um padrão de projeto estrutural que fornece uma interface simplific
 
 #### Motivação
 
+É importante uma autenticação nas rotas para evitar que o usuário acesse rotas que não esteja autorizado. Então a equipe optou pelo padrão facade para autenticação, servindo como fachada para acesso as rotas.
 
 #### Aplicação no projeto
 
