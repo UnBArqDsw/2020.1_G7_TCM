@@ -1,6 +1,6 @@
 ---
 id: gofs_criacionais
-title: GOFS Criacionais
+title: GOFs Criacionais
 ---
 
 ## Introdução
@@ -24,16 +24,14 @@ A partir do estudo da equipe sobre os padrões criacionais e feedback das avalia
 ### Factory Method
 
 <p align = "justify">
-O Factory Method(Método fábrica, Construtor virtual) é um padrão criacional de projeto que fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados.
+O Factory Method (Método fábrica, Construtor virtual) é um padrão criacional de projeto que fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão criados.
 
 </p>
 
 ![padrão imagem](../assets/Gof/factory_method_padrao.jpeg)
 
 #### Motivação
-<p align = "justify">
-O sistema inicialmente estava projetado para torneios apenas do tipo playoffs, dificultado adições de novos tipos de torneios como o de [barragem](../).Foi usado o padrão Factory Method para flexibilizar o sistema, sendo possível atualizações futuras sem grandes mudanças na base de código.
-</p>
+O sistema inicialmente estava projetado para torneios apenas do tipo playoffs, dificultado adições de novos tipos de torneios como o de [barragem](../). Foi usado o padrão Factory Method para flexibilizar o sistema, sendo possível atualizações futuras sem grandes mudanças na base de código.
 
 #### Aplicação no projeto
 
@@ -48,9 +46,9 @@ Apos a implementação do padrão criacional factory method é possivel notar um
 
 ## Referências
 
-> [1]PADRÕES de PROJETO. Disponível em: https://refactoring.guru/pt-br/design-patterns 
+> [1] PADRÕES de PROJETO. Disponível em: https://refactoring.guru/pt-br/design-patterns 
 
-> [2]GAMMA, Erich et al. Design Patterns: Elements of Reusable Object-Oriented Software. 1. ed. Massachusetts: Addison-Wesley Professional, 2009. 426 p. ISBN 0-201-63361-2.
+> [2] GAMMA, Erich et al. Design Patterns: Elements of Reusable Object-Oriented Software. 1. ed. Massachusetts: Addison-Wesley Professional, 2009. 426 p. ISBN 0-201-63361-2.
 
 ## Autor(es)
 
@@ -58,3 +56,4 @@ Apos a implementação do padrão criacional factory method é possivel notar um
 | -- | -- | -- | -- |
 | 18/10/20 | 1.0 | Criação do documento | João Pedro e Moacir Mascarenha |
 | 18/10/20 | 1.1 | Adicionado Padrão Method | João Pedro, Matheus Estanislau, Moacir Mascarenha |
+| 19/10/20 | 1.2 | Atualizada imagem do padrão Factory Method | Renan Cristyan |

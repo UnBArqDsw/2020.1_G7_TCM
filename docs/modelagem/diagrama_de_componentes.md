@@ -24,6 +24,9 @@ Para a elaboração do diagrama foi utilizado o software [Lucidchart](https://ww
 
 ![![diagrama de componentes](../assets/Diagrama_componentes/diagrama_de_componentes.png)](../assets/Diagrama_componentes/diagrama_de_componentes.png)
 
+### Versão 2.0
+
+![![diagrama de componentes](../assets/Diagrama_componentes/diagrama_de_componentesV2.0.png)](../assets/Diagrama_componentes/diagrama_de_componentesV2.0.png)
 
 #### Rastreabilidade de Requisitos
 
@@ -58,3 +61,4 @@ Com o diagrama de componentes, a equipe tem uma melhor visualização dos compon
 | -- | -- | -- | -- |
 | 21/09/20 | 1.0 | Criação do documento | João Pedro, Matheus Estanislau e Renan Cristyan | 
 | 27/09/20 | 1.1 | Correções no documento | Renan Cristyan | 
+| 27/09/20 | 2.0 | Adicionada versão 2.0 | João Pedro e Renan Cristyan | 

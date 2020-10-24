@@ -50,6 +50,8 @@ Através do diagrama de classes, foi possível representar a estrutura do sistem
 
 > UML Class Diagram Tutorial. Disponível em https://www.youtube.com/watch?v=UI6lqHOVHic. Acesso em 21/09/20
 
+> UML Class Relationship Diagrams. Disponível em https://www.cs.odu.edu/~zeil/cs330/latest/Public/classDiagrams/index.html#other-class-diagram-elements Acesso em 19/10/20
+
 ## Autor(es)
 
 | Data | Versão | Descrição | Autor(es) |
