@@ -28,6 +28,10 @@ O Chain of Responsibility é um padrão de projeto comportamental que permite qu
 
 #### Motivação
 
+<p align = "justify">
+Foi usado o padrão Chain of Responsibility a partir de metodos handlers, para que a partir da request a controller decida qual service deverá realizar a função desejada. Assim reduzindo o grau de acoplamento e com maior flexibilidade.
+</p>
+
 ## Conclusão
 
 ## Referências
