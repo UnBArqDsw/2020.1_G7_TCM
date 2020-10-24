@@ -44,6 +44,17 @@ A imagem a baixo mostra um exemplo do uso da facede de autenticação para acess
 
 ![ Método Faced ](../assets/Gof/userauthroutes.png)
 
+### Proxy 
+
+O Proxy é um padrão de projeto estrutural que permite que você forneça um substituto ou um espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você faça algo ou antes ou depois do pedido chegar ao objeto original [1]. 
+
+![ Exemplo Proxy ](../assets/Gof/structure.png)
+
+
+### Motivação
+
+#### Aplicação no projeto
+
 
 ## Conclusão
 
@@ -63,3 +74,4 @@ A imagem a baixo mostra um exemplo do uso da facede de autenticação para acess
 | -- | -- | -- | -- |
 | 24/10/20 | 1.0 | Criação do documento | João Pedro e Lucas Alexandre |
 |24/10/20| 1.1 | Adicionado padrão facade | João Pedro, Lucas Alexandre e Matheus estanislau|
+|24/10/20| 1.2 | Adicionado padrão Proxy | João e Lucas Alexandre |
