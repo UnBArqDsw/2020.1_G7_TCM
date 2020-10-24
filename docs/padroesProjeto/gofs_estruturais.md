@@ -46,16 +46,26 @@ A imagem a baixo mostra um exemplo do uso da facede de autenticação para acess
 
 #### Proxy 
 
+<p align = "justify">
 O Proxy é um padrão de projeto estrutural que permite que você forneça um substituto ou um espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você faça algo ou antes ou depois do pedido chegar ao objeto original [1]. 
+</p>
 
 ![ Exemplo Proxy ](../assets/Gof/structure.png)
 
 
 ### Motivação
+
+<p align = "justify">
 Foi usado o padrão Proxy para gerenciar os requests enviados da camada de view, interceptando estes requests e assim formando um middleware que faz o encaminhamento para sua respectiva rota.
+</p>
 
 #### Aplicação no projeto
 
+<p align = "justify">
+A imagem mostra o uso do padrão proxy para interceptar as request e encaminhas as rotas.
+</p>
+
+![ aplicação Proxy ](../assets/Gof/proxy.png)
 
 ## Conclusão
 
@@ -74,4 +84,4 @@ Foi usado o padrão Proxy para gerenciar os requests enviados da camada de view,
 | -- | -- | -- | -- |
 | 24/10/20 | 1.0 | Criação do documento | João Pedro e Lucas Alexandre |
 |24/10/20| 1.1 | Adicionado padrão facade | João Pedro, Lucas Alexandre e Matheus estanislau|
-|24/10/20| 1.2 | Adicionado padrão Proxy | João e Lucas Alexandre |
+|24/10/20| 1.2 | Adicionado padrão Proxy | João Pedro, Lucas Alexandre e Matheus estanislau|
