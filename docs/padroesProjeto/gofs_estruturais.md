@@ -12,6 +12,10 @@ Os padrões estruturais se preocupam com a forma como classes e objetos são com
 
 ## Metodologia
 
+<p align = "justify">
+ A partir do estudo da equipe sobre os padrões estruturais e feedback das avaliações, a equipe analisou os diagramas identificando problemas onde os padrões poderiam ser aplicados. A partir desses padrões identificados, a equipe os implementou.
+
+</p>
 
 ## Padrões
 
