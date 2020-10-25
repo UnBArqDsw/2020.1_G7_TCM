@@ -57,7 +57,7 @@ A ideia de se utilizar o padrão comportamental Strategy foi para abstrair a ló
 ### Aplicação no projeto
 
 <p align = "justify">
-No diagrama de classes, foi implementada uma interface Match que contém métodos comuns a todos os tipos de partida. Porém, devido as diferenças entre cada torneio e suas partidas, foi criada uma classe por partida diferente, e cada classe implementa os métodos da interface Match que forem necessários em seu contexto. A aplicação do padrão Strategy contribuiu fortemente para a manutenabilidade do sistema, além de permitir que o mesmo se expanda com facilidade no futuro. 
+No diagrama de classes, foi implementada uma interface Match que contém métodos comuns a todos os tipos de partida. Porém, devido as diferenças entre cada torneio e suas partidas, foi criada uma classe por partida diferente, e cada classe implementa os métodos da interface Match. A aplicação do padrão Strategy contribuiu fortemente para a manutenabilidade do sistema, além de permitir que o mesmo se expanda com facilidade no futuro. 
 </p>
 
 ![ Aplicação de Strategy ](../assets/Gof/strategy.png)
