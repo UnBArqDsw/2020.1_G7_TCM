@@ -49,9 +49,14 @@ Exemplo o serviço de playoffs:
 
 ![serviço concreto](../assets/Gof/concreteProductPlayoff.png)
 
-A fábrica de serviços foi implementada com o método factoryMethod que pode ser sobrescrito pelas suas subclasses que serão seus produtos:
+A fábrica de serviços foi implementada com o método factoryMethod que pode ser sobrescrito pelas suas subclasses que serão os criadores concretos dos serviços:
 
 ![fábrica de serviços](../assets/Gof/factoryCreator.png)
+
+Os criadores concretos dos serviços extendem da fábrica de serviços e sobrescrevem o método factoryMethod retornando uma nova instancia de um serviço concreto:
+
+![criadores concretos](../assets/Gof/playoffFactory.png)
+
 
 ### Singleton
 O padrão de projeto criacional permite garantir que uma classe tenha apenas uma instância
