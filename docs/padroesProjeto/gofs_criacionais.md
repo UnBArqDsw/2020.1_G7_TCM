@@ -37,6 +37,12 @@ O sistema inicialmente estava projetado para torneios apenas do tipo playoffs, d
 
 ![ Método fábrica, Construtor virtual ](../assets/Gof/factory_method.png)
 
+Na implementação do backend utilizamos o factory method na implementação de nossos serviços.
+
+Inicialmente foi implementada uma interface onde todos os serviços passaram a seguir esse protocolo.
+
+![protocolo de serviço](../assets/Gof/serviceProtocol.png)
+
 ### Singleton
 O padrão de projeto criacional permite garantir que uma classe tenha apenas uma instância
 
