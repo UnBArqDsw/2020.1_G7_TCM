@@ -37,6 +37,27 @@ O sistema inicialmente estava projetado para torneios apenas do tipo playoffs, d
 
 ![ Método fábrica, Construtor virtual ](../assets/Gof/factory_method.png)
 
+Na implementação do backend utilizamos o factory method na implementação de nossos serviços.
+
+Inicialmente foi implementada uma interface onde todos os serviços passaram a seguir esse protocolo.
+
+![protocolo de serviço](../assets/Gof/serviceProtocol.png)
+
+Os serviços concretos foram criados a partir da implementação do protocolo de serviço.
+
+Exemplo o serviço de playoffs:
+
+![serviço concreto](../assets/Gof/concreteProductPlayoff.png)
+
+A fábrica de serviços foi implementada com o método factoryMethod que pode ser sobrescrito pelas suas subclasses que serão os criadores concretos dos serviços:
+
+![fábrica de serviços](../assets/Gof/factoryCreator.png)
+
+Os criadores concretos dos serviços extendem da fábrica de serviços e sobrescrevem o método factoryMethod retornando uma nova instancia de um serviço concreto:
+
+![criadores concretos](../assets/Gof/playoffFactory.png)
+
+
 ### Singleton
 O padrão de projeto criacional permite garantir que uma classe tenha apenas uma instância
 
@@ -71,3 +92,4 @@ Apos a implementação do padrão criacional factory method é possivel notar um
 | 18/10/20 | 1.1 | Adicionado Padrão Method | João Pedro, Matheus Estanislau, Moacir Mascarenha |
 | 19/10/20 | 1.2 | Atualizada imagem do padrão Factory Method | Renan Cristyan |
 | 25/10/20 | 1.3 | Adicionado padrão singleton | Moacir Mascarenha |
+| 26/10/20 | 1.4 | Adicionado implementação do factory method | Matheus Estanislau |

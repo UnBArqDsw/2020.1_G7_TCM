@@ -50,6 +50,16 @@ Objetos com baixa coesão: são aqueles que possuem uma carga elevada de respons
 
 #### Aplicação no projeto
 
+<p align = "justify">
+O padrão de coesão foi utilizado em todo sistema do back end, utilizando classes coesas contento apenas responsabilidades inerentes ao seu papel dentro da aplicação. 
+</p>
+
+Exemplo da aplicação:
+
+![Coesão1](../assets/Grasp/graspcoesao1.png)
+
+![Coesão1](../assets/Grasp/graspcoesao2.png)
+
 
 ### Especialista
 <p align = "justify">

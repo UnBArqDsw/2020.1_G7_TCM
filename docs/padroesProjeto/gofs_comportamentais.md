@@ -160,6 +160,21 @@ Os conceitos do padrão Memento foram aplicados na forma de migrations do banco 
 
 ![ Aplicação de Memento ](../assets/Gof/migration.png)
 
+## Command
+O Command é um padrão de projeto comportamental que transforma um pedido em um objeto independente que contém toda a informação sobre o pedido. Essa transformação permite que você parametrize métodos com diferentes pedidos, atrase ou coloque a execução do pedido em uma fila, e suporte operações que não podem ser feitas.
+
+![ Command exemplo ](../assets/Gof/command_example.png)
+
+
+### Motivação
+Para realizar a criação de diferentes objetos como torneio, partida, etc. É necessário enviar informações para a camada de negócio. A ação de envio pode ser configurada por meio de um botão, que ao ser acionado executa um comando especifico para cada tipo objeto.
+
+### Aplicação no projeto
+Em processo de aplicação no Front-End, com o intuíto de retirar a reponsabilidade dos componentes de se comunicar com a camada de negócio, passando a responsabilidade para funções de comando especificas.
+
+
+- Não implementado até o momento
+
 ## Conclusão
 <p align = "justify">
 A aplicação dos padrões de projeto no TCM nos auxiliou a melhorar a manutenabilidade do sistema, desacoplar o código e aprender novos conceitos que serão praticáveis em projetos futuros.
@@ -190,3 +205,4 @@ A aplicação dos padrões de projeto no TCM nos auxiliou a melhorar a manutenab
 | 26/10/20 | 1.6 | Adicionado o padrão Memento | João Pedro e Renan Cristyan
 | 26/10/20 | 1.7 | Adicionada conclusão | João Pedro e Renan Cristyan
 | 26/10/20 | 1.8 | Adicionado padrão Observer | Moacir Mascarenha
+| 26/10/20 | 1.9 | Adicionado padrão Command | Matheus Estanislau e Moacir Mascarenha
