@@ -29,6 +29,12 @@ Foi utilizado o [Lucidchart](http://lucidchart.com/) para a elaboração do diag
 
 ```Autores: Lucas Alexandre, Matheus Estanislau e Moacir Mascarenha ```
 
+### Versão 3.0 
+
+![![diagrama de pacotes 3](../assets/Diagrama_pacotes/Diagrama_de_pacote3.png)](../assets/Diagrama_pacotes/Diagrama_de_pacote3.png)
+
+```Autores: Lucas Alexandre e Matheus Estanislau```
+
 ## Conclusão
 
 <p align = "justify">
