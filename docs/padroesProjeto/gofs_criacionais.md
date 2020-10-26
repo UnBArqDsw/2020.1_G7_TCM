@@ -92,3 +92,4 @@ Apos a implementação do padrão criacional factory method é possivel notar um
 | 18/10/20 | 1.1 | Adicionado Padrão Method | João Pedro, Matheus Estanislau, Moacir Mascarenha |
 | 19/10/20 | 1.2 | Atualizada imagem do padrão Factory Method | Renan Cristyan |
 | 25/10/20 | 1.3 | Adicionado padrão singleton | Moacir Mascarenha |
+| 26/10/20 | 1.4 | Adicionado implementação do factory method | Matheus Estanislau |
