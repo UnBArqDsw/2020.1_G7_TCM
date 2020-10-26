@@ -29,6 +29,12 @@ Para a criação da primeira versão do diagrama de classes, a equipe utilizou o
 ### Versão 1.1
 ![![Diagrama de Classes](../assets/diagrama_de_classes/diagrama_de_classes_1.1.png)](../assets/diagrama_de_classes/diagrama_de_classes_1.1.png)
 
+
+### Versão 2.0
+
+![![Diagrama de Classes](../assets/diagrama_de_classes/diagrama_de_classes_1.1.png)](../assets/diagrama_de_classes/diagrama_de_classes_2.0.png)
+
+
 #### Rastreabilidade de Requisitos
 
 | ID|Descrição|
@@ -59,3 +65,4 @@ Através do diagrama de classes, foi possível representar a estrutura do sistem
 | 21/09/20 | 1.0 | Criação do documento | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan |
 | 28/09/20 | 1.1 | Ajustes no documento | João Pedro e Renan Cristyan |
 | 28/09/20 | 1.2 | Adicionado diagrama de classes 1.1 | João Pedro e Renan Cristyan |
+| 26/10/20 | 2.0 | Adicionado diagrama de classes 2.0 | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan |
