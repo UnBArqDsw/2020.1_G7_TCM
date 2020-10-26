@@ -6,7 +6,7 @@ title: GOFS Estruturais
 ## Introdução
 
 <p align = "justify">
-Os padrões estruturais se preocupam com a forma como classes e objetos são compostos para formar estruturas maiores.mas ainda mantendo essas estruturas flexíveis e eficientes. Os de classes utilizam a herança para compor interfaces ou implementações, e os de objeto ao invés de compor interfaces ou implementações, eles descrevem maneiras de compor objetos para obter novas funcionalidades [3].
+Os padrões estruturais se preocupam com a forma como classes e objetos são compostos para formar estruturas maiores, mas ainda mantendo essas estruturas flexíveis e eficientes. Os de classes utilizam a herança para compor interfaces ou implementações, e os de objeto ao invés de compor interfaces ou implementações, eles descrevem maneiras de compor objetos para obter novas funcionalidades [3].
 </p>
 
 
@@ -20,7 +20,7 @@ Os padrões estruturais se preocupam com a forma como classes e objetos são com
 
 ### Versão 1.0
 
-#### Facede
+### Facade
 
 <p align = "justify">
 O Facade é um padrão de projeto estrutural que fornece uma interface simplificada para uma biblioteca, um framework, ou qualquer conjunto complexo de classes [1].
@@ -28,7 +28,9 @@ O Facade é um padrão de projeto estrutural que fornece uma interface simplific
 
 #### Motivação
 
+<p align = "justify">
 É importante uma autenticação nas rotas para evitar que o usuário acesse rotas que não esteja autorizado. Então a equipe optou pelo padrão facade para autenticação, servindo como fachada para acesso as rotas.
+</p>
 
 #### Aplicação no projeto
 
@@ -36,15 +38,15 @@ O Facade é um padrão de projeto estrutural que fornece uma interface simplific
 A imagem a baixo representa uma facade de autenticação de usuário, que é usada para um controle de acesso as rotas. Para acessar todas as rotas necessita desta interface, indicando que o usuário está logado ou não na aplicação.
 </p>
 
-![ Método Faced ](../assets/Gof/userauth.png)
+![ Método Facade ](../assets/Gof/userauth.png)
 
 <p align = "justify">
-A imagem a baixo mostra um exemplo do uso da facede de autenticação para acesso a rota de round. que esta incluido no arquivo roundRoutes.ts
+A imagem a baixo mostra um exemplo do uso da facade de autenticação para acesso a rota de round. que está incluído no arquivo roundRoutes.ts
 </p>
 
-![ Método Faced ](../assets/Gof/userauthroutes.png)
+![ Método Facade ](../assets/Gof/userauthroutes.png)
 
-#### Proxy 
+### Proxy 
 
 <p align = "justify">
 O Proxy é um padrão de projeto estrutural que permite que você forneça um substituto ou um espaço reservado para outro objeto. Um proxy controla o acesso ao objeto original, permitindo que você faça algo ou antes ou depois do pedido chegar ao objeto original [1]. 
@@ -69,6 +71,10 @@ A imagem mostra o uso do padrão proxy para interceptar as request e encaminhas 
 
 ## Conclusão
 
+<p align = "justify">
+A partir do estudo e implementação dos padrões GoF estruturais, foi possível encapsular o sistema e evitar expô-lo a terceiros, além de facilitar a manutenibilidade do código de uma forma geral. Caso haja a possibilidade de se aplicar mais padrões estruturais, certamente iremos implementá-los.
+</p>
+
 
 ## Referências
 
@@ -83,5 +89,7 @@ A imagem mostra o uso do padrão proxy para interceptar as request e encaminhas 
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 24/10/20 | 1.0 | Criação do documento | João Pedro e Lucas Alexandre |
-|24/10/20| 1.1 | Adicionado padrão facade | João Pedro, Lucas Alexandre e Matheus estanislau|
-|24/10/20| 1.2 | Adicionado padrão Proxy | João Pedro, Lucas Alexandre e Matheus estanislau|
+|24/10/20| 1.1 | Adicionado padrão Facade | João Pedro, Lucas Alexandre e Matheus Estanislau|
+|24/10/20| 1.2 | Adicionado padrão Proxy | João Pedro, Lucas Alexandre e Matheus Estanislau|
+| 26/10/20 | 1.3 | Correções no documento | João Pedro, Lucas Alexandre, Matheus Estanislau, Renan Cristyan |
+|26/10/20| 1.4 | Adicionada conclusão | Renan Cristyan |

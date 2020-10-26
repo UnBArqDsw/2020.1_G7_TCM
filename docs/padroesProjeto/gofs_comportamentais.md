@@ -35,7 +35,7 @@ Exemplo:
 ### Motivação
 
 <p align = "justify">
-Foi usado o padrão Chain of Responsibility a partir de metodos handlers, para que a partir da request a controller decida qual service deverá realizar a função desejada. Assim reduzindo o grau de acoplamento e com maior flexibilidade.
+Foi usado o padrão Chain of Responsibility a partir de métodos handlers, para que a partir da request a controller decida qual service deverá realizar a função desejada. Assim reduzindo o grau de acoplamento e com maior flexibilidade.
 </p>
 
 ### Aplicação no projeto
@@ -50,9 +50,10 @@ Na imagem abaixo encontra a controller de torneio em que contém o padrão chain
 ## Strategy
 
 <p align = "justify">
-O padrão comportamental Strategy permite a criação de uma família de algorítmos, separá-los em classes e fazer objetos intercambiáveis [5]. 
+O padrão comportamental Strategy permite a criação de uma família de algoritmos, separá-los em classes e fazer objetos intercambiáveis [5].
+ 
+Uma vantagem em se aplicar este padrão é que se torna possível criar uma interface contendo determinados métodos, e classes que implementam esses métodos de maneira independente, facilitando a manutenibilidade do sistema.
 
-Uma vantagem em se aplicar este padrão é que se torna possível criar uma interface contendo determinados métodos, e classes que implementam esses métodos de maneira independente, facilitando a manutenabilidade do sistema. 
 </p>
 
 ![ Exemplo de strategy ](../assets/Gof/strategy_example.png)
@@ -66,7 +67,7 @@ A ideia de se utilizar o padrão comportamental Strategy foi para abstrair a ló
 ### Aplicação no projeto
 
 <p align = "justify">
-No diagrama de classes, foi implementada uma interface Match que contém métodos comuns a todos os tipos de partida. Porém, devido as diferenças entre cada torneio e suas partidas, foi criada uma classe por partida diferente, e cada classe implementa os métodos da interface Match. A aplicação do padrão Strategy contribuiu fortemente para a manutenabilidade do sistema, além de permitir que o mesmo se expanda com facilidade no futuro. 
+No diagrama de classes, foi implementada uma interface Match que contém métodos comuns a todos os tipos de partida. Porém, devido às diferenças entre cada torneio e suas partidas, foi criada uma classe por partida diferente, e cada classe implementa os métodos da interface Match. A aplicação do padrão Strategy contribuiu fortemente para a manutenibilidade do sistema, além de permitir que o mesmo se expanda com facilidade no futuro.
 </p>
 
 ![ Aplicação de Strategy ](../assets/Gof/strategy.png)
@@ -79,11 +80,11 @@ O observer(Observador, Assinante do evento, Event-Subscriber, Escutador, Listene
 
 
 ### Motivação
-Ao solicitar inscrição em um torneio é necessário que o gerente do torneio receba uma notifição, para tal comportamento deve se definir um mecanismo que monitore as solicitações, sendo assim, o observer será utilizado para este comportamento.
+Ao solicitar inscrição em um torneio é necessário que o gerente do torneio receba uma notificação, para tal comportamento deve se definir um mecanismo que monitore as solicitações, sendo assim, o observer será utilizado para este comportamento.
 
 
 ### Aplicação no projeto
-No digrama de sequência([Tournament registration request](../modelagem/diagrama_de_sequencia.md)) é possivel identificar que o observer se encaixa perfeitamente para tal comportamento.
+No diagrama de sequência([Tournament registration request](../modelagem/diagrama_de_sequencia.md)) é possível identificar que o observer se encaixa perfeitamente para tal comportamento.
 
 - Não implementado até o momento
 
@@ -98,12 +99,13 @@ O Mediator é um padrão de projeto comportamental que permite que você reduza 
 
 ### Motivação
 <p align = "justify">
-A partir do padrão de projeto Repository Pattern é possivel observar a aplicação do padrão GoF representada pela controller que faz mediação entre a camada de view e service. Para o frontend usamos o padrão de rotas para acesso as paginas do sistema sendo assim um mediator.
+A partir do padrão de projeto Repository Pattern é possível observar a aplicação do padrão GoF representada pela controller que faz mediação entre a camada de view e service. Para o frontend usamos o padrão de rotas para acesso as páginas do sistema sendo assim um mediator.
 </p>
 
 ### Aplicação no projeto
 <p align = "justify">
-O padrão Mediator foi aplicado tanto no Backend da aplicação (na implementação dos controllers), quanto no Frontend (os conceitos de mediaçao foram aplicados nas lógicas das rotas). 
+O padrão Mediator foi aplicado tanto no Backend da aplicação (na implementação dos controllers), quanto no Frontend (os conceitos de mediação foram aplicados nas lógicas das rotas).
+
 </p>
 
 <p align = "justify">
@@ -127,7 +129,7 @@ O padrão comportamental Memento permite salvar e restaurar o estado de um objet
 
 ### Motivação
 <p align = "justify">
-Para modelar o banco usamos uma migrate que serve para gerenciar a estrutura das tabelas do banco. E tambem serve como um histórico de versão do banco. Pode ser considerado como um padrão memento por poder salvar e restaurar o estado sem revelar mais detalhes.
+Para modelar o banco usamos uma migrate que serve para gerenciar a estrutura das tabelas do banco. E também serve como um histórico de versão do banco. Pode ser considerado como um padrão memento por poder salvar e restaurar o estado sem revelar mais detalhes.
 </p>
 
 ### Aplicação no projeto
@@ -144,17 +146,17 @@ O Command é um padrão de projeto comportamental que transforma um pedido em um
 
 
 ### Motivação
-Para realizar a criação de diferentes objetos como torneio, partida, etc. É necessário enviar informações para a camada de negócio. A ação de envio pode ser configurada por meio de um botão, que ao ser acionado executa um comando especifico para cada tipo objeto.
+Para realizar a criação de diferentes objetos como torneio, partida, etc. É necessário enviar informações para a camada de negócio. A ação de envio pode ser configurada por meio de um botão, que ao ser acionado executa um comando específico para cada tipo objeto.
 
 ### Aplicação no projeto
-Em processo de aplicação no Front-End, com o intuíto de retirar a reponsabilidade dos componentes de se comunicar com a camada de negócio, passando a responsabilidade para funções de comando especificas.
+Em processo de aplicação no Front-End, com o intuito de retirar a reponsabilidade dos componentes de se comunicar com a camada de negócio, passando a responsabilidade para funções de comando especificas.
 
 
 - Não implementado até o momento
 
 ## Conclusão
 <p align = "justify">
-A aplicação dos padrões de projeto no TCM nos auxiliou a melhorar a manutenabilidade do sistema, desacoplar o código e aprender novos conceitos que serão praticáveis em projetos futuros.
+A aplicação dos padrões de projeto no TCM nos auxiliou a melhorar a manutenibilidade do sistema, desacoplar o código e aprender novos conceitos que serão praticáveis em projetos futuros.
 </p>
 
 ## Referências
@@ -183,3 +185,4 @@ A aplicação dos padrões de projeto no TCM nos auxiliou a melhorar a manutenab
 | 26/10/20 | 1.7 | Adicionada conclusão | João Pedro e Renan Cristyan
 | 26/10/20 | 1.8 | Adicionado padrão Observer | Moacir Mascarenha
 | 26/10/20 | 1.9 | Adicionado padrão Command | Matheus Estanislau e Moacir Mascarenha
+| 26/10/20 | 2.0 | Correções no documento | João Pedro, Lucas Alexandre, Matheus Estanislau, Renan Cristyan |

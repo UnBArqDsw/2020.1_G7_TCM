@@ -35,7 +35,7 @@ Na segunda versão foram adicionadas as camadas de services, controllers e repos
 
 ### Versão 3.0 
 
-Na terceira versão foi adicionada a camada model e também foi incluído a classe round nas camadas controller, services, repository, model e partida, o ponto de acesso ao banco de dados também foi refatorado, a camada repository é a única que possui acesso ao banco de dados. 
+Na terceira versão foi adicionada a camada model e também foi incluídas a classe round nas camadas controller, services, repository, model e partida, o ponto de acesso ao banco de dados também foi refatorado, a camada repository é a única que possui acesso ao banco de dados. 
 
 ![![diagrama de pacotes 3](../assets/Diagrama_pacotes/Diagrama_de_pacote3.png)](../assets/Diagrama_pacotes/Diagrama_de_pacote3.png)
 
