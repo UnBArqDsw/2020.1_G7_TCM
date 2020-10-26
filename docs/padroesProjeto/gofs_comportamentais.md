@@ -118,29 +118,6 @@ Aplicação no Backend
 
 ![ Aplicação de Mediator no Backend ](../assets/Gof/mediator_backend.png)
 
-## Strategy
-
-<p align = "justify">
-O padrão comportamental Strategy permite a criação de uma família de algorítmos, separá-los em classes e fazer objetos intercambiáveis [5]. 
-
-Uma vantagem em se aplicar este padrão é que se torna possível criar uma interface contendo determinados métodos, e classes que implementam esses métodos de maneira independente, facilitando a manutenabilidade do sistema. 
-</p>
-
-![ Exemplo de strategy ](../assets/Gof/strategy_example.png)
-
-### Motivação
-
-<p align = "justify">
-A ideia de se utilizar o padrão comportamental Strategy foi para abstrair a lógica de uma partida (match), já que uma partida pode ser amistosa, de mata-mata, de barragem ou de muitos tipos diferentes de torneio. Ao utilizar o padrão, cada tipo de partida implementa em sua própria classe os mesmos métodos determinados por uma interface.
-</p>
-
-### Aplicação no projeto
-
-<p align = "justify">
-No diagrama de classes, foi implementada uma interface Match que contém métodos comuns a todos os tipos de partida. Porém, devido as diferenças entre cada torneio e suas partidas, foi criada uma classe por partida diferente, e cada classe implementa os métodos da interface Match. A aplicação do padrão Strategy contribuiu fortemente para a manutenabilidade do sistema, além de permitir que o mesmo se expanda com facilidade no futuro. 
-</p>
-
-![ Aplicação de Strategy ](../assets/Gof/strategy.png)
 
 ## Memento
 
