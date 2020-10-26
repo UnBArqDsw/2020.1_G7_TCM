@@ -80,9 +80,26 @@ O Mediator é um padrão de projeto comportamental que permite que você reduza 
 ![ Exemplo de mediator ](../assets/Gof/mediator_example.png)
 
 ### Motivação
-
+<p align = "justify">
+A partir do padrão de projeto Repository Pattern é possivel observar a aplicação do padrão GoF representada pela controller que faz mediação entre a camada de view e service. Para o frontend usamos o padrão de rotas para acesso as paginas do sistema sendo assim um mediator.
+</p>
 
 ### Aplicação no projeto
+<p align = "justify">
+O padrão Mediator foi aplicado tanto no Backend da aplicação (na implementação dos controllers), quanto no Frontend (os conceitos de mediaçao foram aplicados nas lógicas das rotas). 
+</p>
+
+<p align = "justify">
+Aplicação no Frontend
+</p>
+
+![ Aplicação de Mediator no Frontend ](../assets/Gof/mediator_frontend.png)
+
+<p align = "justify">
+Aplicação no Backend
+</p>
+
+![ Aplicação de Mediator no Backend ](../assets/Gof/mediator_backend.png)
 
 
 ## Conclusão
