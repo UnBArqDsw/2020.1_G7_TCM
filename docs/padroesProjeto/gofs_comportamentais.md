@@ -125,3 +125,4 @@ Aplicação no Backend
 | 24/10/20 | 1.2 | Adicionado o padrão Strategy | Renan Cristyan 
 | 25/10/20 | 1.3 | Adicionado exemplo do padrão Strategy | Renan Cristyan
 | 25/10/20 | 1.4 | Adicionado o padrão Mediator | João Pedro e Renan Cristyan
+| 25/10/20 | 1.5 | Adicionados exemplos do padrão Mediator | João Pedro e Renan Cristyan
