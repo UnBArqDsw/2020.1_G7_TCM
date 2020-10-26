@@ -35,6 +35,8 @@ Na segunda versão foram adicionadas as camadas de services, controllers e repos
 
 ### Versão 3.0 
 
+Na terceira versão foi adicionada a camada model e também foi incluído a classe round nas camadas controller, services, repository, model e partida, o ponto de acesso ao banco de dados também foi refatorado, a camada repository é a única que possui acesso ao banco de dados. 
+
 ![![diagrama de pacotes 3](../assets/Diagrama_pacotes/Diagrama_de_pacote3.png)](../assets/Diagrama_pacotes/Diagrama_de_pacote3.png)
 
 ```Autores: Lucas Alexandre e Matheus Estanislau```
@@ -56,3 +58,5 @@ A partir da elaboração do diagrama de pacotes foi possível ter uma visão ger
 | 21/09/20 | 1.0 | Criação do documento | Lucas Alexandre, Matheus Estanislau e Moacir Mascarenha | 
 | 28/09/20 | 1.1 | Ajustes na metodologia e conclusão | João Pedro, Matheus Estanislau e Renan Cristyan | 
 |24/10/20| 2.0 | Adicionada a versão 2.0 do diagrama de pacotes| Lucas Alexandre|
+|25/10/20| 2.0 | Adicionada a versão 3.0 do diagrama de pacotes| Lucas Alexandre e Matheus Estanislau|
+
