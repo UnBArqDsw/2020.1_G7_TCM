@@ -144,6 +144,9 @@ Os conceitos do padrão Memento foram aplicados na forma de migrations do banco 
 ![ Aplicação de Memento ](../assets/Gof/migration.png)
 
 ## Conclusão
+<p align = "justify">
+A aplicação dos padrões de projeto no TCM nos auxiliou a melhorar a manutenabilidade do sistema, desacoplar o código e aprender novos conceitos que serão praticáveis em projetos futuros.
+</p>
 
 ## Referências
 
@@ -168,3 +171,4 @@ Os conceitos do padrão Memento foram aplicados na forma de migrations do banco 
 | 25/10/20 | 1.4 | Adicionado o padrão Mediator | João Pedro e Renan Cristyan
 | 25/10/20 | 1.5 | Adicionados exemplos do padrão Mediator | João Pedro e Renan Cristyan
 | 26/10/20 | 1.6 | Adicionado o padrão Memento | João Pedro e Renan Cristyan
+| 26/10/20 | 1.7 | Adicionada conclusão | João Pedro e Renan Cristyan
