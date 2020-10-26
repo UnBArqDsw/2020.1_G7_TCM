@@ -83,13 +83,87 @@ Ao solicitar inscrição em um torneio é necessário que o gerente do torneio r
 
 
 ### Aplicação no projeto
-No digrama de sequência([Tournament registration request]()) é possivel identificar que o observer se encaixa perfeitamente para tal comportamento.
+No digrama de sequência([Tournament registration request](../modelagem/diagrama_de_sequencia.md)) é possivel identificar que o observer se encaixa perfeitamente para tal comportamento.
 
 - Não implementado até o momento
 
 
+## Mediator
+
+<p align = "justify">
+O Mediator é um padrão de projeto comportamental que permite que você reduza as dependências caóticas entre objetos. O padrão restringe comunicações diretas entre objetos e os força a colaborar apenas através do objeto mediador [1].
+</p>
+
+![ Exemplo de mediator ](../assets/Gof/mediator_example.png)
+
+### Motivação
+<p align = "justify">
+A partir do padrão de projeto Repository Pattern é possivel observar a aplicação do padrão GoF representada pela controller que faz mediação entre a camada de view e service. Para o frontend usamos o padrão de rotas para acesso as paginas do sistema sendo assim um mediator.
+</p>
+
+### Aplicação no projeto
+<p align = "justify">
+O padrão Mediator foi aplicado tanto no Backend da aplicação (na implementação dos controllers), quanto no Frontend (os conceitos de mediaçao foram aplicados nas lógicas das rotas). 
+</p>
+
+<p align = "justify">
+Aplicação no Frontend
+</p>
+
+![ Aplicação de Mediator no Frontend ](../assets/Gof/mediator_frontend.png)
+
+<p align = "justify">
+Aplicação no Backend
+</p>
+
+![ Aplicação de Mediator no Backend ](../assets/Gof/mediator_backend.png)
+
+## Strategy
+
+<p align = "justify">
+O padrão comportamental Strategy permite a criação de uma família de algorítmos, separá-los em classes e fazer objetos intercambiáveis [5]. 
+
+Uma vantagem em se aplicar este padrão é que se torna possível criar uma interface contendo determinados métodos, e classes que implementam esses métodos de maneira independente, facilitando a manutenabilidade do sistema. 
+</p>
+
+![ Exemplo de strategy ](../assets/Gof/strategy_example.png)
+
+### Motivação
+
+<p align = "justify">
+A ideia de se utilizar o padrão comportamental Strategy foi para abstrair a lógica de uma partida (match), já que uma partida pode ser amistosa, de mata-mata, de barragem ou de muitos tipos diferentes de torneio. Ao utilizar o padrão, cada tipo de partida implementa em sua própria classe os mesmos métodos determinados por uma interface.
+</p>
+
+### Aplicação no projeto
+
+<p align = "justify">
+No diagrama de classes, foi implementada uma interface Match que contém métodos comuns a todos os tipos de partida. Porém, devido as diferenças entre cada torneio e suas partidas, foi criada uma classe por partida diferente, e cada classe implementa os métodos da interface Match. A aplicação do padrão Strategy contribuiu fortemente para a manutenabilidade do sistema, além de permitir que o mesmo se expanda com facilidade no futuro. 
+</p>
+
+![ Aplicação de Strategy ](../assets/Gof/strategy.png)
+
+## Memento
+
+<p align = "justify">
+O padrão comportamental Memento permite salvar e restaurar o estado de um objeto sem revelar os detalhes da sua implementação [1].
+</p>
+
+### Motivação
+<p align = "justify">
+Para modelar o banco usamos uma migrate que serve para gerenciar a estrutura das tabelas do banco. E tambem serve como um histórico de versão do banco. Pode ser considerado como um padrão memento por poder salvar e restaurar o estado sem revelar mais detalhes.
+</p>
+
+### Aplicação no projeto
+<p align = "justify">
+Os conceitos do padrão Memento foram aplicados na forma de migrations do banco de dados. Podemos tanto salvar o estado atual do banco como recuperar versões antigas.
+</p>
+
+![ Aplicação de Memento ](../assets/Gof/migration.png)
 
 ## Conclusão
+<p align = "justify">
+A aplicação dos padrões de projeto no TCM nos auxiliou a melhorar a manutenabilidade do sistema, desacoplar o código e aprender novos conceitos que serão praticáveis em projetos futuros.
+</p>
 
 ## Referências
 
@@ -111,4 +185,8 @@ No digrama de sequência([Tournament registration request]()) é possivel identi
 |24/10/20 | 1.1| Adicionado o padrão Chain of Responsability | João Pedro, Lucas Alexandre e Matheus Estanislau 
 | 24/10/20 | 1.2 | Adicionado o padrão Strategy | Renan Cristyan 
 | 25/10/20 | 1.3 | Adicionado exemplo do padrão Strategy | Renan Cristyan
-| 26/10/20 | 1.4 | Adicionado exemplo do padrão Observer | Moacir Mascarenha
+| 25/10/20 | 1.4 | Adicionado o padrão Mediator | João Pedro e Renan Cristyan
+| 25/10/20 | 1.5 | Adicionados exemplos do padrão Mediator | João Pedro e Renan Cristyan
+| 26/10/20 | 1.6 | Adicionado o padrão Memento | João Pedro e Renan Cristyan
+| 26/10/20 | 1.7 | Adicionada conclusão | João Pedro e Renan Cristyan
+| 26/10/20 | 1.8 | Adicionado padrão Observer | Moacir Mascarenha
