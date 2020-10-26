@@ -48,6 +48,8 @@ O padrão comportamental Strategy permite a criação de uma família de algorí
 Uma vantagem em se aplicar este padrão é que se torna possível criar uma interface contendo determinados métodos, e classes que implementam esses métodos de maneira independente, facilitando a manutenabilidade do sistema. 
 </p>
 
+![ Exemplo de strategy ](../assets/Gof/strategy_example.png)
+
 ### Motivação
 
 <p align = "justify">
@@ -84,3 +86,4 @@ No diagrama de classes, foi implementada uma interface Match que contém método
 | 24/10/20 | 1.0 | Criação do documento | João Pedro e Lucas Alexandre |
 |24/10/20 | 1.1| Adicionado o padrão Chain of Responsability | João Pedro, Lucas Alexandre e Matheus Estanislau 
 | 24/10/20 | 1.2 | Adicionado o padrão Strategy | Renan Cristyan 
+| 25/10/20 | 1.3 | Adicionado exemplo do padrão Strategy | Renan Cristyan
