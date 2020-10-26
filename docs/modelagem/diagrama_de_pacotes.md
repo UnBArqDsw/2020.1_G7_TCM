@@ -24,6 +24,10 @@ Foi utilizado o [Lucidchart](http://lucidchart.com/) para a elaboração do diag
 ![![diagrama de pacotes](../assets/Diagrama_pacotes/Diagrama_de_pacote.png)](../assets/Diagrama_pacotes/Diagrama_de_pacote.png)
 
 ### Versão 2.0 
+<p align = "justify">
+Na segunda versão foram adicionadas as camadas de services, controllers e repository e, também, foram incluidas as classes de usuário, torneio, participantes e partida. 
+
+</p>
 
 ![![diagrama de pacotes 2](../assets/Diagrama_pacotes/Diagrama_de_pacote2.png)](../assets/Diagrama_pacotes/Diagrama_de_pacote2.png)
 
