@@ -71,6 +71,23 @@ No diagrama de classes, foi implementada uma interface Match que contém método
 
 ![ Aplicação de Strategy ](../assets/Gof/strategy.png)
 
+## Observer
+
+O observer(Observador, Assinante do evento, Event-Subscriber, Escutador, Listener)  é um padrão de projeto comportamental que permite que você definir um mecanismo de assinatura para notificar múltiplos objetos sobre quaisquer eventos que aconteçam com o objeto que eles estão observando.
+
+![ Aplicação de observer ](../assets/Gof/observer_example.png)
+
+
+### Motivação
+Ao solicitar inscrição em um torneio é necessário que o gerente do torneio receba uma notifição, para tal comportamento deve se definir um mecanismo que monitore as solicitações, sendo assim, o observer será utilizado para este comportamento.
+
+
+### Aplicação no projeto
+No digrama de sequência([Tournament registration request](../modelagem/diagrama_de_sequencia.md)) é possivel identificar que o observer se encaixa perfeitamente para tal comportamento.
+
+- Não implementado até o momento
+
+
 ## Mediator
 
 <p align = "justify">
@@ -172,3 +189,4 @@ A aplicação dos padrões de projeto no TCM nos auxiliou a melhorar a manutenab
 | 25/10/20 | 1.5 | Adicionados exemplos do padrão Mediator | João Pedro e Renan Cristyan
 | 26/10/20 | 1.6 | Adicionado o padrão Memento | João Pedro e Renan Cristyan
 | 26/10/20 | 1.7 | Adicionada conclusão | João Pedro e Renan Cristyan
+| 26/10/20 | 1.8 | Adicionado padrão Observer | Moacir Mascarenha
