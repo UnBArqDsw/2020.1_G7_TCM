@@ -37,6 +37,19 @@ O sistema inicialmente estava projetado para torneios apenas do tipo playoffs, d
 
 ![ Método fábrica, Construtor virtual ](../assets/Gof/factory_method.png)
 
+### Singleton
+O padrão de projeto criacional permite garantir que uma classe tenha apenas uma instância
+
+
+![singleton imagem](../assets/Gof/singleton.png)
+
+#### Motivação
+Para a utilização do banco de dados é necessário criar uma conexão, onde a partir desta conexão toda a aplicação passa a ter acesso a essa unica instância.
+
+#### Aplicação no projeto
+
+![ sigleton ](../assets/Gof/singleton_example.png)
+
 
 ## Conclusão
 
@@ -57,3 +70,4 @@ Apos a implementação do padrão criacional factory method é possivel notar um
 | 18/10/20 | 1.0 | Criação do documento | João Pedro e Moacir Mascarenha |
 | 18/10/20 | 1.1 | Adicionado Padrão Method | João Pedro, Matheus Estanislau, Moacir Mascarenha |
 | 19/10/20 | 1.2 | Atualizada imagem do padrão Factory Method | Renan Cristyan |
+| 25/10/20 | 1.3 | Adicionado padrão singleton | Adicionado padrão Singleton |
