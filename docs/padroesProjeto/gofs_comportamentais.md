@@ -132,8 +132,16 @@ O padrão comportamental Memento permite salvar e restaurar o estado de um objet
 </p>
 
 ### Motivação
+<p align = "justify">
+Para modelar o banco usamos uma migrate que serve para gerenciar a estrutura das tabelas do banco. E tambem serve como um histórico de versão do banco. Pode ser considerado como um padrão memento por poder salvar e restaurar o estado sem revelar mais detalhes.
+</p>
 
 ### Aplicação no projeto
+<p align = "justify">
+Os conceitos do padrão Memento foram aplicados na forma de migrations do banco de dados. Podemos tanto salvar o estado atual do banco como recuperar versões antigas.
+</p>
+
+![ Aplicação de Memento ](../assets/Gof/migration.png)
 
 ## Conclusão
 
@@ -159,3 +167,4 @@ O padrão comportamental Memento permite salvar e restaurar o estado de um objet
 | 25/10/20 | 1.3 | Adicionado exemplo do padrão Strategy | Renan Cristyan
 | 25/10/20 | 1.4 | Adicionado o padrão Mediator | João Pedro e Renan Cristyan
 | 25/10/20 | 1.5 | Adicionados exemplos do padrão Mediator | João Pedro e Renan Cristyan
+| 26/10/20 | 1.6 | Adicionado o padrão Memento | João Pedro e Renan Cristyan
