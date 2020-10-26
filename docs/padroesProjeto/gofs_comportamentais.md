@@ -20,7 +20,7 @@ Os padrões comportamentais se concentram nos algoritmos e atribuições de resp
 
 ### Versão 1.0
 
-### Chain of responsability
+## Chain of responsability
 
 <p align = "justify">
 O Chain of Responsibility é um padrão de projeto comportamental que permite que você passe pedidos por uma corrente de handlers. Ao receber um pedido, cada handler decide se processa o pedido ou o passa adiante para o próximo handler na corrente [1].
@@ -47,7 +47,7 @@ Na imagem abaixo encontra a controller de torneio em que contém o padrão chain
 ![ Aplicação de Chain of Responsability ](../assets/Gof/chain_responsability.png)
 
 
-### Strategy
+## Strategy
 
 <p align = "justify">
 O padrão comportamental Strategy permite a criação de uma família de algorítmos, separá-los em classes e fazer objetos intercambiáveis [5]. 
@@ -70,6 +70,19 @@ No diagrama de classes, foi implementada uma interface Match que contém método
 </p>
 
 ![ Aplicação de Strategy ](../assets/Gof/strategy.png)
+
+## Mediator
+
+<p align = "justify">
+O Mediator é um padrão de projeto comportamental que permite que você reduza as dependências caóticas entre objetos. O padrão restringe comunicações diretas entre objetos e os força a colaborar apenas através do objeto mediador [1].
+</p>
+
+![ Exemplo de mediator ](../assets/Gof/mediator_example.png)
+
+### Motivação
+
+
+### Aplicação no projeto
 
 
 ## Conclusão
@@ -94,3 +107,4 @@ No diagrama de classes, foi implementada uma interface Match que contém método
 |24/10/20 | 1.1| Adicionado o padrão Chain of Responsability | João Pedro, Lucas Alexandre e Matheus Estanislau 
 | 24/10/20 | 1.2 | Adicionado o padrão Strategy | Renan Cristyan 
 | 25/10/20 | 1.3 | Adicionado exemplo do padrão Strategy | Renan Cristyan
+| 25/10/20 | 1.4 | Adicionado o padrão Mediator | João Pedro e Renan Cristyan
