@@ -20,7 +20,7 @@ Os padrões comportamentais se concentram nos algoritmos e atribuições de resp
 
 ### Versão 1.0
 
-### Chain of responsability
+## Chain of responsability
 
 <p align = "justify">
 O Chain of Responsibility é um padrão de projeto comportamental que permite que você passe pedidos por uma corrente de handlers. Ao receber um pedido, cada handler decide se processa o pedido ou o passa adiante para o próximo handler na corrente [1].
@@ -47,7 +47,7 @@ Na imagem abaixo encontra a controller de torneio em que contém o padrão chain
 ![ Aplicação de Chain of Responsability ](../assets/Gof/chain_responsability.png)
 
 
-### Strategy
+## Strategy
 
 <p align = "justify">
 O padrão comportamental Strategy permite a criação de uma família de algorítmos, separá-los em classes e fazer objetos intercambiáveis [5]. 
@@ -70,6 +70,23 @@ No diagrama de classes, foi implementada uma interface Match que contém método
 </p>
 
 ![ Aplicação de Strategy ](../assets/Gof/strategy.png)
+
+## Observer
+
+O observer(Observador, Assinante do evento, Event-Subscriber, Escutador, Listener)  é um padrão de projeto comportamental que permite que você definir um mecanismo de assinatura para notificar múltiplos objetos sobre quaisquer eventos que aconteçam com o objeto que eles estão observando.
+
+![ Aplicação de observer ](../assets/Gof/observer_example.png)
+
+
+### Motivação
+Ao solicitar inscrição em um torneio é necessário que o gerente do torneio receba uma notifição, para tal comportamento deve se definir um mecanismo que monitore as solicitações, sendo assim, o observer será utilizado para este comportamento.
+
+
+### Aplicação no projeto
+No digrama de sequência([Tournament registration request]()) é possivel identificar que o observer se encaixa perfeitamente para tal comportamento.
+
+- Não implementado até o momento
+
 
 
 ## Conclusão
@@ -94,3 +111,4 @@ No diagrama de classes, foi implementada uma interface Match que contém método
 |24/10/20 | 1.1| Adicionado o padrão Chain of Responsability | João Pedro, Lucas Alexandre e Matheus Estanislau 
 | 24/10/20 | 1.2 | Adicionado o padrão Strategy | Renan Cristyan 
 | 25/10/20 | 1.3 | Adicionado exemplo do padrão Strategy | Renan Cristyan
+| 26/10/20 | 1.4 | Adicionado exemplo do padrão Observer | Moacir Mascarenha
