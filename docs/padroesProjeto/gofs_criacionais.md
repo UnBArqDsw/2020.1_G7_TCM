@@ -43,6 +43,16 @@ Inicialmente foi implementada uma interface onde todos os serviços passaram a s
 
 ![protocolo de serviço](../assets/Gof/serviceProtocol.png)
 
+Os serviços concretos foram criados a partir da implementação do protocolo de serviço.
+
+Exemplo o serviço de playoffs:
+
+![serviço concreto](../assets/Gof/concreteProductPlayoff.png)
+
+A fábrica de serviços foi implementada com o método factoryMethod que pode ser sobrescrito pelas suas subclasses que serão seus produtos:
+
+![fábrica de serviços](../assets/Gof/factoryCreator.png)
+
 ### Singleton
 O padrão de projeto criacional permite garantir que uma classe tenha apenas uma instância
 
