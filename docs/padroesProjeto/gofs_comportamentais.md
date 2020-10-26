@@ -26,6 +26,12 @@ Os padrões comportamentais se concentram nos algoritmos e atribuições de resp
 O Chain of Responsibility é um padrão de projeto comportamental que permite que você passe pedidos por uma corrente de handlers. Ao receber um pedido, cada handler decide se processa o pedido ou o passa adiante para o próximo handler na corrente [1].
 </p>
 
+<p align = "justify">
+Exemplo:
+</p>
+
+![Exemplo de Chain of Responsability ](../assets/Gof/chain_exemple.png)
+
 ### Motivação
 
 <p align = "justify">
@@ -39,6 +45,7 @@ Na imagem abaixo encontra a controller de torneio em que contém o padrão chain
 </p>
 
 ![ Aplicação de Chain of Responsability ](../assets/Gof/chain_responsability.png)
+
 
 ### Strategy
 
