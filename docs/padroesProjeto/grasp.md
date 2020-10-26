@@ -39,6 +39,18 @@ O uso deste padrão foi incorporado ao padrão factory method exemplificado no d
 
 ![Factory Method](../assets/Gof/factory_method.png)
 
+### Coesão
+<p align = "justify">
+Coesão	mede	o	quanto	as	responsabilidades	de	um elemento, seja classes, objetos ou subsistemas, são	fortemente relacionadas  e altamente focadas.
+
+Objetos com alta coesão: são aqueles que possuem apenas responsabilidades que estão relacionadas e não possuem uma carga excessiva de trabalho.
+
+Objetos com baixa coesão: são aqueles que possuem uma carga elevada de responsabilidades que não estão relacionadas.
+</p>
+
+#### Aplicação no projeto
+
+
 ### Especialista
 <p align = "justify">
 O padrão GRASP especialista é uma abordagem que visa atribuir a responsabilidade de algo para uma classe específica, no caso, o especialista.
@@ -112,5 +124,5 @@ O padrão indirection suporta baixo acoplamento entre dois elementos, atribuindo
 | 19/10/20 | 1.4 | Ajustes no documento | Renan Cristyan |
 | 19/10/20 | 1.5 | Adicionado padrão especialista | Renan Cristyan |
 | 24/10/20 | 1.6 | Adicionado padrao indirection | Lucas Alexandre e João Pedro|
-
+|25/10/20| 1.7| Adicionado padrão alta coesão| Lucas Alexandre e Matheus Estanislau|
 
