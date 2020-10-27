@@ -3,12 +3,7 @@ id: sprint7
 title: Sprint 7
 ---
 
-<<<<<<< HEAD
-# Sprint n  (22/09/20 à 28/09/20)
-
-=======
 # Sprint 7  (07/10/20 à 13/10/20)
->>>>>>> c4286aa8e24d0ce5a589fc264f1cbf33970f9c30
 
 
 ## Sprint Planning
@@ -32,8 +27,6 @@ Fazer melhoria de acordo com os padrões  |Todos|
 |mudar nomes do diagrama de pacotes |Lucas| 
 |mudar especificações do diagrama de sequência |Moacir e Matheus| 
 |revisar nomes no diagrama de estados |Renan| 
-
-
 
 
 
