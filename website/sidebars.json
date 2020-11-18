@@ -1,11 +1,15 @@
 {
   "docs": {
     "Sprints": [
-          "sprints/sprint1",
-          "sprints/sprint2",
-          "sprints/sprint3",
-          "sprints/sprint4",
-          "sprints/sprint5"
+      "sprints/sprint1",
+      "sprints/sprint2",
+      "sprints/sprint3",
+      "sprints/sprint4",
+      "sprints/sprint5",
+      "sprints/sprint6",
+      "sprints/sprint7",
+      "sprints/sprint8",
+      "sprints/sprint9"
     ],
     "Base": [
       {
@@ -78,7 +82,32 @@
         ]
       }
     ],
-    "Padrões de Projeto": ["padroesProjeto/index"],
+    "Padrões de Projeto": [
+      {
+        "type": "subcategory",
+        "label": "GOFs",
+        "ids": [
+          "padroesProjeto/gofs_comportamentais",
+          "padroesProjeto/gofs_criacionais",
+          "padroesProjeto/gofs_estruturais"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Grasp",
+        "ids": [
+          "padroesProjeto/grasp"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Extra",
+        "ids": [
+          "padroesProjeto/extra_padroes_projeto",
+          "padroesProjeto/guia_de_estilo"
+        ]
+      }
+    ],
     "Aquitetura de software e reutilização": ["reutilizacao/index"]
   }
 }
