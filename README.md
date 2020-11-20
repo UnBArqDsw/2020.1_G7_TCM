@@ -24,8 +24,24 @@ Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 Insira um manual ou um script para auxiliar ainda mais.
 
+## Requisitos Para Uso
+<ul>
+  <li>Ter o Nodejs LTS instalado</Li>
+  <li>Ter NPM ou Yarn instalado</Li>
+  <li>Docker</Li>
+  <li>Docker-Compose</Li>
+</ul>
+
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+<ol>
+  <li>Para utilização é necesário clonar o repositório do <a href='https://github.com/UnBArqDsw/2020.1_G7_TCM_Backend'>Backend</a> e <a href='https://github.com/UnBArqDsw/2020.1_G7_TCM_Frontend'>Frontend</a></li>
+  <li>No repositório do Backend executar o seguinte comando <strong>docker-compose up</strong></li>
+  <li>No repositório do Backend executar o seguinte comando para realizar as migrações no banco <strong>npm run migrate</strong> ou <strong>yarn migrate</strong></li>
+  <li>Em outro terminal executar o seguinte comando para instalação dos pacotes <strong>npm install ou yarn install</strong></li>
+  <li>Executar o seguinte comando para inicializar o backend <strong>npm run dev ou yarn dev</strong></li>
+  <li>Dentro do repositório do Frontend executar o seguinte comando para instalação dos pacotes <strong>npm install ou yarn install</strong></li>
+  <li>Dentro do repositório do Frontend executar o seguinte comando para inicialização do Frontend <strong>npm start ou yarn start</strong></li>
+</ol>
 
 ## Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto final.
