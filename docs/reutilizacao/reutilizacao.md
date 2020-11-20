@@ -58,10 +58,16 @@ Os serviços implementados na aplicação (TCM) <a href='https://github.com/UnBA
 
 ## Reutilização no Front-End
 
+### Material-ui
+<p align='justify'>Biblioteca que possui componentes React reutilizáveis e costumizáveis, que utilizam o padrão de design do Material Design</p>
+
 ### React
 
 ### Componentes
 A utilização do React permite criar componentes como classes ou funções. Com o React é possível criar componentes flexíveis, modulares e reutilizaveis em toda aplicação seguindo protocolos especificados pela bibilioteca.
+
+### Serviços
+Utilizamos uma camada de serviços para fazer as requisições com o backend
 
 ## Conclusão
 
@@ -82,6 +88,8 @@ Através da aplicação dos conceitos de reutilização, é possível melhorar a
 > VERGILIO, S, R; Padrões Arquiteturais. Disponível em: http://www.inf.ufpr.br/andrey/ci163/PadroesFrameworksAl.pdf Acessado em 20/11/2020.
 
 > React.Component. Disponível em: https://pt-br.reactjs.org/docs/react-component.html#gatsby-focus-wrapper
+
+> MATERIAL-UI. Disponível em: https://material-ui.com/pt/
 
 ## Autor(es)
 
