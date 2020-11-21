@@ -156,9 +156,38 @@ Mais detalhes em [Diagrama de Componentes](../modelagem/diagrama_de_componentes.
 
 # Visão de Dados
 
-## MER
+## Modelo Entidade Relacionamento(MER)
 
-## DER
+O MER é um modelo conceitual utilizado para descrever entidades(objetos), atributos(características) e seus relacionamentos.
+
+#### Entidades e Relacionamentos:
+    User:
+        - Atributos: name, nickname, password, birthday, level,photo, tournaments, matchs.
+        - Relacionamentos: gerencia(user gerencia tournaments), cadastra(user cadastra tournament), solicita(user solicitar inscrição em tournament).
+            
+    Tournaments:
+        - Atributos: name, status, description, city, rounds, players, players_quantity, rules, type e state.
+        - Relacionamentos: gerencia(tournaments é gerenciado por user), cadastra(tournament é cadastrado por user), solicita(user solicitar inscrição em tournament), gerencia (tournament gerencia rounds) e cadastra(tournament cadastra participant).
+    
+    Round:
+        - Atributos: name, status, matchs.
+        - Relacionamentos: gerencia (round é gerenciado por tournament), gerencia(round gerencia matchs).
+    Match:
+        - Atributos: local, participant1, participant2, participant_winner, score, status.
+        - Relacionamentos: gerencia (match é gerenciada por rounds), joga(match é jogada por participants).
+
+    FriendlyMatch:
+        - Atributos: local, player1, player2, status, score, user_winner.
+        - Relacionamentos: criada (friendlyMatch é criada por user), joga(friendlyMatch é jogada por user).
+
+    Participant:
+        - Atributos: status, loss_count, win_count, tournaments, score, participant_type.
+        - Relacionamentos: cadastrado (participant é cadastrado por tournament), cadastra(participant é cadastrado por user).
+
+
+## Diagrama Entidade Relacionamento (DER)
+O [DER](https://www.ime.usp.br/~jef/bd02) é a visão diagramática do MER, que busca representar objetos como entidades, atributos, atributos chaves, relacionamentos, restrições estruturais.
+
 ![DER](../assets/DB/der_diagrama.png)
 
 # Tamanho e Desempenho
@@ -190,9 +219,12 @@ A aplicação é simples e compacta, o servidor da aplicação está com um func
 
 > UNIVESP. Bancos de Dados - Aula 03 – Modelo Entidade-Relacionamento (MER) - Parte II. Disponível em: https://youtu.be/KFIATc9nTrQ. Acessado em: 14/11/20
 
+> Modelo Entidade Relacionamento (MER) e Diagrama Entidade-Relacionamento (DER). Disponível em: https://www.devmedia.com.br/modelo-entidade-relacionamento-mer-e-diagrama-entidade-relacionamento-der/14332. Acessado em: 20/11/20
+
 # Histórico de Versão
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 08/11/2020 | 1.0 | Criada estrutura básica do documento | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan |
 | 15/11/2020 | 1.1 | Representação arquitetural e objetivos e restrições arquiteturais.  | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan |
 | 19/11/2020| 1.2 | Adição dos diagramas, visões, tamanho e desempenho e qualidade | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan |
+|20/11/2020|1.3| Adição da descrição de MER e DER | Lucas Alexandre e Moacir Mascarenha|
