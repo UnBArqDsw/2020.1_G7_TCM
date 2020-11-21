@@ -6,7 +6,6 @@ title: Documento de Arquitetura
 # Documento de Arquitetura de Software (DAS)
 # TCM
 
-
 # Introdução
 ## Proposta
 <p align = "justify">
@@ -24,7 +23,6 @@ A aplicação TCM tem o objetivo fornecer aos atletas e esportistas uma ferramen
 - PWA - Progressive Web App
 - TCM - Tennis Cup Management
 
-
 ## Visão Geral
 <p align = "justify">
 O Documento de Arquitetura de Software (DAS) trata-se de uma visão geral de toda a arquitetura do sistema, observando diferentes aspectos do mesmo. Neste documento serão abordadas as seguintes visões da aplicação TCM: 
@@ -35,8 +33,6 @@ O Documento de Arquitetura de Software (DAS) trata-se de uma visão geral de tod
 - Implantação;
 - Implementação;
 - Dados;
-- Processos
-
 
 # Representação Arquitetural
 ## Cliente-Servidor
@@ -102,7 +98,6 @@ Typescript: Superconjunto para a linguagem javascript adicionando tipagem e nova
 - Create-React-App: Toolchain para criação de aplicativos web com reactjs
 - Material-ui: Biblioteca de componentes React para um desenvolvimento ágil e fácil.
 
-
 # Visão de Caso de Uso
 
 <p align = "justify">
@@ -113,8 +108,6 @@ O primeiro caso de uso descreve a ação de um usuário que cria um torneio, sen
 
 ![Caso de uso 2](../assets/Casos_de_uso/caso_de_uso_2.png)
 
-## Realizações de Caso de Uso
-
 # Visão Lógica
 
 ## Visão Geral
@@ -122,7 +115,6 @@ O primeiro caso de uso descreve a ação de um usuário que cria um torneio, sen
 A aplicação foi dividida em Frontend e Backend. O Frontend foi implementado em ReactJS utilizando a metodologia PWA (Progressive Web App), sendo possível acessar a aplicação sem instalar nada através de lojas virtuais. Já o Backend foi implementado em NodeJS utilizando a linguagem TypeScript para o suporte ao paradigma de Orientação a Objetos.
 </p>
 
-## Pacotes de Design Arquiteturalmente Significantes
 ### Diagrama de Pacotes
 
 ![Diagrama de Pacotes](../assets/Diagrama_pacotes/Diagrama_de_pacote3.png)
@@ -156,9 +148,9 @@ Mais detalhes em [Diagrama de Componentes](../modelagem/diagrama_de_componentes.
 
 # Visão de Dados
 
-## Modelo Entidade Relacionamento(MER)
+## Modelo Entidade Relacionamento (MER)
 
-O MER é um modelo conceitual utilizado para descrever entidades(objetos), atributos(características) e seus relacionamentos.
+O MER é um modelo conceitual utilizado para descrever entidades(objetos), atributos(características) e seus relacionamentos. 
 
 #### Entidades e Relacionamentos:
     User:
@@ -184,7 +176,6 @@ O MER é um modelo conceitual utilizado para descrever entidades(objetos), atrib
         - Atributos: status, loss_count, win_count, tournaments, score, participant_type.
         - Relacionamentos: cadastrado (participant é cadastrado por tournament), cadastra(participant é cadastrado por user).
 
-
 ## Diagrama Entidade Relacionamento (DER)
 O [DER](https://www.ime.usp.br/~jef/bd02) é a visão diagramática do MER, que busca representar objetos como entidades, atributos, atributos chaves, relacionamentos, restrições estruturais.
 
@@ -193,12 +184,30 @@ O [DER](https://www.ime.usp.br/~jef/bd02) é a visão diagramática do MER, que 
 # Tamanho e Desempenho
 
 <p align = "justify">
-A aplicação é simples e compacta, o servidor da aplicação está com um funcionamento local, todas as bibliotecas externas são manipuladas pelo package json e executadas automaticamente. Por conta disso a aplicação não tende a sofrer muitas quedas e tambem podera ser executado em maquinas com menor capacidade de hadware, por conta que para ser executavel só necessita de um broswer.
+A aplicação é simples e compacta, o servidor da aplicação está com um funcionamento local, todas as bibliotecas externas são manipuladas pelo package json e executadas automaticamente. Por conta disso a aplicação não tende a sofrer muitas quedas e tambem podera ser executado em maquinas com menor capacidade de hardware, por conta que para ser executavel só necessita de um broswer.
 </p>
 
 # Qualidade
+<p align = "justify">
+De acordo com a IEEE, qualidade de software é definida como o grau pelo qual um sistema, um componente ou processo satisfazem seus requisitos especificados, e as necessidades ou expectativas de clientes e usuários.
+
+Algumas características de qualidade de software puderam ser observadas ao longo do projeto TCM, sendo elas:
+
+- Escalabilidade: a arquitetura do sistema foi pensada de forma a facilitar a adição de novas funcionalidades sem fazer grandes alterações no sistema. Por exemplo, para adicionar novos tipos de campeonatos (como barragem), basta extender o comportamento da classe principal Tournament.
+
+- Manutenabilidade: algumas subcaracterísticas estão presentes no sistema, como Analisabilidade (é relativamente fácil encontrar uma falha quando acontece), Modificabilidade (modificações são simples de se realizar) e Estabilidade (modificações não causam grandes problemas em outras partes do sistema).
+
+- Confiabilidade: o desempenho do sistema se mantém ao longo do tempo sob as condições estabelecidas, o sistema é capaz de se recuperar caso ocorra falhas.
+
+- Usabilidade: o sistema é fácil de aprender a usar (Apreensibilidade), é fácil de operar (Operacionalidade) e é fácil de entender os conceitos (Inteligibilidade).
+
+O projeto ainda não está concluído no presente momento (novembro de 2020), portanto algumas métricas não puderam ser obtidas.
+
+</p>
 
 # Referências Bibliográficas
+> BELCHIOR, A. D; Um modelo fuzzy para a avaliação de Qualidade de Software. Disponível em: http://www.boente.eti.br/fuzzy/tese-fuzzy-belchior.pdf. Acessado em: 20/11/20
+
 > Bóson Treinamentos. Modelagem de Dados - Modelo Entidade-Relacionamento e Diagrama ER. Disponível em: https://www.youtube.com/watch?v=W2Z1STnjNJo&t=376s. Acessado em: 14/11/20
 
 > Client-server architecture. Disponível em: https://www.britannica.com/technology/lient-server-architecture#:~:text=Client%2Dserver%20architecture%2C%20architecture%20of,the%20results%20the%20server%20returns.
@@ -208,6 +217,8 @@ A aplicação é simples e compacta, o servidor da aplicação está com um func
 > Material UI Supported Platforms. Disponível em https://material-ui.com/pt/getting-started/supported-platforms/
 
 > MENDES, A. Arquitetura de Software: desenvolvimento orientado para arquitetura. Editora Campus. Rio de Janeiro - RJ, 2002.
+
+> Modelo Entidade Relacionamento (MER) e Diagrama Entidade-Relacionamento (DER). Disponível em: https://www.devmedia.com.br/modelo-entidade-relacionamento-mer-e-diagrama-entidade-relacionamento-der/14332. Acessado em: 20/11/20
 
 > MVC. O que é e por que utilizar em seu projeto?. Disponível em:  https://novamicrowaybc.com.br/site/mvc-o-que-e-e-por-que-utilizar-em-seu-projeto/
 
@@ -219,12 +230,11 @@ A aplicação é simples e compacta, o servidor da aplicação está com um func
 
 > UNIVESP. Bancos de Dados - Aula 03 – Modelo Entidade-Relacionamento (MER) - Parte II. Disponível em: https://youtu.be/KFIATc9nTrQ. Acessado em: 14/11/20
 
-> Modelo Entidade Relacionamento (MER) e Diagrama Entidade-Relacionamento (DER). Disponível em: https://www.devmedia.com.br/modelo-entidade-relacionamento-mer-e-diagrama-entidade-relacionamento-der/14332. Acessado em: 20/11/20
-
 # Histórico de Versão
 | Data | Versão | Descrição | Autor(es) |
 | -- | -- | -- | -- |
 | 08/11/2020 | 1.0 | Criada estrutura básica do documento | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan |
 | 15/11/2020 | 1.1 | Representação arquitetural e objetivos e restrições arquiteturais.  | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan |
 | 19/11/2020| 1.2 | Adição dos diagramas, visões, tamanho e desempenho e qualidade | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan |
-|20/11/2020|1.3| Adição da descrição de MER e DER | Lucas Alexandre e Moacir Mascarenha|
+|20/11/2020|1.3| Adição da descrição de MER e DER | Lucas Alexandre e Moacir Mascarenha |
+|20/11/2020|1.4| Adição do topico de qualidade | Lucas Alexandre e Renan Cristyan |
