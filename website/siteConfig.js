@@ -43,7 +43,7 @@ const siteConfig = {
     {doc: 'base/documento_de_visao', label: 'Base'},
     {doc: 'modelagem/diagrama_de_atividade', label: 'Modelagem'},
     {doc: 'padroesProjeto/gofs_comportamentais', label: 'Padrões de Projeto'},
-    {doc: 'reutilizacao/index', label: 'Arquitetura e Reutilização'}
+    {doc: 'reutilizacao/documento_de_arquitetura', label: 'Arquitetura e Reutilização'}
   ],
 
   // If you have users set above, you add it here:

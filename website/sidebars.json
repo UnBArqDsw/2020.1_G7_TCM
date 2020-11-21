@@ -95,9 +95,7 @@
       {
         "type": "subcategory",
         "label": "Grasp",
-        "ids": [
-          "padroesProjeto/grasp"
-        ]
+        "ids": ["padroesProjeto/grasp"]
       },
       {
         "type": "subcategory",
@@ -108,6 +106,14 @@
         ]
       }
     ],
-    "Aquitetura de software e reutilização": ["reutilizacao/index"]
+    "Aquitetura de software e reutilização": [
+      {
+        "type": "subcategory",
+        "ids": [
+          "reutilizacao/documento_de_arquitetura",
+          "reutilizacao/reutilizacao"
+        ]
+      }
+    ]
   }
 }
