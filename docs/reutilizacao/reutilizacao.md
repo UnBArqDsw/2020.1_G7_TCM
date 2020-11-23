@@ -21,15 +21,33 @@ Existem dois conceitos importantes no Framework:
 
 - Hot Spot: uma parte do framework onde uma adaptação pode ser feita. Alguns exemplos de hot spot são: classes abstratas, métodos abstratos, métodos hook, etc. São projetados para serem genéricos.
 
+Um exemplo de Hot Spot na no sistema é a classe Tournament:
+
+![Tournament](../assets/reutilizacao/exemplo_de_tournament.jpg)
+
 - Frozen Spot: uma parte do framework que não foi projetada para adaptação. Alguns exemplos de frozen spot são: classes concretas, métodos template, etc. Permanecem fixos em todas as instanciações do framework de aplicação.
+
+![Match](../assets/reutilizacao/exemplo_de_matches.jpg)
 
 Os Framework podem ser classificados em 3 tipos:
 
 - White Box: reutilização provida por pontos flexíveis, normalmente utilizando o conceito de herânca e padrões de projeto específicos. Framework orientado a hot spots.
 
+![Component](../assets/reutilizacao/exemplo_componente1.png)
+
+Exemplo de White Box seria o componente React: apesar de já ter sido previamente implementado por terceiros, é possível a cada projeto extender o componente de maneiras muito diferentes, ou seja, componentes são extremamente flexíveis e expansíveis.
+
 - Black Box: reutilização provida por composição. Framework orientado a frozen spots.
 
+![Express](../assets/reutilizacao/exemplo_express.png)
+
+Exemplo de Black Box seria o Express, pois no nosso contexto é pouco flexível, apenas aceita entradas e sem muitas modificações.
+
 - Grey Box: híbrido entre White e Black Box. Framework que permite reutilização através de hot e frozen spots.
+
+![Typeorm](../assets/reutilizacao/exemplo_typeorm.png)
+
+Exemplo de Grey Box seria o TypeORM, que utiliza Hot Spots (manipular repository) e Frozen Spots (conexão com o banco de dados).
 
 ## Reutilização no Back-End
 
@@ -97,3 +115,4 @@ Através da aplicação dos conceitos de reutilização, é possível melhorar a
 | ---- | ------ | --------- | --------- |
 | 20/11/20 | 1.0 | Criação do documento | Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan |
 | 20/11/20 | 1.1 | Adição de reutilização do Frontend e Backend | Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha e Renan Cristyan |
+|20/11/20| 1.2 | Adicição de host pots e frozen pots | Lucas Alexandre, Moacir Mascarenha, Renan Cristyan |
