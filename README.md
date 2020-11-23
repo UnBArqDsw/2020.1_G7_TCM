@@ -44,7 +44,7 @@ Insira um manual ou um script para auxiliar ainda mais.
 </ol>
 
 ## Vídeo
-O vídeo da apresentação final do projeto está disponível [aqui](docs/apresentacao/apresentacao_final_TCM.mp4). Faça o download do vídeo para assistir.
+O vídeo da apresentação final do projeto está disponível [aqui](https://drive.google.com/file/d/1TxWavysplsCZDvmsBLfnmGiaDN898Mik/view). Caso o link não funcione, você pode fazer o download do vídeo [aqui](docs/apresentacao/apresentacao_final_TCM.mp4).
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
